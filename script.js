@@ -99,7 +99,7 @@ function showHint() {
   if (!hintUsed) {
     hintUsed = true;
     const levelData = levels[currentLevel];
-    const wordData = levelData.words.find(w => w.word === currentWord);
+    const wordData = levelData.words.find(w => w.word.toLowerCase() === currentWord);
     document.getElementById("hint-display").textContent = wordData.hint;
   } else {
     alert("Hint already used.");
