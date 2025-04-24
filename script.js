@@ -90,7 +90,7 @@ const levels = [
       { word: "passportcontrol", hint: "Airport checkpoint", category: "travel" }
     ]
   }
-
+];
 
 let currentLevel = 0;
 let currentWord = "";
