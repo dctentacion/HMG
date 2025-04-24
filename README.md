@@ -33,4 +33,7 @@ Abre el archivo `index.html` directamente en tu navegador, o súbelo a una plata
 
 ## 👨‍💻 Autor
 
-Creado con 💡 por [Tu nombre aquí]
+Creado con 💡 por [DINO'S COMPANY junto a chat gpt con total revision y edicion por IA y solo indicacion humana]
+
+##⚠️ aviso
+originaalmente era un royecto universitario que me vi forzado a abandonar hasta hoy 24/04/2025 que lo termine espero sirva un poco para el aprendizaje o practica del ingles 
