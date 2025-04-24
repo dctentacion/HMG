@@ -106,13 +106,23 @@ const incorrectSound = new Audio("https://cdn.pixabay.com/download/audio/2022/03
 function startGame() {
   nickname = document.getElementById("nickname").value.trim();
   const category = document.getElementById("category").value;
+  const selectedLevel = parseInt(document.getElementById("level-select").value);
+
   if (!nickname) {
     alert("Please enter your nickname.");
     return;
   }
+
+  // Asignar y guardar nivel seleccionado
+  currentLevel = selectedLevel;
+  localStorage.setItem("lastLevel", currentLevel);
+
+  // Mostrar juego
   document.getElementById("player-name").textContent = nickname;
   document.getElementById("menu").style.display = "none";
   document.getElementById("game").style.display = "block";
+
+  // Cargar el nivel y categoría seleccionados
   loadLevel(category);
 }
 
