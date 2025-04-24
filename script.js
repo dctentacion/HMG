@@ -1,21 +1,96 @@
 const levels = [
-  { level: "A1", words: [
-    { word: "cat", hint: "A small domestic animal", category: "animals" },
-    { word: "book", hint: "Used for reading", category: "food" }
-  ]},
-  { level: "A2", words: [
-    { word: "family", hint: "People you live with", category: "animals" },
-    { word: "travel", hint: "To go from one place to another", category: "sports" }
-  ]},
-  { level: "B1", words: [
-    { word: "challenge", hint: "A difficult task", category: "sports" },
-    { word: "journey", hint: "A long trip", category: "travel" }
-  ]},
-  { level: "B2", words: [
-    { word: "achievement", hint: "Something you have accomplished", category: "sports" },
-    { word: "environment", hint: "The world around us", category: "animals" }
-  ]}
-];
+  {
+    level: "A1",
+    words: [
+      // Básico (palabras cortas y comunes)
+      { word: "cat", hint: "A small domestic animal", category: "animals" },
+      { word: "dog", hint: "Man's best friend", category: "animals" },
+      { word: "lion", hint: "The king of the jungle", category: "animals" },
+      { word: "milk", hint: "White drink from cows", category: "food" },
+      { word: "bread", hint: "Used to make sandwiches", category: "food" },
+      { word: "soccer", hint: "Game with a ball and goals", category: "sports" },
+      { word: "tennis", hint: "Played with rackets", category: "sports" },
+      { word: "train", hint: "Transport that moves on tracks", category: "travel" },
+      { word: "hotel", hint: "Place to stay when traveling", category: "travel" },
+      { word: "map", hint: "Used to find directions", category: "travel" }
+    ]
+  },
+  {
+    level: "A2",
+    words: [
+      { word: "rabbit", hint: "Small animal that hops", category: "animals" },
+      { word: "tiger", hint: "Striped big cat", category: "animals" },
+      { word: "banana", hint: "A yellow fruit", category: "food" },
+      { word: "pizza", hint: "Round dish with cheese and toppings", category: "food" },
+      { word: "cycling", hint: "Riding bikes competitively", category: "sports" },
+      { word: "golf", hint: "Hit balls into holes", category: "sports" },
+      { word: "airport", hint: "Where planes take off", category: "travel" },
+      { word: "passport", hint: "Needed to travel abroad", category: "travel" },
+      { word: "penguin", hint: "Bird that swims", category: "animals" },
+      { word: "cheese", hint: "Used on pizza", category: "food" }
+    ]
+  },
+  {
+    level: "B1",
+    words: [
+      { word: "elephant", hint: "Large grey animal", category: "animals" },
+      { word: "giraffe", hint: "Tall animal with long neck", category: "animals" },
+      { word: "apple", hint: "Fruit that keeps doctors away", category: "food" },
+      { word: "carrot", hint: "Orange vegetable", category: "food" },
+      { word: "basketball", hint: "Sport with a hoop", category: "sports" },
+      { word: "skiing", hint: "Sliding on snow", category: "sports" },
+      { word: "vacation", hint: "Time off to travel", category: "travel" },
+      { word: "ticket", hint: "Used to board planes or buses", category: "travel" },
+      { word: "chocolate", hint: "Sweet brown treat", category: "food" },
+      { word: "dolphin", hint: "Smart ocean animal", category: "animals" }
+    ]
+  },
+  {
+    level: "B2",
+    words: [
+      { word: "kangaroo", hint: "Jumps and has a pouch", category: "animals" },
+      { word: "cruise", hint: "Luxury travel on a ship", category: "travel" },
+      { word: "luggage", hint: "Used to carry your clothes", category: "travel" },
+      { word: "cuisine", hint: "Style of cooking", category: "food" },
+      { word: "tournament", hint: "Series of matches", category: "sports" },
+      { word: "volleyball", hint: "Hit the ball over a net", category: "sports" },
+      { word: "surfing", hint: "Sport on ocean waves", category: "sports" },
+      { word: "rice", hint: "Staple grain", category: "food" },
+      { word: "adventure", hint: "Exciting journey", category: "travel" },
+      { word: "zebra", hint: "Striped horse-like animal", category: "animals" }
+    ]
+  },
+  {
+    level: "C1",
+    words: [
+      { word: "porcupine", hint: "Spiky mammal", category: "animals" },
+      { word: "broccoli", hint: "Green veggie with florets", category: "food" },
+      { word: "parachute", hint: "Used to fall slowly from sky", category: "travel" },
+      { word: "championship", hint: "Final sports competition", category: "sports" },
+      { word: "tortilla", hint: "Used in Mexican food", category: "food" },
+      { word: "camouflage", hint: "Helps animals blend in", category: "animals" },
+      { word: "jetlag", hint: "Fatigue from time zones", category: "travel" },
+      { word: "penalty", hint: "Punishment in sports", category: "sports" },
+      { word: "ostrich", hint: "Largest bird, doesn't fly", category: "animals" },
+      { word: "restaurant", hint: "Place to eat out", category: "food" }
+    ]
+  },
+  {
+    level: "C2",
+    words: [
+      { word: "connoisseur", hint: "Expert in food or art", category: "food" },
+      { word: "expedition", hint: "Long journey with purpose", category: "travel" },
+      { word: "triathlon", hint: "Race with swim, bike, run", category: "sports" },
+      { word: "iguana", hint: "Green tropical lizard", category: "animals" },
+      { word: "gastronomy", hint: "Science of food", category: "food" },
+      { word: "hangglider", hint: "Flight with wings", category: "travel" },
+      { word: "cheetah", hint: "Fastest land animal", category: "animals" },
+      { word: "marathon", hint: "Very long race", category: "sports" },
+      { word: "smorgasbord", hint: "Large variety of food", category: "food" },
+      { word: "passportcontrol", hint: "Airport checkpoint", category: "travel" }
+    ]
+  }
+
 
 let currentLevel = 0;
 let currentWord = "";
