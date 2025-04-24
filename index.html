@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hangman Game - Learn English</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="menu">
+  <h1>Hangman - Learn English</h1>
+  <label for="nickname">Enter your nickname:</label>
+  <input type="text" id="nickname" />
+  <br><br>
+  <label for="category">Choose a category:</label>
+  <select id="category">
+    <option value="animals">Animals</option>
+    <option value="food">Food</option>
+    <option value="sports">Sports</option>
+  </select>
+  <br><br>
+  <button onclick="startGame()">Start</button>
+</div>
+
+<div id="game">
+  <h2>Level: <span id="level-display">A1</span></h2>
+  <p>Player: <strong id="player-name"></strong></p>
+  <p id="word-display">_ _ _ _</p>
+  <p>Pista: <span id="hint-display">???</span></p>
+  <input type="text" id="letter-input" maxlength="1" />
+  <button onclick="guessLetter()">Guess</button>
+  <button onclick="showHint()">Show Hint</button>
+  <p>Attempts left: <span id="attempts">6</span></p>
+  <p>Score: <span id="score">0</span></p>
+  <p>Guessed letters: <span id="guessed-letters"></span></p>
+  <div id="progress-container">
+    <div id="progress-bar"></div>
+  </div>
+</div>
+
+<div id="result">
+  <h2 id="message"></h2>
+  <p>The word was: <span id="final-word"></span></p>
+  <button onclick="restartGame()">Retry</button>
+  <button onclick="nextLevel()">Next Level</button>
+  <button onclick="resetGame()">Main Menu</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
