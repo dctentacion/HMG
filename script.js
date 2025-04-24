@@ -25,7 +25,6 @@ let score = 0;
 let nickname = "";
 let hintUsed = false;
 
-// Sonidos en línea desde CDN (Pixabay)
 const correctSound = new Audio("https://cdn.pixabay.com/download/audio/2022/03/15/audio_9c45c83288.mp3?filename=correct-answer-3-21839.mp3");
 const incorrectSound = new Audio("https://cdn.pixabay.com/download/audio/2022/03/15/audio_338c674ac7.mp3?filename=wrong-answer-2-21834.mp3");
 
@@ -43,21 +42,34 @@ function startGame() {
 }
 
 function loadLevel(category) {
-  const levelData = levels[currentLevel];
-  const filteredWords = levelData.words.filter(w => w.category === category);
-  const wordData = filteredWords[Math.floor(Math.random() * filteredWords.length)];
-  currentWord = wordData.word.toLowerCase();
-  guessedLetters = [];
-  attemptsLeft = 6;
-  hintUsed = false;
-  document.getElementById("hint-display").textContent = "???";
-  document.getElementById("level-display").textContent = levelData.level;
-  document.getElementById("attempts").textContent = attemptsLeft;
-  document.getElementById("score").textContent = score;
-  document.getElementById("guessed-letters").textContent = "";
-  document.getElementById("result").style.display = "none";
-  updateWordDisplay();
-  updateProgress();
+  while (currentLevel < levels.length) {
+    const levelData = levels[currentLevel];
+    const filteredWords = levelData.words.filter(w => w.category === category);
+
+    if (filteredWords.length > 0) {
+      const wordData = filteredWords[Math.floor(Math.random() * filteredWords.length)];
+      currentWord = wordData.word.toLowerCase();
+      guessedLetters = [];
+      attemptsLeft = 6;
+      hintUsed = false;
+
+      document.getElementById("hint-display").textContent = "???";
+      document.getElementById("level-display").textContent = levelData.level;
+      document.getElementById("attempts").textContent = attemptsLeft;
+      document.getElementById("score").textContent = score;
+      document.getElementById("guessed-letters").textContent = "";
+      document.getElementById("result").style.display = "none";
+
+      updateWordDisplay();
+      updateProgress();
+      return;
+    } else {
+      currentLevel++;
+    }
+  }
+
+  alert("No hay palabras disponibles para esa categoría.");
+  resetGame();
 }
 
 function updateWordDisplay() {
