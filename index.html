@@ -3,65 +3,42 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Juego de Adivinanzas</title>
+  <title>Juego Educativo por Etapas</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="menu">
-    <h1>Juego de Adivinanzas</h1>
-    <input type="text" id="nickname" placeholder="Ingresa tu apodo">
-    <br>
-    <label for="category">Categoría:</label>
-    <select id="category">
-      <option value="animals">Animales</option>
-      <option value="food">Comida</option>
-      <option value="sports">Deportes</option>
-      <option value="travel">Viajes</option>
-    </select>
+    <h1>Juego de Palabras</h1>
+    <input type="text" id="nickname" placeholder="Tu nombre">
     <br>
     <label for="level-select">Nivel:</label>
-    <select id="level-select">
-      <option value="0">A1</option>
-      <option value="1">A2</option>
-      <option value="2">B1</option>
-      <option value="3">B2</option>
-      <option value="4">C1</option>
-      <option value="5">C2</option>
-    </select>
+    <select id="level-select"></select>
+    <br>
+    <label for="sublevel-select">Etapa:</label>
+    <select id="sublevel-select"></select>
     <br>
     <button onclick="startGame()">Comenzar</button>
   </div>
 
   <div id="game" style="display:none;">
-    <h2>Jugador: <span id="player-name"></span></h2>
-    <h2>Nivel: <span id="level-display"></span></h2>
-    <div id="word-display">_ _ _ _</div>
+    <h2 id="etapa-title"></h2>
+    <div id="word-display"></div>
     <p id="hint-display">???</p>
-    <input type="text" id="letter-input" maxlength="1" placeholder="Adivina una letra">
+    <input type="text" id="letter-input" maxlength="1" placeholder="Letra">
     <button onclick="guessLetter()">Adivinar</button>
     <button onclick="showHint()">Pista</button>
     <p>Letras usadas: <span id="guessed-letters"></span></p>
-    <p>Intentos restantes: <span id="attempts">6</span></p>
-    <p>Puntuación: <span id="score">0</span></p>
-    <div id="progress-container"><div id="progress-bar"></div></div>
+    <p>Intentos: <span id="attempts">6</span></p>
+    <p>Aciertos: <span id="aciertos">0</span></p>
   </div>
 
   <div id="result" style="display:none;">
     <h2 id="message"></h2>
-    <p>La palabra era: <span id="final-word"></span></p>
-    <button onclick="nextLevel()">Siguiente nivel</button>
+    <button onclick="nextSublevel()">Siguiente etapa</button>
     <button onclick="restartGame()">Reintentar</button>
-    <button onclick="resetGame()">Menú principal</button>
   </div>
 
+  <script src="levels.js"></script>
   <script src="script.js"></script>
-  <script>
-    window.onload = () => {
-      const savedLevel = localStorage.getItem("lastLevel");
-      if (savedLevel !== null) {
-        document.getElementById("level-select").value = savedLevel;
-      }
-    };
-  </script>
 </body>
 </html>
