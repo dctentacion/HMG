@@ -12,7 +12,6 @@ let totalRequired = 3;
 let wordsThisStage = [];
 
 window.onload = () => {
-  // Cargar niveles
   const levelSelect = document.getElementById("level-select");
   Object.keys(levels).forEach(level => {
     const opt = document.createElement("option");
@@ -20,8 +19,6 @@ window.onload = () => {
     opt.textContent = level;
     levelSelect.appendChild(opt);
   });
-
-  // Cargar categorías cuando sea necesario
 };
 
 function goToCategorySelection() {
@@ -45,7 +42,6 @@ function goToCategorySelection() {
   });
   showScreen("category-screen");
 }
-
 
 async function goToStageSelection() {
   currentCategory = document.getElementById("category-select").value;
@@ -71,20 +67,6 @@ async function goToStageSelection() {
     }
   });
 
-  showScreen("stage-screen");
-}
- {
-  currentCategory = document.getElementById("category-select").value;
-  const container = document.getElementById("stages-container");
-  container.innerHTML = "";
-  Object.entries(levels[currentLevel]).forEach(([key, etapa]) => {
-    if (etapa.category === currentCategory) {
-      const btn = document.createElement("button");
-      btn.textContent = etapa.title;
-      btn.onclick = () => startStage(key);
-      container.appendChild(btn);
-    }
-  });
   showScreen("stage-screen");
 }
 
@@ -154,7 +136,7 @@ function guessLetter() {
 
 function showHint() {
   const hint = wordsThisStage[currentWordIndex]?.hint;
-  document.getElementById("hint-display").textContent = hint || "No hay pista.";
+  document.getElementById("hint-display").textContent = hint || "No hay pista disponible.";
 }
 
 function endStage() {
@@ -188,7 +170,6 @@ function backToWelcome() { showScreen("welcome-screen"); }
 function backToCategory() { showScreen("category-screen"); }
 function backToStage() { showScreen("stage-screen"); }
 
-// Enter para adivinar letra
 document.addEventListener("keydown", e => {
   if (document.getElementById("game-screen").classList.contains("visible") && e.key === "Enter") {
     guessLetter();
