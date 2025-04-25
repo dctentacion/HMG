@@ -1,12510 +1,15510 @@
 const levels = {
   "A1": {
     "1": {
-      "title": "Etapa 1: Verbos",
+      "title": "Etapa 1: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         }
       ]
     },
     "2": {
-      "title": "Etapa 2: Verbos",
+      "title": "Etapa 2: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         }
       ]
     },
     "3": {
-      "title": "Etapa 3: La casa",
+      "title": "Etapa 3: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         }
       ]
     },
     "4": {
-      "title": "Etapa 4: Objetos",
+      "title": "Etapa 4: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
+        },
+        {
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
+        },
+        {
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
-        },
-        {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
-        },
-        {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         }
       ]
     },
     "5": {
-      "title": "Etapa 5: Familia",
+      "title": "Etapa 5: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         }
       ]
     },
     "6": {
-      "title": "Etapa 6: Adjetivos",
+      "title": "Etapa 6: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         }
       ]
     },
     "7": {
-      "title": "Etapa 7: Colores",
+      "title": "Etapa 7: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
-        },
-        {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
+        },
+        {
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         }
       ]
     },
     "8": {
-      "title": "Etapa 8: Familia",
+      "title": "Etapa 8: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         }
       ]
     },
     "9": {
-      "title": "Etapa 9: N\u00fameros",
+      "title": "Etapa 9: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
-        },
-        {
-          "word": "house",
-          "hint": "Pista para 'house'"
-        },
-        {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
-        },
-        {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
+        },
+        {
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
+        },
+        {
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
+        },
+        {
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         }
       ]
     },
     "10": {
-      "title": "Etapa 10: Comida",
+      "title": "Etapa 10: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
+        },
+        {
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
+        },
+        {
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
-        },
-        {
-          "word": "house",
-          "hint": "Pista para 'house'"
-        },
-        {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         }
       ]
     },
     "11": {
-      "title": "Etapa 11: Escuela",
+      "title": "Etapa 11: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
+        },
+        {
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
-        },
-        {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         }
       ]
     },
     "12": {
-      "title": "Etapa 12: Objetos",
+      "title": "Etapa 12: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
+        },
+        {
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
-        },
-        {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         }
       ]
     },
     "13": {
-      "title": "Etapa 13: La casa",
+      "title": "Etapa 13: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
+        },
+        {
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
-        },
-        {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         }
       ]
     },
     "14": {
-      "title": "Etapa 14: Verbos",
+      "title": "Etapa 14: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         }
       ]
     },
     "15": {
-      "title": "Etapa 15: Colores",
+      "title": "Etapa 15: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         }
       ]
     },
     "16": {
-      "title": "Etapa 16: Verbos",
+      "title": "Etapa 16: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         }
       ]
     },
     "17": {
-      "title": "Etapa 17: N\u00fameros",
+      "title": "Etapa 17: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         }
       ]
     },
     "18": {
-      "title": "Etapa 18: Familia",
+      "title": "Etapa 18: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         }
       ]
     },
     "19": {
-      "title": "Etapa 19: Escuela",
+      "title": "Etapa 19: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         }
       ]
     },
     "20": {
-      "title": "Etapa 20: La casa",
+      "title": "Etapa 20: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "21": {
-      "title": "Etapa 21: Verbos",
+      "title": "Etapa 21: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "22": {
       "title": "Etapa 22: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         }
       ]
     },
     "23": {
-      "title": "Etapa 23: N\u00fameros",
+      "title": "Etapa 23: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         }
       ]
     },
     "24": {
-      "title": "Etapa 24: Escuela",
+      "title": "Etapa 24: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         }
       ]
     },
     "25": {
-      "title": "Etapa 25: N\u00fameros",
+      "title": "Etapa 25: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         }
       ]
     },
     "26": {
-      "title": "Etapa 26: Objetos",
+      "title": "Etapa 26: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         }
       ]
     },
     "27": {
-      "title": "Etapa 27: Comida",
+      "title": "Etapa 27: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         }
       ]
     },
     "28": {
-      "title": "Etapa 28: N\u00fameros",
+      "title": "Etapa 28: Animales",
+      "category": "animales",
       "words": [
         {
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
+        },
+        {
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
+        },
+        {
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
+        },
+        {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
-        },
-        {
-          "word": "table",
-          "hint": "Pista para 'table'"
-        },
-        {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
-        },
-        {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         }
       ]
     },
     "29": {
-      "title": "Etapa 29: N\u00fameros",
+      "title": "Etapa 29: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         }
       ]
     },
     "30": {
-      "title": "Etapa 30: Comida",
+      "title": "Etapa 30: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         }
       ]
     },
     "31": {
-      "title": "Etapa 31: Escuela",
+      "title": "Etapa 31: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "32": {
-      "title": "Etapa 32: Colores",
+      "title": "Etapa 32: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         }
       ]
     },
     "33": {
-      "title": "Etapa 33: Familia",
+      "title": "Etapa 33: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         }
       ]
     },
     "34": {
-      "title": "Etapa 34: Familia",
+      "title": "Etapa 34: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
+        },
+        {
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
-        },
-        {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         }
       ]
     },
     "35": {
-      "title": "Etapa 35: Verbos",
+      "title": "Etapa 35: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
-        },
-        {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
+        },
+        {
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         }
       ]
     },
     "36": {
-      "title": "Etapa 36: Familia",
+      "title": "Etapa 36: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
-        },
-        {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
-        },
-        {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
+        },
+        {
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
+        },
+        {
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         }
       ]
     },
     "37": {
-      "title": "Etapa 37: Colores",
+      "title": "Etapa 37: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         }
       ]
     },
     "38": {
-      "title": "Etapa 38: N\u00fameros",
+      "title": "Etapa 38: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         }
       ]
     },
     "39": {
-      "title": "Etapa 39: Comida",
+      "title": "Etapa 39: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         }
       ]
     },
     "40": {
-      "title": "Etapa 40: La casa",
+      "title": "Etapa 40: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
-        },
-        {
-          "word": "car",
-          "hint": "Pista para 'car'"
-        },
-        {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
+        },
+        {
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
+        },
+        {
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         }
       ]
     },
     "41": {
-      "title": "Etapa 41: Adjetivos",
+      "title": "Etapa 41: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
-        },
-        {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
+        },
+        {
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         }
       ]
     },
     "42": {
-      "title": "Etapa 42: La casa",
+      "title": "Etapa 42: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         }
       ]
     },
     "43": {
-      "title": "Etapa 43: N\u00fameros",
+      "title": "Etapa 43: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
-        },
-        {
-          "word": "book",
-          "hint": "Pista para 'book'"
-        },
-        {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
+        },
+        {
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
+        },
+        {
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         }
       ]
     },
     "44": {
-      "title": "Etapa 44: Adjetivos",
+      "title": "Etapa 44: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         }
       ]
     },
     "45": {
-      "title": "Etapa 45: Colores",
+      "title": "Etapa 45: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         }
       ]
     },
     "46": {
-      "title": "Etapa 46: Familia",
+      "title": "Etapa 46: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "47": {
-      "title": "Etapa 47: Objetos",
+      "title": "Etapa 47: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
+        },
+        {
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
+        },
+        {
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
-        },
-        {
-          "word": "table",
-          "hint": "Pista para 'table'"
-        },
-        {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         }
       ]
     },
     "48": {
-      "title": "Etapa 48: Comida",
+      "title": "Etapa 48: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
+        },
+        {
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
+        },
+        {
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
-        },
-        {
-          "word": "book",
-          "hint": "Pista para 'book'"
-        },
-        {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         }
       ]
     },
     "49": {
-      "title": "Etapa 49: N\u00fameros",
+      "title": "Etapa 49: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
-        },
-        {
-          "word": "car",
-          "hint": "Pista para 'car'"
-        },
-        {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
+        },
+        {
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
+        },
+        {
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         }
       ]
     },
     "50": {
-      "title": "Etapa 50: Comida",
+      "title": "Etapa 50: Animales",
+      "category": "animales",
       "words": [
         {
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
+        },
+        {
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
+        },
+        {
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
+        },
+        {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
-        },
-        {
-          "word": "house",
-          "hint": "Pista para 'house'"
-        },
-        {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
-        },
-        {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         }
       ]
     },
     "51": {
-      "title": "Etapa 51: Comida",
+      "title": "Etapa 51: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "52": {
       "title": "Etapa 52: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         }
       ]
     },
     "53": {
-      "title": "Etapa 53: Verbos",
+      "title": "Etapa 53: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         }
       ]
     },
     "54": {
-      "title": "Etapa 54: Colores",
+      "title": "Etapa 54: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         }
       ]
     },
     "55": {
-      "title": "Etapa 55: Comida",
+      "title": "Etapa 55: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
-        },
-        {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
+        },
+        {
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         }
       ]
     },
     "56": {
-      "title": "Etapa 56: Comida",
+      "title": "Etapa 56: Animales",
+      "category": "animales",
       "words": [
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         }
       ]
     },
     "57": {
-      "title": "Etapa 57: Escuela",
+      "title": "Etapa 57: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         }
       ]
     },
     "58": {
-      "title": "Etapa 58: Comida",
+      "title": "Etapa 58: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
+        },
+        {
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
-        },
-        {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         }
       ]
     },
     "59": {
-      "title": "Etapa 59: Adjetivos",
+      "title": "Etapa 59: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         }
       ]
     },
     "60": {
-      "title": "Etapa 60: N\u00fameros",
+      "title": "Etapa 60: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "61": {
-      "title": "Etapa 61: Adjetivos",
+      "title": "Etapa 61: Animales",
+      "category": "animales",
       "words": [
         {
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
+        },
+        {
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
+        },
+        {
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
+        },
+        {
           "word": "cat",
-          "hint": "Pista para 'cat'"
-        },
-        {
-          "word": "house",
-          "hint": "Pista para 'house'"
-        },
-        {
-          "word": "book",
-          "hint": "Pista para 'book'"
-        },
-        {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         }
       ]
     },
     "62": {
-      "title": "Etapa 62: Colores",
+      "title": "Etapa 62: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         }
       ]
     },
     "63": {
-      "title": "Etapa 63: Verbos",
+      "title": "Etapa 63: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "64": {
-      "title": "Etapa 64: Colores",
+      "title": "Etapa 64: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
-        },
-        {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
-        },
-        {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
-        },
-        {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
+        },
+        {
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
+        },
+        {
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
+        },
+        {
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "65": {
-      "title": "Etapa 65: Comida",
+      "title": "Etapa 65: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         }
       ]
     },
     "66": {
-      "title": "Etapa 66: Colores",
+      "title": "Etapa 66: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "67": {
-      "title": "Etapa 67: Colores",
+      "title": "Etapa 67: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         }
       ]
     },
     "68": {
-      "title": "Etapa 68: Escuela",
+      "title": "Etapa 68: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         }
       ]
     },
     "69": {
-      "title": "Etapa 69: Familia",
+      "title": "Etapa 69: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         }
       ]
     },
     "70": {
       "title": "Etapa 70: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         }
       ]
     },
     "71": {
-      "title": "Etapa 71: Familia",
+      "title": "Etapa 71: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "72": {
-      "title": "Etapa 72: Escuela",
+      "title": "Etapa 72: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
+        },
+        {
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
+        },
+        {
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
-        },
-        {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
-        },
-        {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         }
       ]
     },
     "73": {
-      "title": "Etapa 73: La casa",
+      "title": "Etapa 73: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "74": {
-      "title": "Etapa 74: Escuela",
+      "title": "Etapa 74: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
+        },
+        {
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
-        },
-        {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         }
       ]
     },
     "75": {
-      "title": "Etapa 75: Colores",
+      "title": "Etapa 75: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         }
       ]
     },
     "76": {
-      "title": "Etapa 76: Escuela",
+      "title": "Etapa 76: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
+        },
+        {
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
+        },
+        {
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
-        },
-        {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
-        },
-        {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         }
       ]
     },
     "77": {
-      "title": "Etapa 77: Adjetivos",
+      "title": "Etapa 77: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         }
       ]
     },
     "78": {
-      "title": "Etapa 78: La casa",
+      "title": "Etapa 78: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         }
       ]
     },
     "79": {
-      "title": "Etapa 79: Objetos",
+      "title": "Etapa 79: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "80": {
-      "title": "Etapa 80: Colores",
+      "title": "Etapa 80: Animales",
+      "category": "animales",
       "words": [
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "81": {
-      "title": "Etapa 81: La casa",
+      "title": "Etapa 81: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         }
       ]
     },
     "82": {
       "title": "Etapa 82: Animales",
+      "category": "animales",
       "words": [
         {
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
+        },
+        {
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
+        },
+        {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
-        },
-        {
-          "word": "table",
-          "hint": "Pista para 'table'"
-        },
-        {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         }
       ]
     },
     "83": {
-      "title": "Etapa 83: La casa",
+      "title": "Etapa 83: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         }
       ]
     },
     "84": {
-      "title": "Etapa 84: N\u00fameros",
+      "title": "Etapa 84: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
+        },
+        {
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
-        },
-        {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         }
       ]
     },
     "85": {
-      "title": "Etapa 85: Colores",
+      "title": "Etapa 85: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
+        },
+        {
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
+        },
+        {
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
-        },
-        {
-          "word": "red",
-          "hint": "Pista para 'red'"
-        },
-        {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         }
       ]
     },
     "86": {
-      "title": "Etapa 86: Objetos",
+      "title": "Etapa 86: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
-        },
-        {
-          "word": "house",
-          "hint": "Pista para 'house'"
-        },
-        {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
+        },
+        {
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
+        },
+        {
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         }
       ]
     },
     "87": {
-      "title": "Etapa 87: Adjetivos",
+      "title": "Etapa 87: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         }
       ]
     },
     "88": {
-      "title": "Etapa 88: Escuela",
+      "title": "Etapa 88: Animales",
+      "category": "animales",
       "words": [
         {
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
+        },
+        {
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
+        },
+        {
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
+        },
+        {
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
+        },
+        {
           "word": "cat",
-          "hint": "Pista para 'cat'"
-        },
-        {
-          "word": "car",
-          "hint": "Pista para 'car'"
-        },
-        {
-          "word": "house",
-          "hint": "Pista para 'house'"
-        },
-        {
-          "word": "red",
-          "hint": "Pista para 'red'"
-        },
-        {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         }
       ]
     },
     "89": {
-      "title": "Etapa 89: Objetos",
+      "title": "Etapa 89: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
-        },
-        {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
+        },
+        {
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
         }
       ]
     },
     "90": {
-      "title": "Etapa 90: Colores",
+      "title": "Etapa 90: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "duck",
+          "hint": "Pista sobre 'duck'",
+          "category": "animales"
+        },
+        {
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
+        },
+        {
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
-        },
-        {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
-        },
-        {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         }
       ]
     },
     "91": {
-      "title": "Etapa 91: Verbos",
+      "title": "Etapa 91: Animales",
+      "category": "animales",
       "words": [
         {
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
+        },
+        {
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
+        },
+        {
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
+        },
+        {
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
+        },
+        {
           "word": "cat",
-          "hint": "Pista para 'cat'"
-        },
-        {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
-        },
-        {
-          "word": "house",
-          "hint": "Pista para 'house'"
-        },
-        {
-          "word": "table",
-          "hint": "Pista para 'table'"
-        },
-        {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         }
       ]
     },
     "92": {
-      "title": "Etapa 92: Colores",
+      "title": "Etapa 92: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
-        },
-        {
-          "word": "table",
-          "hint": "Pista para 'table'"
-        },
-        {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
+        },
+        {
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
+        },
+        {
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "93": {
-      "title": "Etapa 93: La casa",
+      "title": "Etapa 93: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
-        },
-        {
-          "word": "table",
-          "hint": "Pista para 'table'"
-        },
-        {
-          "word": "book",
-          "hint": "Pista para 'book'"
-        },
-        {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
+        },
+        {
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
+        },
+        {
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
+        },
+        {
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         }
       ]
     },
     "94": {
-      "title": "Etapa 94: Colores",
+      "title": "Etapa 94: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "95": {
-      "title": "Etapa 95: Colores",
+      "title": "Etapa 95: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
-        },
-        {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
+        },
+        {
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         }
       ]
     },
     "96": {
-      "title": "Etapa 96: N\u00fameros",
+      "title": "Etapa 96: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "dog",
-          "hint": "Pista para 'dog'"
-        },
-        {
           "word": "cat",
-          "hint": "Pista para 'cat'"
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
+        },
+        {
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         }
       ]
     },
     "97": {
-      "title": "Etapa 97: Comida",
+      "title": "Etapa 97: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "cat",
+          "hint": "Pista sobre 'cat'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         },
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         }
       ]
     },
     "98": {
-      "title": "Etapa 98: N\u00fameros",
+      "title": "Etapa 98: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "car",
-          "hint": "Pista para 'car'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "horse",
+          "hint": "Pista sobre 'horse'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "table",
-          "hint": "Pista para 'table'"
+          "word": "sheep",
+          "hint": "Pista sobre 'sheep'",
+          "category": "animales"
         }
       ]
     },
     "99": {
       "title": "Etapa 99: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "cat",
-          "hint": "Pista para 'cat'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
+        },
+        {
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
+        },
+        {
+          "word": "bird",
+          "hint": "Pista sobre 'bird'",
+          "category": "animales"
         },
         {
           "word": "dog",
-          "hint": "Pista para 'dog'"
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
-        },
-        {
-          "word": "table",
-          "hint": "Pista para 'table'"
-        },
-        {
-          "word": "blue",
-          "hint": "Pista para 'blue'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         }
       ]
     },
     "100": {
-      "title": "Etapa 100: Familia",
+      "title": "Etapa 100: Animales",
+      "category": "animales",
       "words": [
         {
-          "word": "chair",
-          "hint": "Pista para 'chair'"
+          "word": "goat",
+          "hint": "Pista sobre 'goat'",
+          "category": "animales"
         },
         {
-          "word": "red",
-          "hint": "Pista para 'red'"
+          "word": "cow",
+          "hint": "Pista sobre 'cow'",
+          "category": "animales"
         },
         {
-          "word": "book",
-          "hint": "Pista para 'book'"
+          "word": "pig",
+          "hint": "Pista sobre 'pig'",
+          "category": "animales"
         },
         {
-          "word": "milk",
-          "hint": "Pista para 'milk'"
+          "word": "dog",
+          "hint": "Pista sobre 'dog'",
+          "category": "animales"
         },
         {
-          "word": "house",
-          "hint": "Pista para 'house'"
+          "word": "fish",
+          "hint": "Pista sobre 'fish'",
+          "category": "animales"
         }
       ]
     }
   },
   "A2": {
     "1": {
-      "title": "Etapa 1: Compras",
+      "title": "Etapa 1: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         }
       ]
     },
     "2": {
-      "title": "Etapa 2: Tecnolog\u00eda",
+      "title": "Etapa 2: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         }
       ]
     },
     "3": {
-      "title": "Etapa 3: Tecnolog\u00eda",
+      "title": "Etapa 3: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         }
       ]
     },
     "4": {
-      "title": "Etapa 4: Trabajo",
+      "title": "Etapa 4: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         }
       ]
     },
     "5": {
-      "title": "Etapa 5: Deportes",
+      "title": "Etapa 5: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         }
       ]
     },
     "6": {
-      "title": "Etapa 6: Ropa",
+      "title": "Etapa 6: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         }
       ]
     },
     "7": {
-      "title": "Etapa 7: Viajes",
+      "title": "Etapa 7: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         }
       ]
     },
     "8": {
-      "title": "Etapa 8: Tecnolog\u00eda",
+      "title": "Etapa 8: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
-        },
-        {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
-        },
-        {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
+        },
+        {
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
+        },
+        {
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         }
       ]
     },
     "9": {
-      "title": "Etapa 9: Ropa",
+      "title": "Etapa 9: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         }
       ]
     },
     "10": {
-      "title": "Etapa 10: Viajes",
+      "title": "Etapa 10: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         }
       ]
     },
     "11": {
-      "title": "Etapa 11: Compras",
+      "title": "Etapa 11: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         }
       ]
     },
     "12": {
-      "title": "Etapa 12: Transporte",
+      "title": "Etapa 12: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         }
       ]
     },
     "13": {
-      "title": "Etapa 13: Salud",
+      "title": "Etapa 13: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         }
       ]
     },
     "14": {
-      "title": "Etapa 14: Salud",
+      "title": "Etapa 14: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         }
       ]
     },
     "15": {
-      "title": "Etapa 15: Transporte",
+      "title": "Etapa 15: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         }
       ]
     },
     "16": {
-      "title": "Etapa 16: Tiempo libre",
+      "title": "Etapa 16: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         }
       ]
     },
     "17": {
-      "title": "Etapa 17: Naturaleza",
+      "title": "Etapa 17: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
-        },
-        {
-          "word": "city",
-          "hint": "Pista para 'city'"
-        },
-        {
-          "word": "market",
-          "hint": "Pista para 'market'"
-        },
-        {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
+        },
+        {
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
+        },
+        {
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
+        },
+        {
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         }
       ]
     },
     "18": {
-      "title": "Etapa 18: Compras",
+      "title": "Etapa 18: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
+        },
+        {
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
-        },
-        {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         }
       ]
     },
     "19": {
-      "title": "Etapa 19: Salud",
+      "title": "Etapa 19: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         }
       ]
     },
     "20": {
-      "title": "Etapa 20: Deportes",
+      "title": "Etapa 20: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         }
       ]
     },
     "21": {
-      "title": "Etapa 21: Viajes",
+      "title": "Etapa 21: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         }
       ]
     },
     "22": {
-      "title": "Etapa 22: Transporte",
+      "title": "Etapa 22: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         }
       ]
     },
     "23": {
-      "title": "Etapa 23: Ropa",
+      "title": "Etapa 23: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         }
       ]
     },
     "24": {
-      "title": "Etapa 24: Trabajo",
+      "title": "Etapa 24: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         }
       ]
     },
     "25": {
-      "title": "Etapa 25: Tecnolog\u00eda",
+      "title": "Etapa 25: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         }
       ]
     },
     "26": {
-      "title": "Etapa 26: Tecnolog\u00eda",
+      "title": "Etapa 26: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
+        },
+        {
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
-        },
-        {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         }
       ]
     },
     "27": {
-      "title": "Etapa 27: Compras",
+      "title": "Etapa 27: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         }
       ]
     },
     "28": {
-      "title": "Etapa 28: Trabajo",
+      "title": "Etapa 28: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         }
       ]
     },
     "29": {
-      "title": "Etapa 29: Viajes",
+      "title": "Etapa 29: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         }
       ]
     },
     "30": {
-      "title": "Etapa 30: Compras",
+      "title": "Etapa 30: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         }
       ]
     },
     "31": {
-      "title": "Etapa 31: Trabajo",
+      "title": "Etapa 31: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         }
       ]
     },
     "32": {
-      "title": "Etapa 32: Ropa",
+      "title": "Etapa 32: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
-        },
-        {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
+        },
+        {
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         }
       ]
     },
     "33": {
-      "title": "Etapa 33: Tecnolog\u00eda",
+      "title": "Etapa 33: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         }
       ]
     },
     "34": {
-      "title": "Etapa 34: Tiempo libre",
+      "title": "Etapa 34: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         }
       ]
     },
     "35": {
-      "title": "Etapa 35: Salud",
+      "title": "Etapa 35: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
-        },
-        {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
+        },
+        {
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         }
       ]
     },
     "36": {
-      "title": "Etapa 36: Viajes",
+      "title": "Etapa 36: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         }
       ]
     },
     "37": {
-      "title": "Etapa 37: Viajes",
+      "title": "Etapa 37: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         }
       ]
     },
     "38": {
-      "title": "Etapa 38: Tecnolog\u00eda",
+      "title": "Etapa 38: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         }
       ]
     },
     "39": {
-      "title": "Etapa 39: Tecnolog\u00eda",
+      "title": "Etapa 39: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         }
       ]
     },
     "40": {
-      "title": "Etapa 40: Trabajo",
+      "title": "Etapa 40: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         }
       ]
     },
     "41": {
-      "title": "Etapa 41: Compras",
+      "title": "Etapa 41: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         }
       ]
     },
     "42": {
-      "title": "Etapa 42: Salud",
+      "title": "Etapa 42: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         }
       ]
     },
     "43": {
-      "title": "Etapa 43: Trabajo",
+      "title": "Etapa 43: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         }
       ]
     },
     "44": {
-      "title": "Etapa 44: Salud",
+      "title": "Etapa 44: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         }
       ]
     },
     "45": {
-      "title": "Etapa 45: Tiempo libre",
+      "title": "Etapa 45: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         }
       ]
     },
     "46": {
-      "title": "Etapa 46: Compras",
+      "title": "Etapa 46: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         }
       ]
     },
     "47": {
-      "title": "Etapa 47: Naturaleza",
+      "title": "Etapa 47: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         }
       ]
     },
     "48": {
-      "title": "Etapa 48: Viajes",
+      "title": "Etapa 48: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
-        },
-        {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
+        },
+        {
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         }
       ]
     },
     "49": {
-      "title": "Etapa 49: Viajes",
+      "title": "Etapa 49: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
-        },
-        {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
+        },
+        {
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         }
       ]
     },
     "50": {
-      "title": "Etapa 50: Trabajo",
+      "title": "Etapa 50: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         }
       ]
     },
     "51": {
-      "title": "Etapa 51: Tiempo libre",
+      "title": "Etapa 51: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         }
       ]
     },
     "52": {
-      "title": "Etapa 52: Compras",
+      "title": "Etapa 52: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         }
       ]
     },
     "53": {
-      "title": "Etapa 53: Viajes",
+      "title": "Etapa 53: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         }
       ]
     },
     "54": {
-      "title": "Etapa 54: Salud",
+      "title": "Etapa 54: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         }
       ]
     },
     "55": {
-      "title": "Etapa 55: Naturaleza",
+      "title": "Etapa 55: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
+        },
+        {
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
-        },
-        {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         }
       ]
     },
     "56": {
-      "title": "Etapa 56: Ropa",
+      "title": "Etapa 56: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         }
       ]
     },
     "57": {
-      "title": "Etapa 57: Deportes",
+      "title": "Etapa 57: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         }
       ]
     },
     "58": {
-      "title": "Etapa 58: Salud",
+      "title": "Etapa 58: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         }
       ]
     },
     "59": {
-      "title": "Etapa 59: Compras",
+      "title": "Etapa 59: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
-        },
-        {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
-        },
-        {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
+        },
+        {
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
+        },
+        {
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         }
       ]
     },
     "60": {
-      "title": "Etapa 60: Ropa",
+      "title": "Etapa 60: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
-        },
-        {
-          "word": "city",
-          "hint": "Pista para 'city'"
-        },
-        {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
-        },
-        {
-          "word": "train",
-          "hint": "Pista para 'train'"
-        },
-        {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
+        },
+        {
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
+        },
+        {
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
+        },
+        {
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
+        },
+        {
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         }
       ]
     },
     "61": {
-      "title": "Etapa 61: Deportes",
+      "title": "Etapa 61: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         }
       ]
     },
     "62": {
-      "title": "Etapa 62: Ropa",
+      "title": "Etapa 62: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
-        },
-        {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
+        },
+        {
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         }
       ]
     },
     "63": {
-      "title": "Etapa 63: Compras",
+      "title": "Etapa 63: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
-        },
-        {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
-        },
-        {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
+        },
+        {
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
+        },
+        {
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         }
       ]
     },
     "64": {
-      "title": "Etapa 64: Tecnolog\u00eda",
+      "title": "Etapa 64: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         }
       ]
     },
     "65": {
-      "title": "Etapa 65: Salud",
+      "title": "Etapa 65: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         }
       ]
     },
     "66": {
-      "title": "Etapa 66: Trabajo",
+      "title": "Etapa 66: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         }
       ]
     },
     "67": {
-      "title": "Etapa 67: Deportes",
+      "title": "Etapa 67: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         }
       ]
     },
     "68": {
-      "title": "Etapa 68: Deportes",
+      "title": "Etapa 68: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         }
       ]
     },
     "69": {
-      "title": "Etapa 69: Naturaleza",
+      "title": "Etapa 69: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         }
       ]
     },
     "70": {
-      "title": "Etapa 70: Tecnolog\u00eda",
+      "title": "Etapa 70: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
-        },
-        {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
+        },
+        {
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         }
       ]
     },
     "71": {
-      "title": "Etapa 71: Naturaleza",
+      "title": "Etapa 71: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         }
       ]
     },
     "72": {
-      "title": "Etapa 72: Transporte",
+      "title": "Etapa 72: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
+        },
+        {
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
-        },
-        {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         }
       ]
     },
     "73": {
-      "title": "Etapa 73: Ropa",
+      "title": "Etapa 73: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         }
       ]
     },
     "74": {
-      "title": "Etapa 74: Tiempo libre",
+      "title": "Etapa 74: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         }
       ]
     },
     "75": {
-      "title": "Etapa 75: Tiempo libre",
+      "title": "Etapa 75: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         }
       ]
     },
     "76": {
-      "title": "Etapa 76: Viajes",
+      "title": "Etapa 76: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         }
       ]
     },
     "77": {
-      "title": "Etapa 77: Salud",
+      "title": "Etapa 77: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         }
       ]
     },
     "78": {
-      "title": "Etapa 78: Deportes",
+      "title": "Etapa 78: Hogar",
+      "category": "hogar",
       "words": [
         {
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
+        },
+        {
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
+        },
+        {
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
+        },
+        {
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
+        },
+        {
           "word": "window",
-          "hint": "Pista para 'window'"
-        },
-        {
-          "word": "school",
-          "hint": "Pista para 'school'"
-        },
-        {
-          "word": "family",
-          "hint": "Pista para 'family'"
-        },
-        {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
-        },
-        {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         }
       ]
     },
     "79": {
-      "title": "Etapa 79: Tecnolog\u00eda",
+      "title": "Etapa 79: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         }
       ]
     },
     "80": {
-      "title": "Etapa 80: Viajes",
+      "title": "Etapa 80: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         }
       ]
     },
     "81": {
-      "title": "Etapa 81: Tecnolog\u00eda",
+      "title": "Etapa 81: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
+        },
+        {
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
-        },
-        {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         }
       ]
     },
     "82": {
-      "title": "Etapa 82: Viajes",
+      "title": "Etapa 82: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         }
       ]
     },
     "83": {
-      "title": "Etapa 83: Tiempo libre",
+      "title": "Etapa 83: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         }
       ]
     },
     "84": {
-      "title": "Etapa 84: Transporte",
+      "title": "Etapa 84: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         }
       ]
     },
     "85": {
-      "title": "Etapa 85: Deportes",
+      "title": "Etapa 85: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         }
       ]
     },
     "86": {
-      "title": "Etapa 86: Ropa",
+      "title": "Etapa 86: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         }
       ]
     },
     "87": {
-      "title": "Etapa 87: Naturaleza",
+      "title": "Etapa 87: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         }
       ]
     },
     "88": {
-      "title": "Etapa 88: Viajes",
+      "title": "Etapa 88: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "window",
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         }
       ]
     },
     "89": {
-      "title": "Etapa 89: Ropa",
+      "title": "Etapa 89: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
-        },
-        {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
+        },
+        {
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         }
       ]
     },
     "90": {
-      "title": "Etapa 90: Viajes",
+      "title": "Etapa 90: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         }
       ]
     },
     "91": {
-      "title": "Etapa 91: Salud",
+      "title": "Etapa 91: Hogar",
+      "category": "hogar",
       "words": [
         {
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
+        },
+        {
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
+        },
+        {
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
+        },
+        {
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
+        },
+        {
           "word": "window",
-          "hint": "Pista para 'window'"
-        },
-        {
-          "word": "school",
-          "hint": "Pista para 'school'"
-        },
-        {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
-        },
-        {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
-        },
-        {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         }
       ]
     },
     "92": {
-      "title": "Etapa 92: Naturaleza",
+      "title": "Etapa 92: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         }
       ]
     },
     "93": {
-      "title": "Etapa 93: Deportes",
+      "title": "Etapa 93: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         }
       ]
     },
     "94": {
-      "title": "Etapa 94: Tecnolog\u00eda",
+      "title": "Etapa 94: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         }
       ]
     },
     "95": {
-      "title": "Etapa 95: Viajes",
+      "title": "Etapa 95: Hogar",
+      "category": "hogar",
       "words": [
         {
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
+        },
+        {
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
+        },
+        {
           "word": "window",
-          "hint": "Pista para 'window'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
-        },
-        {
-          "word": "family",
-          "hint": "Pista para 'family'"
-        },
-        {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         }
       ]
     },
     "96": {
-      "title": "Etapa 96: Naturaleza",
+      "title": "Etapa 96: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         }
       ]
     },
     "97": {
-      "title": "Etapa 97: Tecnolog\u00eda",
+      "title": "Etapa 97: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "mother",
-          "hint": "Pista para 'mother'"
+          "word": "bed",
+          "hint": "Pista sobre 'bed'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
+        },
+        {
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
+        },
+        {
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         },
         {
           "word": "window",
-          "hint": "Pista para 'window'"
-        },
-        {
-          "word": "phone",
-          "hint": "Pista para 'phone'"
-        },
-        {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "hint": "Pista sobre 'window'",
+          "category": "hogar"
         }
       ]
     },
     "98": {
-      "title": "Etapa 98: Salud",
+      "title": "Etapa 98: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "travel",
-          "hint": "Pista para 'travel'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "floor",
+          "hint": "Pista sobre 'floor'",
+          "category": "hogar"
         },
         {
-          "word": "city",
-          "hint": "Pista para 'city'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         }
       ]
     },
     "99": {
-      "title": "Etapa 99: Naturaleza",
+      "title": "Etapa 99: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "kitchen",
+          "hint": "Pista sobre 'kitchen'",
+          "category": "hogar"
         },
         {
-          "word": "train",
-          "hint": "Pista para 'train'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "sofa",
+          "hint": "Pista sobre 'sofa'",
+          "category": "hogar"
         },
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         }
       ]
     },
     "100": {
-      "title": "Etapa 100: Tecnolog\u00eda",
+      "title": "Etapa 100: Hogar",
+      "category": "hogar",
       "words": [
         {
-          "word": "family",
-          "hint": "Pista para 'family'"
+          "word": "table",
+          "hint": "Pista sobre 'table'",
+          "category": "hogar"
         },
         {
-          "word": "market",
-          "hint": "Pista para 'market'"
+          "word": "door",
+          "hint": "Pista sobre 'door'",
+          "category": "hogar"
         },
         {
-          "word": "window",
-          "hint": "Pista para 'window'"
+          "word": "bathroom",
+          "hint": "Pista sobre 'bathroom'",
+          "category": "hogar"
         },
         {
-          "word": "school",
-          "hint": "Pista para 'school'"
+          "word": "lamp",
+          "hint": "Pista sobre 'lamp'",
+          "category": "hogar"
         },
         {
-          "word": "father",
-          "hint": "Pista para 'father'"
+          "word": "chair",
+          "hint": "Pista sobre 'chair'",
+          "category": "hogar"
         }
       ]
     }
   },
   "B1": {
     "1": {
-      "title": "Etapa 1: Educaci\u00f3n",
+      "title": "Etapa 1: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         }
       ]
     },
     "2": {
-      "title": "Etapa 2: Educaci\u00f3n",
+      "title": "Etapa 2: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         }
       ]
     },
     "3": {
-      "title": "Etapa 3: Noticias",
+      "title": "Etapa 3: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         }
       ]
     },
     "4": {
-      "title": "Etapa 4: Experiencias",
+      "title": "Etapa 4: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         }
       ]
     },
     "5": {
-      "title": "Etapa 5: Problemas",
+      "title": "Etapa 5: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         }
       ]
     },
     "6": {
-      "title": "Etapa 6: Problemas",
+      "title": "Etapa 6: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         }
       ]
     },
     "7": {
-      "title": "Etapa 7: Problemas",
+      "title": "Etapa 7: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         }
       ]
     },
     "8": {
-      "title": "Etapa 8: Soluciones",
+      "title": "Etapa 8: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         }
       ]
     },
     "9": {
-      "title": "Etapa 9: Experiencias",
+      "title": "Etapa 9: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         }
       ]
     },
     "10": {
-      "title": "Etapa 10: Cultura",
+      "title": "Etapa 10: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         }
       ]
     },
     "11": {
-      "title": "Etapa 11: Relaciones",
+      "title": "Etapa 11: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         }
       ]
     },
     "12": {
-      "title": "Etapa 12: Sue\u00f1os",
+      "title": "Etapa 12: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         }
       ]
     },
     "13": {
-      "title": "Etapa 13: Relaciones",
+      "title": "Etapa 13: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         }
       ]
     },
     "14": {
-      "title": "Etapa 14: Experiencias",
+      "title": "Etapa 14: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         }
       ]
     },
     "15": {
-      "title": "Etapa 15: Soluciones",
+      "title": "Etapa 15: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         }
       ]
     },
     "16": {
-      "title": "Etapa 16: Problemas",
+      "title": "Etapa 16: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         }
       ]
     },
     "17": {
-      "title": "Etapa 17: Sue\u00f1os",
+      "title": "Etapa 17: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         }
       ]
     },
     "18": {
-      "title": "Etapa 18: Experiencias",
+      "title": "Etapa 18: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         }
       ]
     },
     "19": {
-      "title": "Etapa 19: Cultura",
+      "title": "Etapa 19: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         }
       ]
     },
     "20": {
-      "title": "Etapa 20: Experiencias",
+      "title": "Etapa 20: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         }
       ]
     },
     "21": {
-      "title": "Etapa 21: Experiencias",
+      "title": "Etapa 21: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         }
       ]
     },
     "22": {
-      "title": "Etapa 22: Experiencias",
+      "title": "Etapa 22: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         }
       ]
     },
     "23": {
-      "title": "Etapa 23: Soluciones",
+      "title": "Etapa 23: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         }
       ]
     },
     "24": {
-      "title": "Etapa 24: Futuro",
+      "title": "Etapa 24: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         }
       ]
     },
     "25": {
-      "title": "Etapa 25: Educaci\u00f3n",
+      "title": "Etapa 25: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         }
       ]
     },
     "26": {
-      "title": "Etapa 26: Soluciones",
+      "title": "Etapa 26: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         }
       ]
     },
     "27": {
-      "title": "Etapa 27: Cultura",
+      "title": "Etapa 27: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         }
       ]
     },
     "28": {
-      "title": "Etapa 28: Sue\u00f1os",
+      "title": "Etapa 28: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         }
       ]
     },
     "29": {
-      "title": "Etapa 29: Soluciones",
+      "title": "Etapa 29: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         }
       ]
     },
     "30": {
-      "title": "Etapa 30: Cultura",
+      "title": "Etapa 30: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         }
       ]
     },
     "31": {
-      "title": "Etapa 31: Experiencias",
+      "title": "Etapa 31: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         }
       ]
     },
     "32": {
-      "title": "Etapa 32: Sue\u00f1os",
+      "title": "Etapa 32: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         }
       ]
     },
     "33": {
-      "title": "Etapa 33: Futuro",
+      "title": "Etapa 33: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         }
       ]
     },
     "34": {
-      "title": "Etapa 34: Experiencias",
+      "title": "Etapa 34: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         }
       ]
     },
     "35": {
-      "title": "Etapa 35: Cultura",
+      "title": "Etapa 35: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         }
       ]
     },
     "36": {
-      "title": "Etapa 36: Sue\u00f1os",
+      "title": "Etapa 36: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         }
       ]
     },
     "37": {
-      "title": "Etapa 37: Sue\u00f1os",
+      "title": "Etapa 37: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         }
       ]
     },
     "38": {
-      "title": "Etapa 38: Soluciones",
+      "title": "Etapa 38: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         }
       ]
     },
     "39": {
-      "title": "Etapa 39: Opiniones",
+      "title": "Etapa 39: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         }
       ]
     },
     "40": {
-      "title": "Etapa 40: Noticias",
+      "title": "Etapa 40: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         }
       ]
     },
     "41": {
-      "title": "Etapa 41: Sue\u00f1os",
+      "title": "Etapa 41: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         }
       ]
     },
     "42": {
-      "title": "Etapa 42: Futuro",
+      "title": "Etapa 42: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         }
       ]
     },
     "43": {
-      "title": "Etapa 43: Experiencias",
+      "title": "Etapa 43: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         }
       ]
     },
     "44": {
-      "title": "Etapa 44: Relaciones",
+      "title": "Etapa 44: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         }
       ]
     },
     "45": {
-      "title": "Etapa 45: Cultura",
+      "title": "Etapa 45: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         }
       ]
     },
     "46": {
-      "title": "Etapa 46: Noticias",
+      "title": "Etapa 46: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         }
       ]
     },
     "47": {
-      "title": "Etapa 47: Opiniones",
+      "title": "Etapa 47: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         }
       ]
     },
     "48": {
-      "title": "Etapa 48: Experiencias",
+      "title": "Etapa 48: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         }
       ]
     },
     "49": {
-      "title": "Etapa 49: Soluciones",
+      "title": "Etapa 49: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         }
       ]
     },
     "50": {
-      "title": "Etapa 50: Soluciones",
+      "title": "Etapa 50: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         }
       ]
     },
     "51": {
-      "title": "Etapa 51: Noticias",
+      "title": "Etapa 51: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         }
       ]
     },
     "52": {
-      "title": "Etapa 52: Noticias",
+      "title": "Etapa 52: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         }
       ]
     },
     "53": {
-      "title": "Etapa 53: Experiencias",
+      "title": "Etapa 53: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         }
       ]
     },
     "54": {
-      "title": "Etapa 54: Educaci\u00f3n",
+      "title": "Etapa 54: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         }
       ]
     },
     "55": {
-      "title": "Etapa 55: Relaciones",
+      "title": "Etapa 55: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         }
       ]
     },
     "56": {
-      "title": "Etapa 56: Problemas",
+      "title": "Etapa 56: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         }
       ]
     },
     "57": {
-      "title": "Etapa 57: Noticias",
+      "title": "Etapa 57: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         }
       ]
     },
     "58": {
-      "title": "Etapa 58: Noticias",
+      "title": "Etapa 58: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         }
       ]
     },
     "59": {
-      "title": "Etapa 59: Cultura",
+      "title": "Etapa 59: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         }
       ]
     },
     "60": {
-      "title": "Etapa 60: Soluciones",
+      "title": "Etapa 60: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         }
       ]
     },
     "61": {
-      "title": "Etapa 61: Experiencias",
+      "title": "Etapa 61: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         }
       ]
     },
     "62": {
-      "title": "Etapa 62: Sue\u00f1os",
+      "title": "Etapa 62: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         }
       ]
     },
     "63": {
-      "title": "Etapa 63: Opiniones",
+      "title": "Etapa 63: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         }
       ]
     },
     "64": {
-      "title": "Etapa 64: Cultura",
+      "title": "Etapa 64: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         }
       ]
     },
     "65": {
-      "title": "Etapa 65: Opiniones",
+      "title": "Etapa 65: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         }
       ]
     },
     "66": {
-      "title": "Etapa 66: Problemas",
+      "title": "Etapa 66: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         }
       ]
     },
     "67": {
-      "title": "Etapa 67: Sue\u00f1os",
+      "title": "Etapa 67: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         }
       ]
     },
     "68": {
-      "title": "Etapa 68: Noticias",
+      "title": "Etapa 68: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         }
       ]
     },
     "69": {
-      "title": "Etapa 69: Relaciones",
+      "title": "Etapa 69: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         }
       ]
     },
     "70": {
-      "title": "Etapa 70: Problemas",
+      "title": "Etapa 70: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         }
       ]
     },
     "71": {
-      "title": "Etapa 71: Relaciones",
+      "title": "Etapa 71: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         }
       ]
     },
     "72": {
-      "title": "Etapa 72: Experiencias",
+      "title": "Etapa 72: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         }
       ]
     },
     "73": {
-      "title": "Etapa 73: Experiencias",
+      "title": "Etapa 73: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         }
       ]
     },
     "74": {
-      "title": "Etapa 74: Futuro",
+      "title": "Etapa 74: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         }
       ]
     },
     "75": {
-      "title": "Etapa 75: Problemas",
+      "title": "Etapa 75: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         }
       ]
     },
     "76": {
-      "title": "Etapa 76: Cultura",
+      "title": "Etapa 76: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         }
       ]
     },
     "77": {
-      "title": "Etapa 77: Relaciones",
+      "title": "Etapa 77: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         }
       ]
     },
     "78": {
-      "title": "Etapa 78: Experiencias",
+      "title": "Etapa 78: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         }
       ]
     },
     "79": {
-      "title": "Etapa 79: Problemas",
+      "title": "Etapa 79: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         }
       ]
     },
     "80": {
-      "title": "Etapa 80: Cultura",
+      "title": "Etapa 80: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         }
       ]
     },
     "81": {
-      "title": "Etapa 81: Experiencias",
+      "title": "Etapa 81: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         }
       ]
     },
     "82": {
-      "title": "Etapa 82: Relaciones",
+      "title": "Etapa 82: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         }
       ]
     },
     "83": {
-      "title": "Etapa 83: Cultura",
+      "title": "Etapa 83: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         }
       ]
     },
     "84": {
-      "title": "Etapa 84: Cultura",
+      "title": "Etapa 84: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         }
       ]
     },
     "85": {
-      "title": "Etapa 85: Opiniones",
+      "title": "Etapa 85: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         }
       ]
     },
     "86": {
-      "title": "Etapa 86: Cultura",
+      "title": "Etapa 86: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         }
       ]
     },
     "87": {
-      "title": "Etapa 87: Sue\u00f1os",
+      "title": "Etapa 87: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         }
       ]
     },
     "88": {
-      "title": "Etapa 88: Educaci\u00f3n",
+      "title": "Etapa 88: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         }
       ]
     },
     "89": {
-      "title": "Etapa 89: Opiniones",
+      "title": "Etapa 89: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         }
       ]
     },
     "90": {
-      "title": "Etapa 90: Soluciones",
+      "title": "Etapa 90: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         }
       ]
     },
     "91": {
-      "title": "Etapa 91: Noticias",
+      "title": "Etapa 91: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         }
       ]
     },
     "92": {
-      "title": "Etapa 92: Cultura",
+      "title": "Etapa 92: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         }
       ]
     },
     "93": {
-      "title": "Etapa 93: Cultura",
+      "title": "Etapa 93: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         }
       ]
     },
     "94": {
-      "title": "Etapa 94: Relaciones",
+      "title": "Etapa 94: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         }
       ]
     },
     "95": {
-      "title": "Etapa 95: Futuro",
+      "title": "Etapa 95: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         }
       ]
     },
     "96": {
-      "title": "Etapa 96: Noticias",
+      "title": "Etapa 96: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         }
       ]
     },
     "97": {
-      "title": "Etapa 97: Cultura",
+      "title": "Etapa 97: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "support",
-          "hint": "Pista para 'support'"
+          "word": "football",
+          "hint": "Pista sobre 'football'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         }
       ]
     },
     "98": {
-      "title": "Etapa 98: Experiencias",
+      "title": "Etapa 98: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "basketball",
+          "hint": "Pista sobre 'basketball'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "improve",
-          "hint": "Pista para 'improve'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         }
       ]
     },
     "99": {
-      "title": "Etapa 99: Problemas",
+      "title": "Etapa 99: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "skiing",
+          "hint": "Pista sobre 'skiing'",
+          "category": "deportes"
         },
         {
-          "word": "describe",
-          "hint": "Pista para 'describe'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "boxing",
+          "hint": "Pista sobre 'boxing'",
+          "category": "deportes"
         },
         {
-          "word": "project",
-          "hint": "Pista para 'project'"
+          "word": "cycling",
+          "hint": "Pista sobre 'cycling'",
+          "category": "deportes"
         },
         {
-          "word": "journey",
-          "hint": "Pista para 'journey'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         }
       ]
     },
     "100": {
-      "title": "Etapa 100: Sue\u00f1os",
+      "title": "Etapa 100: Deportes",
+      "category": "deportes",
       "words": [
         {
-          "word": "future",
-          "hint": "Pista para 'future'"
+          "word": "tennis",
+          "hint": "Pista sobre 'tennis'",
+          "category": "deportes"
         },
         {
-          "word": "explain",
-          "hint": "Pista para 'explain'"
+          "word": "running",
+          "hint": "Pista sobre 'running'",
+          "category": "deportes"
         },
         {
-          "word": "library",
-          "hint": "Pista para 'library'"
+          "word": "golf",
+          "hint": "Pista sobre 'golf'",
+          "category": "deportes"
         },
         {
-          "word": "challenge",
-          "hint": "Pista para 'challenge'"
+          "word": "swimming",
+          "hint": "Pista sobre 'swimming'",
+          "category": "deportes"
         },
         {
-          "word": "reason",
-          "hint": "Pista para 'reason'"
+          "word": "surfing",
+          "hint": "Pista sobre 'surfing'",
+          "category": "deportes"
         }
       ]
     }
   },
   "B2": {
     "1": {
-      "title": "Etapa 1: Cambio",
+      "title": "Etapa 1: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         }
       ]
     },
     "2": {
-      "title": "Etapa 2: Habilidades",
+      "title": "Etapa 2: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         }
       ]
     },
     "3": {
-      "title": "Etapa 3: Desarrollo",
+      "title": "Etapa 3: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         }
       ]
     },
     "4": {
-      "title": "Etapa 4: Cambio",
+      "title": "Etapa 4: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         }
       ]
     },
     "5": {
-      "title": "Etapa 5: Globalizaci\u00f3n",
+      "title": "Etapa 5: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         }
       ]
     },
     "6": {
-      "title": "Etapa 6: Cambio",
+      "title": "Etapa 6: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         }
       ]
     },
     "7": {
-      "title": "Etapa 7: Habilidades",
+      "title": "Etapa 7: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         }
       ]
     },
     "8": {
-      "title": "Etapa 8: Cambio",
+      "title": "Etapa 8: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         }
       ]
     },
     "9": {
-      "title": "Etapa 9: Cambio",
+      "title": "Etapa 9: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         }
       ]
     },
     "10": {
-      "title": "Etapa 10: Tecnolog\u00eda avanzada",
+      "title": "Etapa 10: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         }
       ]
     },
     "11": {
-      "title": "Etapa 11: Medios",
+      "title": "Etapa 11: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         }
       ]
     },
     "12": {
-      "title": "Etapa 12: Habilidades",
+      "title": "Etapa 12: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         }
       ]
     },
     "13": {
-      "title": "Etapa 13: Debates",
+      "title": "Etapa 13: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         }
       ]
     },
     "14": {
-      "title": "Etapa 14: Globalizaci\u00f3n",
+      "title": "Etapa 14: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         }
       ]
     },
     "15": {
-      "title": "Etapa 15: Medios",
+      "title": "Etapa 15: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         }
       ]
     },
     "16": {
-      "title": "Etapa 16: Cambio",
+      "title": "Etapa 16: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         }
       ]
     },
     "17": {
-      "title": "Etapa 17: Desarrollo",
+      "title": "Etapa 17: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         }
       ]
     },
     "18": {
-      "title": "Etapa 18: Desarrollo",
+      "title": "Etapa 18: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         }
       ]
     },
     "19": {
-      "title": "Etapa 19: Desarrollo",
+      "title": "Etapa 19: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         }
       ]
     },
     "20": {
-      "title": "Etapa 20: Cambio",
+      "title": "Etapa 20: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         }
       ]
     },
     "21": {
-      "title": "Etapa 21: Cambio",
+      "title": "Etapa 21: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         }
       ]
     },
     "22": {
-      "title": "Etapa 22: Cambio",
+      "title": "Etapa 22: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         }
       ]
     },
     "23": {
-      "title": "Etapa 23: Ambiente",
+      "title": "Etapa 23: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         }
       ]
     },
     "24": {
-      "title": "Etapa 24: Desarrollo",
+      "title": "Etapa 24: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         }
       ]
     },
     "25": {
-      "title": "Etapa 25: Trabajo en equipo",
+      "title": "Etapa 25: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         }
       ]
     },
     "26": {
-      "title": "Etapa 26: Cambio",
+      "title": "Etapa 26: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         }
       ]
     },
     "27": {
-      "title": "Etapa 27: Trabajo en equipo",
+      "title": "Etapa 27: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         }
       ]
     },
     "28": {
-      "title": "Etapa 28: Globalizaci\u00f3n",
+      "title": "Etapa 28: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         }
       ]
     },
     "29": {
-      "title": "Etapa 29: Ambiente",
+      "title": "Etapa 29: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         }
       ]
     },
     "30": {
-      "title": "Etapa 30: Cambio",
+      "title": "Etapa 30: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         }
       ]
     },
     "31": {
-      "title": "Etapa 31: Globalizaci\u00f3n",
+      "title": "Etapa 31: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         }
       ]
     },
     "32": {
-      "title": "Etapa 32: Tecnolog\u00eda avanzada",
+      "title": "Etapa 32: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         }
       ]
     },
     "33": {
-      "title": "Etapa 33: Cambio",
+      "title": "Etapa 33: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         }
       ]
     },
     "34": {
-      "title": "Etapa 34: Trabajo en equipo",
+      "title": "Etapa 34: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         }
       ]
     },
     "35": {
-      "title": "Etapa 35: Trabajo en equipo",
+      "title": "Etapa 35: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         }
       ]
     },
     "36": {
-      "title": "Etapa 36: Trabajo en equipo",
+      "title": "Etapa 36: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         }
       ]
     },
     "37": {
-      "title": "Etapa 37: Ambiente",
+      "title": "Etapa 37: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         }
       ]
     },
     "38": {
-      "title": "Etapa 38: Debates",
+      "title": "Etapa 38: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         }
       ]
     },
     "39": {
-      "title": "Etapa 39: Tecnolog\u00eda avanzada",
+      "title": "Etapa 39: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         }
       ]
     },
     "40": {
-      "title": "Etapa 40: \u00c9xito",
+      "title": "Etapa 40: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         }
       ]
     },
     "41": {
-      "title": "Etapa 41: Desarrollo",
+      "title": "Etapa 41: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         }
       ]
     },
     "42": {
-      "title": "Etapa 42: Trabajo en equipo",
+      "title": "Etapa 42: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         }
       ]
     },
     "43": {
-      "title": "Etapa 43: Desarrollo",
+      "title": "Etapa 43: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         }
       ]
     },
     "44": {
-      "title": "Etapa 44: Habilidades",
+      "title": "Etapa 44: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         }
       ]
     },
     "45": {
-      "title": "Etapa 45: Cambio",
+      "title": "Etapa 45: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         }
       ]
     },
     "46": {
-      "title": "Etapa 46: Trabajo en equipo",
+      "title": "Etapa 46: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         }
       ]
     },
     "47": {
-      "title": "Etapa 47: Habilidades",
+      "title": "Etapa 47: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         }
       ]
     },
     "48": {
-      "title": "Etapa 48: Habilidades",
+      "title": "Etapa 48: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         }
       ]
     },
     "49": {
-      "title": "Etapa 49: Debates",
+      "title": "Etapa 49: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         }
       ]
     },
     "50": {
-      "title": "Etapa 50: Trabajo en equipo",
+      "title": "Etapa 50: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         }
       ]
     },
     "51": {
-      "title": "Etapa 51: Desarrollo",
+      "title": "Etapa 51: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         }
       ]
     },
     "52": {
-      "title": "Etapa 52: Habilidades",
+      "title": "Etapa 52: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         }
       ]
     },
     "53": {
-      "title": "Etapa 53: Globalizaci\u00f3n",
+      "title": "Etapa 53: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         }
       ]
     },
     "54": {
-      "title": "Etapa 54: Cambio",
+      "title": "Etapa 54: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         }
       ]
     },
     "55": {
-      "title": "Etapa 55: Habilidades",
+      "title": "Etapa 55: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         }
       ]
     },
     "56": {
-      "title": "Etapa 56: Tecnolog\u00eda avanzada",
+      "title": "Etapa 56: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         }
       ]
     },
     "57": {
-      "title": "Etapa 57: Desarrollo",
+      "title": "Etapa 57: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         }
       ]
     },
     "58": {
-      "title": "Etapa 58: Medios",
+      "title": "Etapa 58: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         }
       ]
     },
     "59": {
-      "title": "Etapa 59: \u00c9xito",
+      "title": "Etapa 59: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         }
       ]
     },
     "60": {
-      "title": "Etapa 60: Medios",
+      "title": "Etapa 60: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         }
       ]
     },
     "61": {
-      "title": "Etapa 61: Trabajo en equipo",
+      "title": "Etapa 61: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         }
       ]
     },
     "62": {
-      "title": "Etapa 62: Trabajo en equipo",
+      "title": "Etapa 62: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         }
       ]
     },
     "63": {
-      "title": "Etapa 63: Habilidades",
+      "title": "Etapa 63: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         }
       ]
     },
     "64": {
-      "title": "Etapa 64: Tecnolog\u00eda avanzada",
+      "title": "Etapa 64: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         }
       ]
     },
     "65": {
-      "title": "Etapa 65: Globalizaci\u00f3n",
+      "title": "Etapa 65: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         }
       ]
     },
     "66": {
-      "title": "Etapa 66: Medios",
+      "title": "Etapa 66: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         }
       ]
     },
     "67": {
-      "title": "Etapa 67: Desarrollo",
+      "title": "Etapa 67: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         }
       ]
     },
     "68": {
-      "title": "Etapa 68: Medios",
+      "title": "Etapa 68: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         }
       ]
     },
     "69": {
-      "title": "Etapa 69: Globalizaci\u00f3n",
+      "title": "Etapa 69: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         }
       ]
     },
     "70": {
-      "title": "Etapa 70: Habilidades",
+      "title": "Etapa 70: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         }
       ]
     },
     "71": {
-      "title": "Etapa 71: Debates",
+      "title": "Etapa 71: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         }
       ]
     },
     "72": {
-      "title": "Etapa 72: Tecnolog\u00eda avanzada",
+      "title": "Etapa 72: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         }
       ]
     },
     "73": {
-      "title": "Etapa 73: Trabajo en equipo",
+      "title": "Etapa 73: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         }
       ]
     },
     "74": {
-      "title": "Etapa 74: Tecnolog\u00eda avanzada",
+      "title": "Etapa 74: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         }
       ]
     },
     "75": {
-      "title": "Etapa 75: \u00c9xito",
+      "title": "Etapa 75: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         }
       ]
     },
     "76": {
-      "title": "Etapa 76: Desarrollo",
+      "title": "Etapa 76: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         }
       ]
     },
     "77": {
-      "title": "Etapa 77: Habilidades",
+      "title": "Etapa 77: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         }
       ]
     },
     "78": {
-      "title": "Etapa 78: Trabajo en equipo",
+      "title": "Etapa 78: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         }
       ]
     },
     "79": {
-      "title": "Etapa 79: \u00c9xito",
+      "title": "Etapa 79: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         }
       ]
     },
     "80": {
-      "title": "Etapa 80: Medios",
+      "title": "Etapa 80: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         }
       ]
     },
     "81": {
-      "title": "Etapa 81: Desarrollo",
+      "title": "Etapa 81: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         }
       ]
     },
     "82": {
-      "title": "Etapa 82: Ambiente",
+      "title": "Etapa 82: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         }
       ]
     },
     "83": {
-      "title": "Etapa 83: Debates",
+      "title": "Etapa 83: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         }
       ]
     },
     "84": {
-      "title": "Etapa 84: Globalizaci\u00f3n",
+      "title": "Etapa 84: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         }
       ]
     },
     "85": {
-      "title": "Etapa 85: \u00c9xito",
+      "title": "Etapa 85: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         }
       ]
     },
     "86": {
-      "title": "Etapa 86: Desarrollo",
+      "title": "Etapa 86: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         }
       ]
     },
     "87": {
-      "title": "Etapa 87: Medios",
+      "title": "Etapa 87: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         }
       ]
     },
     "88": {
-      "title": "Etapa 88: Tecnolog\u00eda avanzada",
+      "title": "Etapa 88: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         }
       ]
     },
     "89": {
-      "title": "Etapa 89: Medios",
+      "title": "Etapa 89: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         }
       ]
     },
     "90": {
-      "title": "Etapa 90: \u00c9xito",
+      "title": "Etapa 90: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         }
       ]
     },
     "91": {
-      "title": "Etapa 91: Globalizaci\u00f3n",
+      "title": "Etapa 91: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         }
       ]
     },
     "92": {
-      "title": "Etapa 92: Habilidades",
+      "title": "Etapa 92: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         }
       ]
     },
     "93": {
-      "title": "Etapa 93: Desarrollo",
+      "title": "Etapa 93: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         }
       ]
     },
     "94": {
-      "title": "Etapa 94: Tecnolog\u00eda avanzada",
+      "title": "Etapa 94: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "community",
-          "hint": "Pista para 'community'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         }
       ]
     },
     "95": {
-      "title": "Etapa 95: Trabajo en equipo",
+      "title": "Etapa 95: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "decision",
-          "hint": "Pista para 'decision'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         }
       ]
     },
     "96": {
-      "title": "Etapa 96: Cambio",
+      "title": "Etapa 96: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         }
       ]
     },
     "97": {
-      "title": "Etapa 97: Globalizaci\u00f3n",
+      "title": "Etapa 97: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "nurse",
+          "hint": "Pista sobre 'nurse'",
+          "category": "trabajos"
         },
         {
-          "word": "experience",
-          "hint": "Pista para 'experience'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "teacher",
+          "hint": "Pista sobre 'teacher'",
+          "category": "trabajos"
         }
       ]
     },
     "98": {
-      "title": "Etapa 98: Cambio",
+      "title": "Etapa 98: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "achievement",
-          "hint": "Pista para 'achievement'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "designer",
+          "hint": "Pista sobre 'designer'",
+          "category": "trabajos"
         }
       ]
     },
     "99": {
-      "title": "Etapa 99: Tecnolog\u00eda avanzada",
+      "title": "Etapa 99: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "participate",
-          "hint": "Pista para 'participate'"
+          "word": "pilot",
+          "hint": "Pista sobre 'pilot'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "manager",
+          "hint": "Pista sobre 'manager'",
+          "category": "trabajos"
         }
       ]
     },
     "100": {
-      "title": "Etapa 100: Habilidades",
+      "title": "Etapa 100: Trabajos",
+      "category": "trabajos",
       "words": [
         {
-          "word": "environment",
-          "hint": "Pista para 'environment'"
+          "word": "chef",
+          "hint": "Pista sobre 'chef'",
+          "category": "trabajos"
         },
         {
-          "word": "solution",
-          "hint": "Pista para 'solution'"
+          "word": "lawyer",
+          "hint": "Pista sobre 'lawyer'",
+          "category": "trabajos"
         },
         {
-          "word": "function",
-          "hint": "Pista para 'function'"
+          "word": "accountant",
+          "hint": "Pista sobre 'accountant'",
+          "category": "trabajos"
         },
         {
-          "word": "presentation",
-          "hint": "Pista para 'presentation'"
+          "word": "engineer",
+          "hint": "Pista sobre 'engineer'",
+          "category": "trabajos"
         },
         {
-          "word": "confident",
-          "hint": "Pista para 'confident'"
+          "word": "doctor",
+          "hint": "Pista sobre 'doctor'",
+          "category": "trabajos"
         }
       ]
     }
   },
   "C1": {
     "1": {
-      "title": "Etapa 1: Educaci\u00f3n superior",
+      "title": "Etapa 1: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         }
       ]
     },
     "2": {
-      "title": "Etapa 2: Literatura",
+      "title": "Etapa 2: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         }
       ]
     },
     "3": {
-      "title": "Etapa 3: Medicina",
+      "title": "Etapa 3: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
-        },
-        {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
+        },
+        {
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "4": {
-      "title": "Etapa 4: \u00c9tica",
+      "title": "Etapa 4: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         }
       ]
     },
     "5": {
-      "title": "Etapa 5: Educaci\u00f3n superior",
+      "title": "Etapa 5: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "6": {
-      "title": "Etapa 6: Pol\u00edtica",
+      "title": "Etapa 6: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         }
       ]
     },
     "7": {
-      "title": "Etapa 7: Derecho",
+      "title": "Etapa 7: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         }
       ]
     },
     "8": {
-      "title": "Etapa 8: Derecho",
+      "title": "Etapa 8: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         }
       ]
     },
     "9": {
-      "title": "Etapa 9: \u00c9tica",
+      "title": "Etapa 9: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
-        },
-        {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
-        },
-        {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
+        },
+        {
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
+        },
+        {
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "10": {
-      "title": "Etapa 10: \u00c9tica",
+      "title": "Etapa 10: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         }
       ]
     },
     "11": {
-      "title": "Etapa 11: Derecho",
+      "title": "Etapa 11: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         }
       ]
     },
     "12": {
-      "title": "Etapa 12: Medicina",
+      "title": "Etapa 12: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         }
       ]
     },
     "13": {
-      "title": "Etapa 13: \u00c9tica",
+      "title": "Etapa 13: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         }
       ]
     },
     "14": {
-      "title": "Etapa 14: Innovaci\u00f3n",
+      "title": "Etapa 14: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         }
       ]
     },
     "15": {
-      "title": "Etapa 15: Econom\u00eda",
+      "title": "Etapa 15: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         }
       ]
     },
     "16": {
-      "title": "Etapa 16: Sociedad",
+      "title": "Etapa 16: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         }
       ]
     },
     "17": {
-      "title": "Etapa 17: Literatura",
+      "title": "Etapa 17: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
-        },
-        {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
-        },
-        {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
-        },
-        {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
+        },
+        {
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
+        },
+        {
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
+        },
+        {
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         }
       ]
     },
     "18": {
-      "title": "Etapa 18: Derecho",
+      "title": "Etapa 18: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         }
       ]
     },
     "19": {
-      "title": "Etapa 19: Innovaci\u00f3n",
+      "title": "Etapa 19: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         }
       ]
     },
     "20": {
-      "title": "Etapa 20: Literatura",
+      "title": "Etapa 20: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "21": {
-      "title": "Etapa 21: Derecho",
+      "title": "Etapa 21: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         }
       ]
     },
     "22": {
-      "title": "Etapa 22: Sociedad",
+      "title": "Etapa 22: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         }
       ]
     },
     "23": {
-      "title": "Etapa 23: Literatura",
+      "title": "Etapa 23: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         }
       ]
     },
     "24": {
-      "title": "Etapa 24: Filosof\u00eda",
+      "title": "Etapa 24: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "25": {
-      "title": "Etapa 25: Medicina",
+      "title": "Etapa 25: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         }
       ]
     },
     "26": {
-      "title": "Etapa 26: Econom\u00eda",
+      "title": "Etapa 26: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         }
       ]
     },
     "27": {
-      "title": "Etapa 27: Filosof\u00eda",
+      "title": "Etapa 27: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         }
       ]
     },
     "28": {
-      "title": "Etapa 28: Filosof\u00eda",
+      "title": "Etapa 28: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         }
       ]
     },
     "29": {
-      "title": "Etapa 29: Literatura",
+      "title": "Etapa 29: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         }
       ]
     },
     "30": {
-      "title": "Etapa 30: Educaci\u00f3n superior",
+      "title": "Etapa 30: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         }
       ]
     },
     "31": {
-      "title": "Etapa 31: Pol\u00edtica",
+      "title": "Etapa 31: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         }
       ]
     },
     "32": {
-      "title": "Etapa 32: Econom\u00eda",
+      "title": "Etapa 32: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "33": {
-      "title": "Etapa 33: Educaci\u00f3n superior",
+      "title": "Etapa 33: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         }
       ]
     },
     "34": {
-      "title": "Etapa 34: Literatura",
+      "title": "Etapa 34: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "35": {
-      "title": "Etapa 35: Medicina",
+      "title": "Etapa 35: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
-        },
-        {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
+        },
+        {
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         }
       ]
     },
     "36": {
-      "title": "Etapa 36: Econom\u00eda",
+      "title": "Etapa 36: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         }
       ]
     },
     "37": {
-      "title": "Etapa 37: Econom\u00eda",
+      "title": "Etapa 37: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
-        },
-        {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
+        },
+        {
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         }
       ]
     },
     "38": {
-      "title": "Etapa 38: Sociedad",
+      "title": "Etapa 38: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         }
       ]
     },
     "39": {
-      "title": "Etapa 39: \u00c9tica",
+      "title": "Etapa 39: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "40": {
-      "title": "Etapa 40: Sociedad",
+      "title": "Etapa 40: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         }
       ]
     },
     "41": {
-      "title": "Etapa 41: \u00c9tica",
+      "title": "Etapa 41: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         }
       ]
     },
     "42": {
-      "title": "Etapa 42: Econom\u00eda",
+      "title": "Etapa 42: Abstractos",
+      "category": "abstractos",
       "words": [
         {
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
+        },
+        {
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
+        },
+        {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
-        },
-        {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
-        },
-        {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         }
       ]
     },
     "43": {
-      "title": "Etapa 43: Educaci\u00f3n superior",
+      "title": "Etapa 43: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         }
       ]
     },
     "44": {
-      "title": "Etapa 44: Pol\u00edtica",
+      "title": "Etapa 44: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         }
       ]
     },
     "45": {
-      "title": "Etapa 45: Sociedad",
+      "title": "Etapa 45: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         }
       ]
     },
     "46": {
-      "title": "Etapa 46: Pol\u00edtica",
+      "title": "Etapa 46: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         }
       ]
     },
     "47": {
-      "title": "Etapa 47: Econom\u00eda",
+      "title": "Etapa 47: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         }
       ]
     },
     "48": {
-      "title": "Etapa 48: Literatura",
+      "title": "Etapa 48: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         }
       ]
     },
     "49": {
-      "title": "Etapa 49: Innovaci\u00f3n",
+      "title": "Etapa 49: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         }
       ]
     },
     "50": {
-      "title": "Etapa 50: Econom\u00eda",
+      "title": "Etapa 50: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         }
       ]
     },
     "51": {
-      "title": "Etapa 51: Sociedad",
+      "title": "Etapa 51: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         }
       ]
     },
     "52": {
-      "title": "Etapa 52: Derecho",
+      "title": "Etapa 52: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         }
       ]
     },
     "53": {
-      "title": "Etapa 53: Sociedad",
+      "title": "Etapa 53: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         }
       ]
     },
     "54": {
-      "title": "Etapa 54: Econom\u00eda",
+      "title": "Etapa 54: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "55": {
-      "title": "Etapa 55: Medicina",
+      "title": "Etapa 55: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         }
       ]
     },
     "56": {
-      "title": "Etapa 56: Pol\u00edtica",
+      "title": "Etapa 56: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "57": {
-      "title": "Etapa 57: Educaci\u00f3n superior",
+      "title": "Etapa 57: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
+        },
+        {
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
-        },
-        {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         }
       ]
     },
     "58": {
-      "title": "Etapa 58: Medicina",
+      "title": "Etapa 58: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         }
       ]
     },
     "59": {
-      "title": "Etapa 59: Filosof\u00eda",
+      "title": "Etapa 59: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         }
       ]
     },
     "60": {
-      "title": "Etapa 60: Educaci\u00f3n superior",
+      "title": "Etapa 60: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
+        },
+        {
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
+        },
+        {
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
-        },
-        {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
-        },
-        {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         }
       ]
     },
     "61": {
-      "title": "Etapa 61: Literatura",
+      "title": "Etapa 61: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         }
       ]
     },
     "62": {
-      "title": "Etapa 62: Pol\u00edtica",
+      "title": "Etapa 62: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         }
       ]
     },
     "63": {
-      "title": "Etapa 63: Sociedad",
+      "title": "Etapa 63: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "64": {
-      "title": "Etapa 64: Innovaci\u00f3n",
+      "title": "Etapa 64: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         }
       ]
     },
     "65": {
-      "title": "Etapa 65: Econom\u00eda",
+      "title": "Etapa 65: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         }
       ]
     },
     "66": {
-      "title": "Etapa 66: Medicina",
+      "title": "Etapa 66: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "67": {
-      "title": "Etapa 67: Derecho",
+      "title": "Etapa 67: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         }
       ]
     },
     "68": {
-      "title": "Etapa 68: Derecho",
+      "title": "Etapa 68: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         }
       ]
     },
     "69": {
-      "title": "Etapa 69: Filosof\u00eda",
+      "title": "Etapa 69: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         }
       ]
     },
     "70": {
-      "title": "Etapa 70: Pol\u00edtica",
+      "title": "Etapa 70: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
+        },
+        {
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
-        },
-        {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         }
       ]
     },
     "71": {
-      "title": "Etapa 71: Educaci\u00f3n superior",
+      "title": "Etapa 71: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         }
       ]
     },
     "72": {
-      "title": "Etapa 72: Literatura",
+      "title": "Etapa 72: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         }
       ]
     },
     "73": {
-      "title": "Etapa 73: Filosof\u00eda",
+      "title": "Etapa 73: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         }
       ]
     },
     "74": {
-      "title": "Etapa 74: Filosof\u00eda",
+      "title": "Etapa 74: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         }
       ]
     },
     "75": {
-      "title": "Etapa 75: Econom\u00eda",
+      "title": "Etapa 75: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
-        },
-        {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
-        },
-        {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
-        },
-        {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
+        },
+        {
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
+        },
+        {
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
+        },
+        {
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         }
       ]
     },
     "76": {
-      "title": "Etapa 76: Literatura",
+      "title": "Etapa 76: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         }
       ]
     },
     "77": {
-      "title": "Etapa 77: Literatura",
+      "title": "Etapa 77: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "78": {
-      "title": "Etapa 78: Innovaci\u00f3n",
+      "title": "Etapa 78: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
-        },
-        {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
-        },
-        {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
-        },
-        {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
+        },
+        {
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
+        },
+        {
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
+        },
+        {
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         }
       ]
     },
     "79": {
-      "title": "Etapa 79: Filosof\u00eda",
+      "title": "Etapa 79: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         }
       ]
     },
     "80": {
-      "title": "Etapa 80: Filosof\u00eda",
+      "title": "Etapa 80: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         }
       ]
     },
     "81": {
-      "title": "Etapa 81: Filosof\u00eda",
+      "title": "Etapa 81: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         }
       ]
     },
     "82": {
-      "title": "Etapa 82: Sociedad",
+      "title": "Etapa 82: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         }
       ]
     },
     "83": {
-      "title": "Etapa 83: Sociedad",
+      "title": "Etapa 83: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         }
       ]
     },
     "84": {
-      "title": "Etapa 84: Sociedad",
+      "title": "Etapa 84: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         }
       ]
     },
     "85": {
-      "title": "Etapa 85: Econom\u00eda",
+      "title": "Etapa 85: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "86": {
-      "title": "Etapa 86: Literatura",
+      "title": "Etapa 86: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         }
       ]
     },
     "87": {
-      "title": "Etapa 87: Filosof\u00eda",
+      "title": "Etapa 87: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
           "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         }
       ]
     },
     "88": {
-      "title": "Etapa 88: Econom\u00eda",
+      "title": "Etapa 88: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         }
       ]
     },
     "89": {
-      "title": "Etapa 89: Medicina",
+      "title": "Etapa 89: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "90": {
-      "title": "Etapa 90: Econom\u00eda",
+      "title": "Etapa 90: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         }
       ]
     },
     "91": {
-      "title": "Etapa 91: Econom\u00eda",
+      "title": "Etapa 91: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         }
       ]
     },
     "92": {
-      "title": "Etapa 92: Filosof\u00eda",
+      "title": "Etapa 92: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         }
       ]
     },
     "93": {
-      "title": "Etapa 93: Derecho",
+      "title": "Etapa 93: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         }
       ]
     },
     "94": {
-      "title": "Etapa 94: Literatura",
+      "title": "Etapa 94: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         }
       ]
     },
     "95": {
-      "title": "Etapa 95: \u00c9tica",
+      "title": "Etapa 95: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         }
       ]
     },
     "96": {
-      "title": "Etapa 96: Educaci\u00f3n superior",
+      "title": "Etapa 96: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         }
       ]
     },
     "97": {
-      "title": "Etapa 97: Derecho",
+      "title": "Etapa 97: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "transparency",
-          "hint": "Pista para 'transparency'"
+          "word": "principle",
+          "hint": "Pista sobre 'principle'",
+          "category": "abstractos"
         }
       ]
     },
     "98": {
-      "title": "Etapa 98: Pol\u00edtica",
+      "title": "Etapa 98: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "logic",
+          "hint": "Pista sobre 'logic'",
+          "category": "abstractos"
         },
         {
-          "word": "circumstances",
-          "hint": "Pista para 'circumstances'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "contribution",
-          "hint": "Pista para 'contribution'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "interpretation",
+          "hint": "Pista sobre 'interpretation'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "philosophy",
+          "hint": "Pista sobre 'philosophy'",
+          "category": "abstractos"
         }
       ]
     },
     "99": {
-      "title": "Etapa 99: Innovaci\u00f3n",
+      "title": "Etapa 99: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "perspective",
+          "hint": "Pista sobre 'perspective'",
+          "category": "abstractos"
         },
         {
-          "word": "interpretation",
-          "hint": "Pista para 'interpretation'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "entrepreneur",
-          "hint": "Pista para 'entrepreneur'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         }
       ]
     },
     "100": {
-      "title": "Etapa 100: Literatura",
+      "title": "Etapa 100: Abstractos",
+      "category": "abstractos",
       "words": [
         {
-          "word": "investment",
-          "hint": "Pista para 'investment'"
+          "word": "equality",
+          "hint": "Pista sobre 'equality'",
+          "category": "abstractos"
         },
         {
-          "word": "legislation",
-          "hint": "Pista para 'legislation'"
+          "word": "structure",
+          "hint": "Pista sobre 'structure'",
+          "category": "abstractos"
         },
         {
-          "word": "sustainability",
-          "hint": "Pista para 'sustainability'"
+          "word": "justice",
+          "hint": "Pista sobre 'justice'",
+          "category": "abstractos"
         },
         {
-          "word": "collaboration",
-          "hint": "Pista para 'collaboration'"
+          "word": "freedom",
+          "hint": "Pista sobre 'freedom'",
+          "category": "abstractos"
         },
         {
-          "word": "revolution",
-          "hint": "Pista para 'revolution'"
+          "word": "concept",
+          "hint": "Pista sobre 'concept'",
+          "category": "abstractos"
         }
       ]
     }
