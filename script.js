@@ -46,7 +46,34 @@ function goToCategorySelection() {
   showScreen("category-screen");
 }
 
-function goToStageSelection() {
+
+async function goToStageSelection() {
+  currentCategory = document.getElementById("category-select").value;
+  const container = document.getElementById("stages-container");
+  container.innerHTML = "";
+
+  const visuals = await fetch("category_visuals.json").then(res => res.json());
+
+  Object.entries(levels[currentLevel]).forEach(([key, etapa]) => {
+    if (etapa.category === currentCategory) {
+      const card = document.createElement("div");
+      card.className = "stage-card";
+      card.onclick = () => startStage(key);
+
+      const visual = visuals[etapa.category];
+      card.innerHTML = `
+        <div class="stage-image" style="background-image:url('${visual?.image || ""}')">
+          <div class="stage-label">${visual?.icon || ""} ${etapa.title}</div>
+        </div>
+      `;
+
+      container.appendChild(card);
+    }
+  });
+
+  showScreen("stage-screen");
+}
+ {
   currentCategory = document.getElementById("category-select").value;
   const container = document.getElementById("stages-container");
   container.innerHTML = "";
