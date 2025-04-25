@@ -1,6630 +1,28 @@
 const levels = {
   "A1": {
     "1": {
-      "title": "Etapa 1: Paisajes",
-      "category": "naturaleza",
+      "title": "Etapa 1: Tonos claros",
+      "category": "colores",
       "words": [
         {
-          "word": "nat010",
-          "hint": "Relacionado con paisajes"
+          "word": "col010",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "nat011",
-          "hint": "Relacionado con paisajes"
+          "word": "col011",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "nat012",
-          "hint": "Relacionado con paisajes"
+          "word": "col012",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "nat013",
-          "hint": "Relacionado con paisajes"
-        }
-      ]
-    },
-    "2": {
-      "title": "Etapa 2: Equipaje",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via020",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via021",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via022",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via023",
-          "hint": "Relacionado con equipaje"
-        }
-      ]
-    },
-    "3": {
-      "title": "Etapa 3: Bebidas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com030",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com031",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com032",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com033",
-          "hint": "Relacionado con bebidas"
-        }
-      ]
-    },
-    "4": {
-      "title": "Etapa 4: Verduras",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com040",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com041",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com042",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com043",
-          "hint": "Relacionado con verduras"
-        }
-      ]
-    },
-    "5": {
-      "title": "Etapa 5: Paisajes",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat050",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat051",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat052",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat053",
-          "hint": "Relacionado con paisajes"
-        }
-      ]
-    },
-    "6": {
-      "title": "Etapa 6: Salvajes",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani060",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani061",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani062",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani063",
-          "hint": "Relacionado con salvajes"
-        }
-      ]
-    },
-    "7": {
-      "title": "Etapa 7: Clima",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat070",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat071",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat072",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat073",
-          "hint": "Relacionado con clima"
-        }
-      ]
-    },
-    "8": {
-      "title": "Etapa 8: Frutas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com080",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com081",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com082",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com083",
-          "hint": "Relacionado con frutas"
-        }
-      ]
-    },
-    "9": {
-      "title": "Etapa 9: Decoración",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog090",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog091",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog092",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog093",
-          "hint": "Relacionado con decoración"
-        }
-      ]
-    },
-    "10": {
-      "title": "Etapa 10: Mapas",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via100",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via101",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via102",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via103",
-          "hint": "Relacionado con mapas"
-        }
-      ]
-    },
-    "11": {
-      "title": "Etapa 11: De granja",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani110",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani111",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani112",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani113",
-          "hint": "Relacionado con de granja"
-        }
-      ]
-    },
-    "12": {
-      "title": "Etapa 12: Postres",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com120",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com121",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com122",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com123",
-          "hint": "Relacionado con postres"
-        }
-      ]
-    },
-    "13": {
-      "title": "Etapa 13: Mascotas",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani130",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani131",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani132",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani133",
-          "hint": "Relacionado con mascotas"
-        }
-      ]
-    },
-    "14": {
-      "title": "Etapa 14: Salvajes",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani140",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani141",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani142",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani143",
-          "hint": "Relacionado con salvajes"
-        }
-      ]
-    },
-    "15": {
-      "title": "Etapa 15: Postres",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com150",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com151",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com152",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com153",
-          "hint": "Relacionado con postres"
-        }
-      ]
-    },
-    "16": {
-      "title": "Etapa 16: Fútbol",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep160",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep161",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep162",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep163",
-          "hint": "Relacionado con fútbol"
-        }
-      ]
-    },
-    "17": {
-      "title": "Etapa 17: Clima",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat170",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat171",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat172",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat173",
-          "hint": "Relacionado con clima"
-        }
-      ]
-    },
-    "18": {
-      "title": "Etapa 18: Equipaje",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via180",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via181",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via182",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via183",
-          "hint": "Relacionado con equipaje"
-        }
-      ]
-    },
-    "19": {
-      "title": "Etapa 19: Fútbol",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep190",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep191",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep192",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep193",
-          "hint": "Relacionado con fútbol"
-        }
-      ]
-    },
-    "20": {
-      "title": "Etapa 20: Habitaciones",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog200",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog201",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog202",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog203",
-          "hint": "Relacionado con habitaciones"
-        }
-      ]
-    },
-    "21": {
-      "title": "Etapa 21: Frutas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com210",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com211",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com212",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com213",
-          "hint": "Relacionado con frutas"
-        }
-      ]
-    },
-    "22": {
-      "title": "Etapa 22: Salvajes",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani220",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani221",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani222",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani223",
-          "hint": "Relacionado con salvajes"
-        }
-      ]
-    },
-    "23": {
-      "title": "Etapa 23: Natación",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep230",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep231",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep232",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep233",
-          "hint": "Relacionado con natación"
-        }
-      ]
-    },
-    "24": {
-      "title": "Etapa 24: Utensilios",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog240",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog241",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog242",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog243",
-          "hint": "Relacionado con utensilios"
-        }
-      ]
-    },
-    "25": {
-      "title": "Etapa 25: Animales silvestres",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat250",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat251",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat252",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat253",
-          "hint": "Relacionado con animales silvestres"
-        }
-      ]
-    },
-    "26": {
-      "title": "Etapa 26: Paisajes",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat260",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat261",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat262",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat263",
-          "hint": "Relacionado con paisajes"
-        }
-      ]
-    },
-    "27": {
-      "title": "Etapa 27: Hoteles",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via270",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via271",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via272",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via273",
-          "hint": "Relacionado con hoteles"
-        }
-      ]
-    },
-    "28": {
-      "title": "Etapa 28: Habitaciones",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog280",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog281",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog282",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog283",
-          "hint": "Relacionado con habitaciones"
-        }
-      ]
-    },
-    "29": {
-      "title": "Etapa 29: Mapas",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via290",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via291",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via292",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via293",
-          "hint": "Relacionado con mapas"
-        }
-      ]
-    },
-    "30": {
-      "title": "Etapa 30: Verduras",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com300",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com301",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com302",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com303",
-          "hint": "Relacionado con verduras"
-        }
-      ]
-    },
-    "31": {
-      "title": "Etapa 31: Fenómenos",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat310",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat311",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat312",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat313",
-          "hint": "Relacionado con fenómenos"
-        }
-      ]
-    },
-    "32": {
-      "title": "Etapa 32: Clima",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat320",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat321",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat322",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat323",
-          "hint": "Relacionado con clima"
-        }
-      ]
-    },
-    "33": {
-      "title": "Etapa 33: Decoración",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog330",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog331",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog332",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog333",
-          "hint": "Relacionado con decoración"
-        }
-      ]
-    },
-    "34": {
-      "title": "Etapa 34: Mapas",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via340",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via341",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via342",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via343",
-          "hint": "Relacionado con mapas"
-        }
-      ]
-    },
-    "35": {
-      "title": "Etapa 35: Transporte",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via350",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via351",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via352",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via353",
-          "hint": "Relacionado con transporte"
-        }
-      ]
-    },
-    "36": {
-      "title": "Etapa 36: Paisajes",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat360",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat361",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat362",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat363",
-          "hint": "Relacionado con paisajes"
-        }
-      ]
-    },
-    "37": {
-      "title": "Etapa 37: Atletismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep370",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep371",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep372",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep373",
-          "hint": "Relacionado con atletismo"
-        }
-      ]
-    },
-    "38": {
-      "title": "Etapa 38: Salvajes",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani380",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani381",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani382",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani383",
-          "hint": "Relacionado con salvajes"
-        }
-      ]
-    },
-    "39": {
-      "title": "Etapa 39: Verduras",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com390",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com391",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com392",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com393",
-          "hint": "Relacionado con verduras"
-        }
-      ]
-    },
-    "40": {
-      "title": "Etapa 40: Acuáticos",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani400",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani401",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani402",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani403",
-          "hint": "Relacionado con acuáticos"
-        }
-      ]
-    },
-    "41": {
-      "title": "Etapa 41: Transporte",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via410",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via411",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via412",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via413",
-          "hint": "Relacionado con transporte"
-        }
-      ]
-    },
-    "42": {
-      "title": "Etapa 42: Paisajes",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat420",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat421",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat422",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat423",
-          "hint": "Relacionado con paisajes"
-        }
-      ]
-    },
-    "43": {
-      "title": "Etapa 43: Fútbol",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep430",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep431",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep432",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep433",
-          "hint": "Relacionado con fútbol"
-        }
-      ]
-    },
-    "44": {
-      "title": "Etapa 44: Fenómenos",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat440",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat441",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat442",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat443",
-          "hint": "Relacionado con fenómenos"
-        }
-      ]
-    },
-    "45": {
-      "title": "Etapa 45: Utensilios",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog450",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog451",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog452",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog453",
-          "hint": "Relacionado con utensilios"
-        }
-      ]
-    },
-    "46": {
-      "title": "Etapa 46: Plantas",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat460",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat461",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat462",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat463",
-          "hint": "Relacionado con plantas"
-        }
-      ]
-    },
-    "47": {
-      "title": "Etapa 47: Transporte",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via470",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via471",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via472",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via473",
-          "hint": "Relacionado con transporte"
-        }
-      ]
-    },
-    "48": {
-      "title": "Etapa 48: Atletismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep480",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep481",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep482",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep483",
-          "hint": "Relacionado con atletismo"
-        }
-      ]
-    },
-    "49": {
-      "title": "Etapa 49: Postres",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com490",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com491",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com492",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com493",
-          "hint": "Relacionado con postres"
-        }
-      ]
-    },
-    "50": {
-      "title": "Etapa 50: Voladores",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani500",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani501",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani502",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani503",
-          "hint": "Relacionado con voladores"
-        }
-      ]
-    },
-    "51": {
-      "title": "Etapa 51: Baloncesto",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep510",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep511",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep512",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep513",
-          "hint": "Relacionado con baloncesto"
-        }
-      ]
-    },
-    "52": {
-      "title": "Etapa 52: Muebles",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog520",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog521",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog522",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog523",
-          "hint": "Relacionado con muebles"
-        }
-      ]
-    },
-    "53": {
-      "title": "Etapa 53: Ciclismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep530",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep531",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep532",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep533",
-          "hint": "Relacionado con ciclismo"
-        }
-      ]
-    },
-    "54": {
-      "title": "Etapa 54: Natación",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep540",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep541",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep542",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep543",
-          "hint": "Relacionado con natación"
-        }
-      ]
-    },
-    "55": {
-      "title": "Etapa 55: Paisajes",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat550",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat551",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat552",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat553",
-          "hint": "Relacionado con paisajes"
-        }
-      ]
-    },
-    "56": {
-      "title": "Etapa 56: Acuáticos",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani560",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani561",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani562",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani563",
-          "hint": "Relacionado con acuáticos"
-        }
-      ]
-    },
-    "57": {
-      "title": "Etapa 57: Plantas",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat570",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat571",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat572",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat573",
-          "hint": "Relacionado con plantas"
-        }
-      ]
-    },
-    "58": {
-      "title": "Etapa 58: Fenómenos",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat580",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat581",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat582",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat583",
-          "hint": "Relacionado con fenómenos"
-        }
-      ]
-    },
-    "59": {
-      "title": "Etapa 59: Voladores",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani590",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani591",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani592",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani593",
-          "hint": "Relacionado con voladores"
-        }
-      ]
-    },
-    "60": {
-      "title": "Etapa 60: Acuáticos",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani600",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani601",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani602",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani603",
-          "hint": "Relacionado con acuáticos"
-        }
-      ]
-    },
-    "61": {
-      "title": "Etapa 61: Muebles",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog610",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog611",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog612",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog613",
-          "hint": "Relacionado con muebles"
-        }
-      ]
-    },
-    "62": {
-      "title": "Etapa 62: Ciclismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep620",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep621",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep622",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep623",
-          "hint": "Relacionado con ciclismo"
-        }
-      ]
-    },
-    "63": {
-      "title": "Etapa 63: Bebidas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com630",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com631",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com632",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com633",
-          "hint": "Relacionado con bebidas"
-        }
-      ]
-    },
-    "64": {
-      "title": "Etapa 64: Salvajes",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani640",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani641",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani642",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani643",
-          "hint": "Relacionado con salvajes"
-        }
-      ]
-    },
-    "65": {
-      "title": "Etapa 65: Verduras",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com650",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com651",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com652",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com653",
-          "hint": "Relacionado con verduras"
-        }
-      ]
-    },
-    "66": {
-      "title": "Etapa 66: Monumentos",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via660",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via661",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via662",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via663",
-          "hint": "Relacionado con monumentos"
-        }
-      ]
-    },
-    "67": {
-      "title": "Etapa 67: Decoración",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog670",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog671",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog672",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog673",
-          "hint": "Relacionado con decoración"
-        }
-      ]
-    },
-    "68": {
-      "title": "Etapa 68: Animales silvestres",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat680",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat681",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat682",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat683",
-          "hint": "Relacionado con animales silvestres"
-        }
-      ]
-    },
-    "69": {
-      "title": "Etapa 69: Atletismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep690",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep691",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep692",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep693",
-          "hint": "Relacionado con atletismo"
-        }
-      ]
-    },
-    "70": {
-      "title": "Etapa 70: Baloncesto",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep700",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep701",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep702",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep703",
-          "hint": "Relacionado con baloncesto"
-        }
-      ]
-    },
-    "71": {
-      "title": "Etapa 71: Voladores",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani710",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani711",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani712",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani713",
-          "hint": "Relacionado con voladores"
-        }
-      ]
-    },
-    "72": {
-      "title": "Etapa 72: Fútbol",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep720",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep721",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep722",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep723",
-          "hint": "Relacionado con fútbol"
-        }
-      ]
-    },
-    "73": {
-      "title": "Etapa 73: Mascotas",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani730",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani731",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani732",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani733",
-          "hint": "Relacionado con mascotas"
-        }
-      ]
-    },
-    "74": {
-      "title": "Etapa 74: Frutas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com740",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com741",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com742",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com743",
-          "hint": "Relacionado con frutas"
-        }
-      ]
-    },
-    "75": {
-      "title": "Etapa 75: Decoración",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog750",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog751",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog752",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog753",
-          "hint": "Relacionado con decoración"
-        }
-      ]
-    },
-    "76": {
-      "title": "Etapa 76: Mascotas",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani760",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani761",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani762",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani763",
-          "hint": "Relacionado con mascotas"
-        }
-      ]
-    },
-    "77": {
-      "title": "Etapa 77: Platos",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com770",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com771",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com772",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com773",
-          "hint": "Relacionado con platos"
-        }
-      ]
-    },
-    "78": {
-      "title": "Etapa 78: Frutas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com780",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com781",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com782",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com783",
-          "hint": "Relacionado con frutas"
-        }
-      ]
-    },
-    "79": {
-      "title": "Etapa 79: De granja",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani790",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani791",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani792",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani793",
-          "hint": "Relacionado con de granja"
-        }
-      ]
-    },
-    "80": {
-      "title": "Etapa 80: Salvajes",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani800",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani801",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani802",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani803",
-          "hint": "Relacionado con salvajes"
-        }
-      ]
-    },
-    "81": {
-      "title": "Etapa 81: Platos",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com810",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com811",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com812",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com813",
-          "hint": "Relacionado con platos"
-        }
-      ]
-    },
-    "82": {
-      "title": "Etapa 82: Verduras",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com820",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com821",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com822",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com823",
-          "hint": "Relacionado con verduras"
-        }
-      ]
-    },
-    "83": {
-      "title": "Etapa 83: Plantas",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat830",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat831",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat832",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat833",
-          "hint": "Relacionado con plantas"
-        }
-      ]
-    },
-    "84": {
-      "title": "Etapa 84: Habitaciones",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog840",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog841",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog842",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog843",
-          "hint": "Relacionado con habitaciones"
-        }
-      ]
-    },
-    "85": {
-      "title": "Etapa 85: Frutas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com850",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com851",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com852",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com853",
-          "hint": "Relacionado con frutas"
-        }
-      ]
-    },
-    "86": {
-      "title": "Etapa 86: Platos",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com860",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com861",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com862",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com863",
-          "hint": "Relacionado con platos"
-        }
-      ]
-    },
-    "87": {
-      "title": "Etapa 87: Atletismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep870",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep871",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep872",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep873",
-          "hint": "Relacionado con atletismo"
-        }
-      ]
-    },
-    "88": {
-      "title": "Etapa 88: Utensilios",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog880",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog881",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog882",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog883",
-          "hint": "Relacionado con utensilios"
-        }
-      ]
-    },
-    "89": {
-      "title": "Etapa 89: Fútbol",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep890",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep891",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep892",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep893",
-          "hint": "Relacionado con fútbol"
-        }
-      ]
-    },
-    "90": {
-      "title": "Etapa 90: Clima",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat900",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat901",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat902",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat903",
-          "hint": "Relacionado con clima"
-        }
-      ]
-    },
-    "91": {
-      "title": "Etapa 91: Clima",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat910",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat911",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat912",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat913",
-          "hint": "Relacionado con clima"
-        }
-      ]
-    },
-    "92": {
-      "title": "Etapa 92: Bebidas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com920",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com921",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com922",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com923",
-          "hint": "Relacionado con bebidas"
-        }
-      ]
-    },
-    "93": {
-      "title": "Etapa 93: Acuáticos",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani930",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani931",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani932",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani933",
-          "hint": "Relacionado con acuáticos"
-        }
-      ]
-    },
-    "94": {
-      "title": "Etapa 94: Frutas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com940",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com941",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com942",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com943",
-          "hint": "Relacionado con frutas"
-        }
-      ]
-    },
-    "95": {
-      "title": "Etapa 95: Salvajes",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani950",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani951",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani952",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani953",
-          "hint": "Relacionado con salvajes"
-        }
-      ]
-    },
-    "96": {
-      "title": "Etapa 96: Equipaje",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via960",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via961",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via962",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via963",
-          "hint": "Relacionado con equipaje"
-        }
-      ]
-    },
-    "97": {
-      "title": "Etapa 97: Atletismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep970",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep971",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep972",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep973",
-          "hint": "Relacionado con atletismo"
-        }
-      ]
-    },
-    "98": {
-      "title": "Etapa 98: Baloncesto",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep980",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep981",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep982",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep983",
-          "hint": "Relacionado con baloncesto"
-        }
-      ]
-    },
-    "99": {
-      "title": "Etapa 99: Plantas",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat990",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat991",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat992",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat993",
-          "hint": "Relacionado con plantas"
-        }
-      ]
-    },
-    "100": {
-      "title": "Etapa 100: Muebles",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog1000",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog1001",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog1002",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog1003",
-          "hint": "Relacionado con muebles"
-        }
-      ]
-    }
-  },
-  "A2": {
-    "1": {
-      "title": "Etapa 1: Habitaciones",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog010",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog011",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog012",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog013",
-          "hint": "Relacionado con habitaciones"
-        }
-      ]
-    },
-    "2": {
-      "title": "Etapa 2: Platos",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com020",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com021",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com022",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com023",
-          "hint": "Relacionado con platos"
-        }
-      ]
-    },
-    "3": {
-      "title": "Etapa 3: Clima",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat030",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat031",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat032",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat033",
-          "hint": "Relacionado con clima"
-        }
-      ]
-    },
-    "4": {
-      "title": "Etapa 4: Postres",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com040",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com041",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com042",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com043",
-          "hint": "Relacionado con postres"
-        }
-      ]
-    },
-    "5": {
-      "title": "Etapa 5: Animales silvestres",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat050",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat051",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat052",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat053",
-          "hint": "Relacionado con animales silvestres"
-        }
-      ]
-    },
-    "6": {
-      "title": "Etapa 6: Decoración",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog060",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog061",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog062",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog063",
-          "hint": "Relacionado con decoración"
-        }
-      ]
-    },
-    "7": {
-      "title": "Etapa 7: Clima",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat070",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat071",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat072",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat073",
-          "hint": "Relacionado con clima"
-        }
-      ]
-    },
-    "8": {
-      "title": "Etapa 8: Atletismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep080",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep081",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep082",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep083",
-          "hint": "Relacionado con atletismo"
-        }
-      ]
-    },
-    "9": {
-      "title": "Etapa 9: Atletismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep090",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep091",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep092",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep093",
-          "hint": "Relacionado con atletismo"
-        }
-      ]
-    },
-    "10": {
-      "title": "Etapa 10: Frutas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com100",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com101",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com102",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com103",
-          "hint": "Relacionado con frutas"
-        }
-      ]
-    },
-    "11": {
-      "title": "Etapa 11: Voladores",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani110",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani111",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani112",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani113",
-          "hint": "Relacionado con voladores"
-        }
-      ]
-    },
-    "12": {
-      "title": "Etapa 12: Baloncesto",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep120",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep121",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep122",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep123",
-          "hint": "Relacionado con baloncesto"
-        }
-      ]
-    },
-    "13": {
-      "title": "Etapa 13: Bebidas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com130",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com131",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com132",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com133",
-          "hint": "Relacionado con bebidas"
-        }
-      ]
-    },
-    "14": {
-      "title": "Etapa 14: Atletismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep140",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep141",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep142",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep143",
-          "hint": "Relacionado con atletismo"
-        }
-      ]
-    },
-    "15": {
-      "title": "Etapa 15: Monumentos",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via150",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via151",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via152",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via153",
-          "hint": "Relacionado con monumentos"
-        }
-      ]
-    },
-    "16": {
-      "title": "Etapa 16: Clima",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat160",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat161",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat162",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat163",
-          "hint": "Relacionado con clima"
-        }
-      ]
-    },
-    "17": {
-      "title": "Etapa 17: Plantas",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat170",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat171",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat172",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat173",
-          "hint": "Relacionado con plantas"
-        }
-      ]
-    },
-    "18": {
-      "title": "Etapa 18: De granja",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani180",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani181",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani182",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani183",
-          "hint": "Relacionado con de granja"
-        }
-      ]
-    },
-    "19": {
-      "title": "Etapa 19: De granja",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani190",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani191",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani192",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani193",
-          "hint": "Relacionado con de granja"
-        }
-      ]
-    },
-    "20": {
-      "title": "Etapa 20: Acuáticos",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani200",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani201",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani202",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani203",
-          "hint": "Relacionado con acuáticos"
-        }
-      ]
-    },
-    "21": {
-      "title": "Etapa 21: Hoteles",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via210",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via211",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via212",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via213",
-          "hint": "Relacionado con hoteles"
-        }
-      ]
-    },
-    "22": {
-      "title": "Etapa 22: Paisajes",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat220",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat221",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat222",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat223",
-          "hint": "Relacionado con paisajes"
-        }
-      ]
-    },
-    "23": {
-      "title": "Etapa 23: Paisajes",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat230",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat231",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat232",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat233",
-          "hint": "Relacionado con paisajes"
-        }
-      ]
-    },
-    "24": {
-      "title": "Etapa 24: Muebles",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog240",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog241",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog242",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog243",
-          "hint": "Relacionado con muebles"
-        }
-      ]
-    },
-    "25": {
-      "title": "Etapa 25: Ciclismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep250",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep251",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep252",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep253",
-          "hint": "Relacionado con ciclismo"
-        }
-      ]
-    },
-    "26": {
-      "title": "Etapa 26: Mascotas",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani260",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani261",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani262",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani263",
-          "hint": "Relacionado con mascotas"
-        }
-      ]
-    },
-    "27": {
-      "title": "Etapa 27: Equipaje",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via270",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via271",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via272",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via273",
-          "hint": "Relacionado con equipaje"
-        }
-      ]
-    },
-    "28": {
-      "title": "Etapa 28: Platos",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com280",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com281",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com282",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com283",
-          "hint": "Relacionado con platos"
-        }
-      ]
-    },
-    "29": {
-      "title": "Etapa 29: Mapas",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via290",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via291",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via292",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via293",
-          "hint": "Relacionado con mapas"
-        }
-      ]
-    },
-    "30": {
-      "title": "Etapa 30: Baloncesto",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep300",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep301",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep302",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep303",
-          "hint": "Relacionado con baloncesto"
-        }
-      ]
-    },
-    "31": {
-      "title": "Etapa 31: Fenómenos",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat310",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat311",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat312",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat313",
-          "hint": "Relacionado con fenómenos"
-        }
-      ]
-    },
-    "32": {
-      "title": "Etapa 32: Transporte",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via320",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via321",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via322",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via323",
-          "hint": "Relacionado con transporte"
-        }
-      ]
-    },
-    "33": {
-      "title": "Etapa 33: Monumentos",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via330",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via331",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via332",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via333",
-          "hint": "Relacionado con monumentos"
-        }
-      ]
-    },
-    "34": {
-      "title": "Etapa 34: Acuáticos",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani340",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani341",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani342",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani343",
-          "hint": "Relacionado con acuáticos"
-        }
-      ]
-    },
-    "35": {
-      "title": "Etapa 35: Baloncesto",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep350",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep351",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep352",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep353",
-          "hint": "Relacionado con baloncesto"
-        }
-      ]
-    },
-    "36": {
-      "title": "Etapa 36: Electrodomésticos",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog360",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog361",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog362",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog363",
-          "hint": "Relacionado con electrodomésticos"
-        }
-      ]
-    },
-    "37": {
-      "title": "Etapa 37: De granja",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani370",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani371",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani372",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani373",
-          "hint": "Relacionado con de granja"
-        }
-      ]
-    },
-    "38": {
-      "title": "Etapa 38: Utensilios",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog380",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog381",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog382",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog383",
-          "hint": "Relacionado con utensilios"
-        }
-      ]
-    },
-    "39": {
-      "title": "Etapa 39: Hoteles",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via390",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via391",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via392",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via393",
-          "hint": "Relacionado con hoteles"
-        }
-      ]
-    },
-    "40": {
-      "title": "Etapa 40: Equipaje",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via400",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via401",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via402",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via403",
-          "hint": "Relacionado con equipaje"
-        }
-      ]
-    },
-    "41": {
-      "title": "Etapa 41: Plantas",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat410",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat411",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat412",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat413",
-          "hint": "Relacionado con plantas"
-        }
-      ]
-    },
-    "42": {
-      "title": "Etapa 42: Electrodomésticos",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog420",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog421",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog422",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog423",
-          "hint": "Relacionado con electrodomésticos"
-        }
-      ]
-    },
-    "43": {
-      "title": "Etapa 43: Postres",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com430",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com431",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com432",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com433",
-          "hint": "Relacionado con postres"
-        }
-      ]
-    },
-    "44": {
-      "title": "Etapa 44: Fenómenos",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat440",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat441",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat442",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat443",
-          "hint": "Relacionado con fenómenos"
-        }
-      ]
-    },
-    "45": {
-      "title": "Etapa 45: Platos",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com450",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com451",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com452",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com453",
-          "hint": "Relacionado con platos"
-        }
-      ]
-    },
-    "46": {
-      "title": "Etapa 46: Muebles",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog460",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog461",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog462",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog463",
-          "hint": "Relacionado con muebles"
-        }
-      ]
-    },
-    "47": {
-      "title": "Etapa 47: Mapas",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via470",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via471",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via472",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via473",
-          "hint": "Relacionado con mapas"
-        }
-      ]
-    },
-    "48": {
-      "title": "Etapa 48: Ciclismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep480",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep481",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep482",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep483",
-          "hint": "Relacionado con ciclismo"
-        }
-      ]
-    },
-    "49": {
-      "title": "Etapa 49: Animales silvestres",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat490",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat491",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat492",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat493",
-          "hint": "Relacionado con animales silvestres"
-        }
-      ]
-    },
-    "50": {
-      "title": "Etapa 50: Verduras",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com500",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com501",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com502",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com503",
-          "hint": "Relacionado con verduras"
-        }
-      ]
-    },
-    "51": {
-      "title": "Etapa 51: Monumentos",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via510",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via511",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via512",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via513",
-          "hint": "Relacionado con monumentos"
-        }
-      ]
-    },
-    "52": {
-      "title": "Etapa 52: Mascotas",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani520",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani521",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani522",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani523",
-          "hint": "Relacionado con mascotas"
-        }
-      ]
-    },
-    "53": {
-      "title": "Etapa 53: Platos",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com530",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com531",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com532",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com533",
-          "hint": "Relacionado con platos"
-        }
-      ]
-    },
-    "54": {
-      "title": "Etapa 54: Mapas",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via540",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via541",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via542",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via543",
-          "hint": "Relacionado con mapas"
-        }
-      ]
-    },
-    "55": {
-      "title": "Etapa 55: Baloncesto",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep550",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep551",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep552",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep553",
-          "hint": "Relacionado con baloncesto"
-        }
-      ]
-    },
-    "56": {
-      "title": "Etapa 56: Plantas",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat560",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat561",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat562",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat563",
-          "hint": "Relacionado con plantas"
-        }
-      ]
-    },
-    "57": {
-      "title": "Etapa 57: Bebidas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com570",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com571",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com572",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com573",
-          "hint": "Relacionado con bebidas"
-        }
-      ]
-    },
-    "58": {
-      "title": "Etapa 58: Hoteles",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via580",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via581",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via582",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via583",
-          "hint": "Relacionado con hoteles"
-        }
-      ]
-    },
-    "59": {
-      "title": "Etapa 59: Postres",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com590",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com591",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com592",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com593",
-          "hint": "Relacionado con postres"
-        }
-      ]
-    },
-    "60": {
-      "title": "Etapa 60: Transporte",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via600",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via601",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via602",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via603",
-          "hint": "Relacionado con transporte"
-        }
-      ]
-    },
-    "61": {
-      "title": "Etapa 61: De granja",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani610",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani611",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani612",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani613",
-          "hint": "Relacionado con de granja"
-        }
-      ]
-    },
-    "62": {
-      "title": "Etapa 62: Electrodomésticos",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog620",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog621",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog622",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog623",
-          "hint": "Relacionado con electrodomésticos"
-        }
-      ]
-    },
-    "63": {
-      "title": "Etapa 63: Equipaje",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via630",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via631",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via632",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via633",
-          "hint": "Relacionado con equipaje"
-        }
-      ]
-    },
-    "64": {
-      "title": "Etapa 64: Verduras",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com640",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com641",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com642",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com643",
-          "hint": "Relacionado con verduras"
-        }
-      ]
-    },
-    "65": {
-      "title": "Etapa 65: Paisajes",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat650",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat651",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat652",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat653",
-          "hint": "Relacionado con paisajes"
-        }
-      ]
-    },
-    "66": {
-      "title": "Etapa 66: Atletismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep660",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep661",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep662",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep663",
-          "hint": "Relacionado con atletismo"
-        }
-      ]
-    },
-    "67": {
-      "title": "Etapa 67: Decoración",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog670",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog671",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog672",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog673",
-          "hint": "Relacionado con decoración"
-        }
-      ]
-    },
-    "68": {
-      "title": "Etapa 68: Equipaje",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via680",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via681",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via682",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via683",
-          "hint": "Relacionado con equipaje"
-        }
-      ]
-    },
-    "69": {
-      "title": "Etapa 69: Animales silvestres",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat690",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat691",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat692",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat693",
-          "hint": "Relacionado con animales silvestres"
-        }
-      ]
-    },
-    "70": {
-      "title": "Etapa 70: Habitaciones",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog700",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog701",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog702",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog703",
-          "hint": "Relacionado con habitaciones"
-        }
-      ]
-    },
-    "71": {
-      "title": "Etapa 71: Electrodomésticos",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog710",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog711",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog712",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog713",
-          "hint": "Relacionado con electrodomésticos"
-        }
-      ]
-    },
-    "72": {
-      "title": "Etapa 72: Baloncesto",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep720",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep721",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep722",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep723",
-          "hint": "Relacionado con baloncesto"
-        }
-      ]
-    },
-    "73": {
-      "title": "Etapa 73: Monumentos",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via730",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via731",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via732",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via733",
-          "hint": "Relacionado con monumentos"
-        }
-      ]
-    },
-    "74": {
-      "title": "Etapa 74: Ciclismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep740",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep741",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep742",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep743",
-          "hint": "Relacionado con ciclismo"
-        }
-      ]
-    },
-    "75": {
-      "title": "Etapa 75: Utensilios",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog750",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog751",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog752",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog753",
-          "hint": "Relacionado con utensilios"
-        }
-      ]
-    },
-    "76": {
-      "title": "Etapa 76: Fútbol",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep760",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep761",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep762",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep763",
-          "hint": "Relacionado con fútbol"
-        }
-      ]
-    },
-    "77": {
-      "title": "Etapa 77: Mascotas",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani770",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani771",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani772",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani773",
-          "hint": "Relacionado con mascotas"
-        }
-      ]
-    },
-    "78": {
-      "title": "Etapa 78: Muebles",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog780",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog781",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog782",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog783",
-          "hint": "Relacionado con muebles"
-        }
-      ]
-    },
-    "79": {
-      "title": "Etapa 79: Baloncesto",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep790",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep791",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep792",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep793",
-          "hint": "Relacionado con baloncesto"
-        }
-      ]
-    },
-    "80": {
-      "title": "Etapa 80: Acuáticos",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani800",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani801",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani802",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani803",
-          "hint": "Relacionado con acuáticos"
-        }
-      ]
-    },
-    "81": {
-      "title": "Etapa 81: Salvajes",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani810",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani811",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani812",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani813",
-          "hint": "Relacionado con salvajes"
-        }
-      ]
-    },
-    "82": {
-      "title": "Etapa 82: Natación",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep820",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep821",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep822",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep823",
-          "hint": "Relacionado con natación"
-        }
-      ]
-    },
-    "83": {
-      "title": "Etapa 83: Mascotas",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani830",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani831",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani832",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani833",
-          "hint": "Relacionado con mascotas"
-        }
-      ]
-    },
-    "84": {
-      "title": "Etapa 84: Mapas",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via840",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via841",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via842",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via843",
-          "hint": "Relacionado con mapas"
-        }
-      ]
-    },
-    "85": {
-      "title": "Etapa 85: De granja",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani850",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani851",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani852",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani853",
-          "hint": "Relacionado con de granja"
-        }
-      ]
-    },
-    "86": {
-      "title": "Etapa 86: Postres",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com860",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com861",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com862",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com863",
-          "hint": "Relacionado con postres"
-        }
-      ]
-    },
-    "87": {
-      "title": "Etapa 87: Habitaciones",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog870",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog871",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog872",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog873",
-          "hint": "Relacionado con habitaciones"
-        }
-      ]
-    },
-    "88": {
-      "title": "Etapa 88: Utensilios",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog880",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog881",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog882",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog883",
-          "hint": "Relacionado con utensilios"
-        }
-      ]
-    },
-    "89": {
-      "title": "Etapa 89: Monumentos",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via890",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via891",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via892",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via893",
-          "hint": "Relacionado con monumentos"
-        }
-      ]
-    },
-    "90": {
-      "title": "Etapa 90: Natación",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep900",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep901",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep902",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep903",
-          "hint": "Relacionado con natación"
-        }
-      ]
-    },
-    "91": {
-      "title": "Etapa 91: Transporte",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via910",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via911",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via912",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via913",
-          "hint": "Relacionado con transporte"
-        }
-      ]
-    },
-    "92": {
-      "title": "Etapa 92: Acuáticos",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani920",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani921",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani922",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani923",
-          "hint": "Relacionado con acuáticos"
-        }
-      ]
-    },
-    "93": {
-      "title": "Etapa 93: Hoteles",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via930",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via931",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via932",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via933",
-          "hint": "Relacionado con hoteles"
-        }
-      ]
-    },
-    "94": {
-      "title": "Etapa 94: Fútbol",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep940",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep941",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep942",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep943",
-          "hint": "Relacionado con fútbol"
-        }
-      ]
-    },
-    "95": {
-      "title": "Etapa 95: De granja",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani950",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani951",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani952",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani953",
-          "hint": "Relacionado con de granja"
-        }
-      ]
-    },
-    "96": {
-      "title": "Etapa 96: Decoración",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog960",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog961",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog962",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog963",
-          "hint": "Relacionado con decoración"
-        }
-      ]
-    },
-    "97": {
-      "title": "Etapa 97: Plantas",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat970",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat971",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat972",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat973",
-          "hint": "Relacionado con plantas"
-        }
-      ]
-    },
-    "98": {
-      "title": "Etapa 98: Animales silvestres",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat980",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat981",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat982",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat983",
-          "hint": "Relacionado con animales silvestres"
-        }
-      ]
-    },
-    "99": {
-      "title": "Etapa 99: Electrodomésticos",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog990",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog991",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog992",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog993",
-          "hint": "Relacionado con electrodomésticos"
-        }
-      ]
-    },
-    "100": {
-      "title": "Etapa 100: Voladores",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani1000",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani1001",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani1002",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani1003",
-          "hint": "Relacionado con voladores"
-        }
-      ]
-    }
-  },
-  "B1": {
-    "1": {
-      "title": "Etapa 1: Frutas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com010",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com011",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com012",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com013",
-          "hint": "Relacionado con frutas"
-        }
-      ]
-    },
-    "2": {
-      "title": "Etapa 2: Postres",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com020",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com021",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com022",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com023",
-          "hint": "Relacionado con postres"
-        }
-      ]
-    },
-    "3": {
-      "title": "Etapa 3: Natación",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep030",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep031",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep032",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep033",
-          "hint": "Relacionado con natación"
-        }
-      ]
-    },
-    "4": {
-      "title": "Etapa 4: Voladores",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani040",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani041",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani042",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani043",
-          "hint": "Relacionado con voladores"
-        }
-      ]
-    },
-    "5": {
-      "title": "Etapa 5: Habitaciones",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog050",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog051",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog052",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog053",
-          "hint": "Relacionado con habitaciones"
-        }
-      ]
-    },
-    "6": {
-      "title": "Etapa 6: Hoteles",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via060",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via061",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via062",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via063",
-          "hint": "Relacionado con hoteles"
-        }
-      ]
-    },
-    "7": {
-      "title": "Etapa 7: Fenómenos",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat070",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat071",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat072",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat073",
-          "hint": "Relacionado con fenómenos"
-        }
-      ]
-    },
-    "8": {
-      "title": "Etapa 8: Ciclismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep080",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep081",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep082",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep083",
-          "hint": "Relacionado con ciclismo"
-        }
-      ]
-    },
-    "9": {
-      "title": "Etapa 9: Hoteles",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via090",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via091",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via092",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via093",
-          "hint": "Relacionado con hoteles"
-        }
-      ]
-    },
-    "10": {
-      "title": "Etapa 10: Acuáticos",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani100",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani101",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani102",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani103",
-          "hint": "Relacionado con acuáticos"
-        }
-      ]
-    },
-    "11": {
-      "title": "Etapa 11: Frutas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com110",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com111",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com112",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com113",
-          "hint": "Relacionado con frutas"
-        }
-      ]
-    },
-    "12": {
-      "title": "Etapa 12: Electrodomésticos",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog120",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog121",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog122",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog123",
-          "hint": "Relacionado con electrodomésticos"
-        }
-      ]
-    },
-    "13": {
-      "title": "Etapa 13: Utensilios",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog130",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog131",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog132",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog133",
-          "hint": "Relacionado con utensilios"
-        }
-      ]
-    },
-    "14": {
-      "title": "Etapa 14: Monumentos",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via140",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via141",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via142",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via143",
-          "hint": "Relacionado con monumentos"
-        }
-      ]
-    },
-    "15": {
-      "title": "Etapa 15: Plantas",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat150",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat151",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat152",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat153",
-          "hint": "Relacionado con plantas"
-        }
-      ]
-    },
-    "16": {
-      "title": "Etapa 16: Muebles",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog160",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog161",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog162",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog163",
-          "hint": "Relacionado con muebles"
-        }
-      ]
-    },
-    "17": {
-      "title": "Etapa 17: Ciclismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep170",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep171",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep172",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep173",
-          "hint": "Relacionado con ciclismo"
-        }
-      ]
-    },
-    "18": {
-      "title": "Etapa 18: Decoración",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog180",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog181",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog182",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog183",
-          "hint": "Relacionado con decoración"
-        }
-      ]
-    },
-    "19": {
-      "title": "Etapa 19: De granja",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani190",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani191",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani192",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani193",
-          "hint": "Relacionado con de granja"
-        }
-      ]
-    },
-    "20": {
-      "title": "Etapa 20: Salvajes",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani200",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani201",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani202",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani203",
-          "hint": "Relacionado con salvajes"
-        }
-      ]
-    },
-    "21": {
-      "title": "Etapa 21: Fenómenos",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat210",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat211",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat212",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat213",
-          "hint": "Relacionado con fenómenos"
-        }
-      ]
-    },
-    "22": {
-      "title": "Etapa 22: Ciclismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep220",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep221",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep222",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep223",
-          "hint": "Relacionado con ciclismo"
-        }
-      ]
-    },
-    "23": {
-      "title": "Etapa 23: Baloncesto",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep230",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep231",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep232",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep233",
-          "hint": "Relacionado con baloncesto"
-        }
-      ]
-    },
-    "24": {
-      "title": "Etapa 24: Fútbol",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep240",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep241",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep242",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep243",
-          "hint": "Relacionado con fútbol"
-        }
-      ]
-    },
-    "25": {
-      "title": "Etapa 25: Atletismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep250",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep251",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep252",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep253",
-          "hint": "Relacionado con atletismo"
-        }
-      ]
-    },
-    "26": {
-      "title": "Etapa 26: Mascotas",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani260",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani261",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani262",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani263",
-          "hint": "Relacionado con mascotas"
-        }
-      ]
-    },
-    "27": {
-      "title": "Etapa 27: Fútbol",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep270",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep271",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep272",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep273",
-          "hint": "Relacionado con fútbol"
-        }
-      ]
-    },
-    "28": {
-      "title": "Etapa 28: Natación",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep280",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep281",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep282",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep283",
-          "hint": "Relacionado con natación"
-        }
-      ]
-    },
-    "29": {
-      "title": "Etapa 29: Platos",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com290",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com291",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com292",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com293",
-          "hint": "Relacionado con platos"
-        }
-      ]
-    },
-    "30": {
-      "title": "Etapa 30: Electrodomésticos",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog300",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog301",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog302",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog303",
-          "hint": "Relacionado con electrodomésticos"
-        }
-      ]
-    },
-    "31": {
-      "title": "Etapa 31: Electrodomésticos",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog310",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog311",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog312",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog313",
-          "hint": "Relacionado con electrodomésticos"
-        }
-      ]
-    },
-    "32": {
-      "title": "Etapa 32: Bebidas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com320",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com321",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com322",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com323",
-          "hint": "Relacionado con bebidas"
-        }
-      ]
-    },
-    "33": {
-      "title": "Etapa 33: Mapas",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via330",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via331",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via332",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via333",
-          "hint": "Relacionado con mapas"
-        }
-      ]
-    },
-    "34": {
-      "title": "Etapa 34: Decoración",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog340",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog341",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog342",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog343",
-          "hint": "Relacionado con decoración"
-        }
-      ]
-    },
-    "35": {
-      "title": "Etapa 35: Electrodomésticos",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog350",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog351",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog352",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog353",
-          "hint": "Relacionado con electrodomésticos"
-        }
-      ]
-    },
-    "36": {
-      "title": "Etapa 36: Ciclismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep360",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep361",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep362",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep363",
-          "hint": "Relacionado con ciclismo"
-        }
-      ]
-    },
-    "37": {
-      "title": "Etapa 37: De granja",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani370",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani371",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani372",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani373",
-          "hint": "Relacionado con de granja"
-        }
-      ]
-    },
-    "38": {
-      "title": "Etapa 38: Platos",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com380",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com381",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com382",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com383",
-          "hint": "Relacionado con platos"
-        }
-      ]
-    },
-    "39": {
-      "title": "Etapa 39: Platos",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com390",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com391",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com392",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com393",
-          "hint": "Relacionado con platos"
-        }
-      ]
-    },
-    "40": {
-      "title": "Etapa 40: Ciclismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep400",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep401",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep402",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep403",
-          "hint": "Relacionado con ciclismo"
-        }
-      ]
-    },
-    "41": {
-      "title": "Etapa 41: Mascotas",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani410",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani411",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani412",
-          "hint": "Relacionado con mascotas"
-        },
-        {
-          "word": "ani413",
-          "hint": "Relacionado con mascotas"
-        }
-      ]
-    },
-    "42": {
-      "title": "Etapa 42: Paisajes",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat420",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat421",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat422",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat423",
-          "hint": "Relacionado con paisajes"
-        }
-      ]
-    },
-    "43": {
-      "title": "Etapa 43: Plantas",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat430",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat431",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat432",
-          "hint": "Relacionado con plantas"
-        },
-        {
-          "word": "nat433",
-          "hint": "Relacionado con plantas"
-        }
-      ]
-    },
-    "44": {
-      "title": "Etapa 44: Platos",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com440",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com441",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com442",
-          "hint": "Relacionado con platos"
-        },
-        {
-          "word": "com443",
-          "hint": "Relacionado con platos"
-        }
-      ]
-    },
-    "45": {
-      "title": "Etapa 45: Postres",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com450",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com451",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com452",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com453",
-          "hint": "Relacionado con postres"
-        }
-      ]
-    },
-    "46": {
-      "title": "Etapa 46: Transporte",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via460",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via461",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via462",
-          "hint": "Relacionado con transporte"
-        },
-        {
-          "word": "via463",
-          "hint": "Relacionado con transporte"
-        }
-      ]
-    },
-    "47": {
-      "title": "Etapa 47: Ciclismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep470",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep471",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep472",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep473",
-          "hint": "Relacionado con ciclismo"
-        }
-      ]
-    },
-    "48": {
-      "title": "Etapa 48: Animales silvestres",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat480",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat481",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat482",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat483",
-          "hint": "Relacionado con animales silvestres"
-        }
-      ]
-    },
-    "49": {
-      "title": "Etapa 49: Animales silvestres",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat490",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat491",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat492",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat493",
-          "hint": "Relacionado con animales silvestres"
-        }
-      ]
-    },
-    "50": {
-      "title": "Etapa 50: De granja",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani500",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani501",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani502",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani503",
-          "hint": "Relacionado con de granja"
-        }
-      ]
-    },
-    "51": {
-      "title": "Etapa 51: Baloncesto",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep510",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep511",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep512",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep513",
-          "hint": "Relacionado con baloncesto"
-        }
-      ]
-    },
-    "52": {
-      "title": "Etapa 52: Hoteles",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via520",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via521",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via522",
-          "hint": "Relacionado con hoteles"
-        },
-        {
-          "word": "via523",
-          "hint": "Relacionado con hoteles"
-        }
-      ]
-    },
-    "53": {
-      "title": "Etapa 53: Ciclismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep530",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep531",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep532",
-          "hint": "Relacionado con ciclismo"
-        },
-        {
-          "word": "dep533",
-          "hint": "Relacionado con ciclismo"
-        }
-      ]
-    },
-    "54": {
-      "title": "Etapa 54: Electrodomésticos",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog540",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog541",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog542",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog543",
-          "hint": "Relacionado con electrodomésticos"
-        }
-      ]
-    },
-    "55": {
-      "title": "Etapa 55: Voladores",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani550",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani551",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani552",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani553",
-          "hint": "Relacionado con voladores"
-        }
-      ]
-    },
-    "56": {
-      "title": "Etapa 56: Utensilios",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog560",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog561",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog562",
-          "hint": "Relacionado con utensilios"
-        },
-        {
-          "word": "hog563",
-          "hint": "Relacionado con utensilios"
-        }
-      ]
-    },
-    "57": {
-      "title": "Etapa 57: Decoración",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog570",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog571",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog572",
-          "hint": "Relacionado con decoración"
-        },
-        {
-          "word": "hog573",
-          "hint": "Relacionado con decoración"
-        }
-      ]
-    },
-    "58": {
-      "title": "Etapa 58: Fenómenos",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat580",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat581",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat582",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat583",
-          "hint": "Relacionado con fenómenos"
-        }
-      ]
-    },
-    "59": {
-      "title": "Etapa 59: Verduras",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com590",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com591",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com592",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com593",
-          "hint": "Relacionado con verduras"
-        }
-      ]
-    },
-    "60": {
-      "title": "Etapa 60: Bebidas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com600",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com601",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com602",
-          "hint": "Relacionado con bebidas"
-        },
-        {
-          "word": "com603",
-          "hint": "Relacionado con bebidas"
-        }
-      ]
-    },
-    "61": {
-      "title": "Etapa 61: Acuáticos",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani610",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani611",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani612",
-          "hint": "Relacionado con acuáticos"
-        },
-        {
-          "word": "ani613",
-          "hint": "Relacionado con acuáticos"
-        }
-      ]
-    },
-    "62": {
-      "title": "Etapa 62: Animales silvestres",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat620",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat621",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat622",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat623",
-          "hint": "Relacionado con animales silvestres"
-        }
-      ]
-    },
-    "63": {
-      "title": "Etapa 63: Fenómenos",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat630",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat631",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat632",
-          "hint": "Relacionado con fenómenos"
-        },
-        {
-          "word": "nat633",
-          "hint": "Relacionado con fenómenos"
-        }
-      ]
-    },
-    "64": {
-      "title": "Etapa 64: Fútbol",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep640",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep641",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep642",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep643",
-          "hint": "Relacionado con fútbol"
-        }
-      ]
-    },
-    "65": {
-      "title": "Etapa 65: Frutas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com650",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com651",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com652",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com653",
-          "hint": "Relacionado con frutas"
-        }
-      ]
-    },
-    "66": {
-      "title": "Etapa 66: Electrodomésticos",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog660",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog661",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog662",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog663",
-          "hint": "Relacionado con electrodomésticos"
-        }
-      ]
-    },
-    "67": {
-      "title": "Etapa 67: Electrodomésticos",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog670",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog671",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog672",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog673",
-          "hint": "Relacionado con electrodomésticos"
-        }
-      ]
-    },
-    "68": {
-      "title": "Etapa 68: Baloncesto",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep680",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep681",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep682",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep683",
-          "hint": "Relacionado con baloncesto"
-        }
-      ]
-    },
-    "69": {
-      "title": "Etapa 69: Salvajes",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani690",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani691",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani692",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani693",
-          "hint": "Relacionado con salvajes"
-        }
-      ]
-    },
-    "70": {
-      "title": "Etapa 70: Verduras",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com700",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com701",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com702",
-          "hint": "Relacionado con verduras"
-        },
-        {
-          "word": "com703",
-          "hint": "Relacionado con verduras"
-        }
-      ]
-    },
-    "71": {
-      "title": "Etapa 71: Monumentos",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via710",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via711",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via712",
-          "hint": "Relacionado con monumentos"
-        },
-        {
-          "word": "via713",
-          "hint": "Relacionado con monumentos"
-        }
-      ]
-    },
-    "72": {
-      "title": "Etapa 72: Habitaciones",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog720",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog721",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog722",
-          "hint": "Relacionado con habitaciones"
-        },
-        {
-          "word": "hog723",
-          "hint": "Relacionado con habitaciones"
-        }
-      ]
-    },
-    "73": {
-      "title": "Etapa 73: De granja",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani730",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani731",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani732",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani733",
-          "hint": "Relacionado con de granja"
-        }
-      ]
-    },
-    "74": {
-      "title": "Etapa 74: Mapas",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via740",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via741",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via742",
-          "hint": "Relacionado con mapas"
-        },
-        {
-          "word": "via743",
-          "hint": "Relacionado con mapas"
-        }
-      ]
-    },
-    "75": {
-      "title": "Etapa 75: Equipaje",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via750",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via751",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via752",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via753",
-          "hint": "Relacionado con equipaje"
-        }
-      ]
-    },
-    "76": {
-      "title": "Etapa 76: De granja",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani760",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani761",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani762",
-          "hint": "Relacionado con de granja"
-        },
-        {
-          "word": "ani763",
-          "hint": "Relacionado con de granja"
-        }
-      ]
-    },
-    "77": {
-      "title": "Etapa 77: Muebles",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog770",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog771",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog772",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog773",
-          "hint": "Relacionado con muebles"
-        }
-      ]
-    },
-    "78": {
-      "title": "Etapa 78: Atletismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep780",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep781",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep782",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep783",
-          "hint": "Relacionado con atletismo"
-        }
-      ]
-    },
-    "79": {
-      "title": "Etapa 79: Natación",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep790",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep791",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep792",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep793",
-          "hint": "Relacionado con natación"
-        }
-      ]
-    },
-    "80": {
-      "title": "Etapa 80: Postres",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com800",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com801",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com802",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com803",
-          "hint": "Relacionado con postres"
-        }
-      ]
-    },
-    "81": {
-      "title": "Etapa 81: Atletismo",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep810",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep811",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep812",
-          "hint": "Relacionado con atletismo"
-        },
-        {
-          "word": "dep813",
-          "hint": "Relacionado con atletismo"
-        }
-      ]
-    },
-    "82": {
-      "title": "Etapa 82: Voladores",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani820",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani821",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani822",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani823",
-          "hint": "Relacionado con voladores"
-        }
-      ]
-    },
-    "83": {
-      "title": "Etapa 83: Electrodomésticos",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog830",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog831",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog832",
-          "hint": "Relacionado con electrodomésticos"
-        },
-        {
-          "word": "hog833",
-          "hint": "Relacionado con electrodomésticos"
-        }
-      ]
-    },
-    "84": {
-      "title": "Etapa 84: Animales silvestres",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat840",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat841",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat842",
-          "hint": "Relacionado con animales silvestres"
-        },
-        {
-          "word": "nat843",
-          "hint": "Relacionado con animales silvestres"
-        }
-      ]
-    },
-    "85": {
-      "title": "Etapa 85: Fútbol",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep850",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep851",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep852",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep853",
-          "hint": "Relacionado con fútbol"
-        }
-      ]
-    },
-    "86": {
-      "title": "Etapa 86: Frutas",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com860",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com861",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com862",
-          "hint": "Relacionado con frutas"
-        },
-        {
-          "word": "com863",
-          "hint": "Relacionado con frutas"
-        }
-      ]
-    },
-    "87": {
-      "title": "Etapa 87: Paisajes",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat870",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat871",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat872",
-          "hint": "Relacionado con paisajes"
-        },
-        {
-          "word": "nat873",
-          "hint": "Relacionado con paisajes"
-        }
-      ]
-    },
-    "88": {
-      "title": "Etapa 88: Fútbol",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep880",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep881",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep882",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep883",
-          "hint": "Relacionado con fútbol"
-        }
-      ]
-    },
-    "89": {
-      "title": "Etapa 89: Natación",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep890",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep891",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep892",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep893",
-          "hint": "Relacionado con natación"
-        }
-      ]
-    },
-    "90": {
-      "title": "Etapa 90: Equipaje",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via900",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via901",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via902",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via903",
-          "hint": "Relacionado con equipaje"
-        }
-      ]
-    },
-    "91": {
-      "title": "Etapa 91: Voladores",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani910",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani911",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani912",
-          "hint": "Relacionado con voladores"
-        },
-        {
-          "word": "ani913",
-          "hint": "Relacionado con voladores"
-        }
-      ]
-    },
-    "92": {
-      "title": "Etapa 92: Natación",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep920",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep921",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep922",
-          "hint": "Relacionado con natación"
-        },
-        {
-          "word": "dep923",
-          "hint": "Relacionado con natación"
-        }
-      ]
-    },
-    "93": {
-      "title": "Etapa 93: Muebles",
-      "category": "hogar",
-      "words": [
-        {
-          "word": "hog930",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog931",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog932",
-          "hint": "Relacionado con muebles"
-        },
-        {
-          "word": "hog933",
-          "hint": "Relacionado con muebles"
-        }
-      ]
-    },
-    "94": {
-      "title": "Etapa 94: Fútbol",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep940",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep941",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep942",
-          "hint": "Relacionado con fútbol"
-        },
-        {
-          "word": "dep943",
-          "hint": "Relacionado con fútbol"
-        }
-      ]
-    },
-    "95": {
-      "title": "Etapa 95: Baloncesto",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep950",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep951",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep952",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep953",
-          "hint": "Relacionado con baloncesto"
-        }
-      ]
-    },
-    "96": {
-      "title": "Etapa 96: Equipaje",
-      "category": "viajes",
-      "words": [
-        {
-          "word": "via960",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via961",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via962",
-          "hint": "Relacionado con equipaje"
-        },
-        {
-          "word": "via963",
-          "hint": "Relacionado con equipaje"
-        }
-      ]
-    },
-    "97": {
-      "title": "Etapa 97: Postres",
-      "category": "comida",
-      "words": [
-        {
-          "word": "com970",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com971",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com972",
-          "hint": "Relacionado con postres"
-        },
-        {
-          "word": "com973",
-          "hint": "Relacionado con postres"
-        }
-      ]
-    },
-    "98": {
-      "title": "Etapa 98: Salvajes",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani980",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani981",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani982",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani983",
-          "hint": "Relacionado con salvajes"
-        }
-      ]
-    },
-    "99": {
-      "title": "Etapa 99: Clima",
-      "category": "naturaleza",
-      "words": [
-        {
-          "word": "nat990",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat991",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat992",
-          "hint": "Relacionado con clima"
-        },
-        {
-          "word": "nat993",
-          "hint": "Relacionado con clima"
-        }
-      ]
-    },
-    "100": {
-      "title": "Etapa 100: Salvajes",
-      "category": "animales",
-      "words": [
-        {
-          "word": "ani1000",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani1001",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani1002",
-          "hint": "Relacionado con salvajes"
-        },
-        {
-          "word": "ani1003",
-          "hint": "Relacionado con salvajes"
-        }
-      ]
-    }
-  },
-  "B2": {
-    "1": {
-      "title": "Etapa 1: Baloncesto",
-      "category": "deportes",
-      "words": [
-        {
-          "word": "dep010",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep011",
-          "hint": "Relacionado con baloncesto"
-        },
-        {
-          "word": "dep012",
-          "hint": "Relacionado con baloncesto"
+          "word": "col013",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "dep013",
-          "hint": "Relacionado con baloncesto"
+          "word": "col014",
+          "hint": "Relacionado con tonos claros"
         }
       ]
     },
@@ -6647,776 +45,920 @@ const levels = {
         {
           "word": "ani023",
           "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani024",
+          "hint": "Relacionado con voladores"
         }
       ]
     },
     "3": {
-      "title": "Etapa 3: Clima",
-      "category": "naturaleza",
+      "title": "Etapa 3: Atletismo",
+      "category": "deportes",
       "words": [
         {
-          "word": "nat030",
-          "hint": "Relacionado con clima"
+          "word": "dep030",
+          "hint": "Relacionado con atletismo"
         },
         {
-          "word": "nat031",
-          "hint": "Relacionado con clima"
+          "word": "dep031",
+          "hint": "Relacionado con atletismo"
         },
         {
-          "word": "nat032",
-          "hint": "Relacionado con clima"
+          "word": "dep032",
+          "hint": "Relacionado con atletismo"
         },
         {
-          "word": "nat033",
-          "hint": "Relacionado con clima"
+          "word": "dep033",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep034",
+          "hint": "Relacionado con atletismo"
         }
       ]
     },
     "4": {
-      "title": "Etapa 4: Platos",
-      "category": "comida",
+      "title": "Etapa 4: Paisajes",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "com040",
-          "hint": "Relacionado con platos"
+          "word": "nat040",
+          "hint": "Relacionado con paisajes"
         },
         {
-          "word": "com041",
-          "hint": "Relacionado con platos"
+          "word": "nat041",
+          "hint": "Relacionado con paisajes"
         },
         {
-          "word": "com042",
-          "hint": "Relacionado con platos"
+          "word": "nat042",
+          "hint": "Relacionado con paisajes"
         },
         {
-          "word": "com043",
-          "hint": "Relacionado con platos"
+          "word": "nat043",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat044",
+          "hint": "Relacionado con paisajes"
         }
       ]
     },
     "5": {
-      "title": "Etapa 5: De granja",
-      "category": "animales",
+      "title": "Etapa 5: Climas",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "ani050",
-          "hint": "Relacionado con de granja"
+          "word": "nat050",
+          "hint": "Relacionado con climas"
         },
         {
-          "word": "ani051",
-          "hint": "Relacionado con de granja"
+          "word": "nat051",
+          "hint": "Relacionado con climas"
         },
         {
-          "word": "ani052",
-          "hint": "Relacionado con de granja"
+          "word": "nat052",
+          "hint": "Relacionado con climas"
         },
         {
-          "word": "ani053",
-          "hint": "Relacionado con de granja"
+          "word": "nat053",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat054",
+          "hint": "Relacionado con climas"
         }
       ]
     },
     "6": {
-      "title": "Etapa 6: Hoteles",
-      "category": "viajes",
+      "title": "Etapa 6: Animales silvestres",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "via060",
-          "hint": "Relacionado con hoteles"
+          "word": "nat060",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "via061",
-          "hint": "Relacionado con hoteles"
+          "word": "nat061",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "via062",
-          "hint": "Relacionado con hoteles"
+          "word": "nat062",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "via063",
-          "hint": "Relacionado con hoteles"
+          "word": "nat063",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat064",
+          "hint": "Relacionado con animales silvestres"
         }
       ]
     },
     "7": {
-      "title": "Etapa 7: Utensilios",
-      "category": "hogar",
+      "title": "Etapa 7: Pasteles",
+      "category": "colores",
       "words": [
         {
-          "word": "hog070",
-          "hint": "Relacionado con utensilios"
+          "word": "col070",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "hog071",
-          "hint": "Relacionado con utensilios"
+          "word": "col071",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "hog072",
-          "hint": "Relacionado con utensilios"
+          "word": "col072",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "hog073",
-          "hint": "Relacionado con utensilios"
+          "word": "col073",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col074",
+          "hint": "Relacionado con pasteles"
         }
       ]
     },
     "8": {
-      "title": "Etapa 8: Plantas",
-      "category": "naturaleza",
+      "title": "Etapa 8: Habitaciones",
+      "category": "hogar",
       "words": [
         {
-          "word": "nat080",
-          "hint": "Relacionado con plantas"
+          "word": "hog080",
+          "hint": "Relacionado con habitaciones"
         },
         {
-          "word": "nat081",
-          "hint": "Relacionado con plantas"
+          "word": "hog081",
+          "hint": "Relacionado con habitaciones"
         },
         {
-          "word": "nat082",
-          "hint": "Relacionado con plantas"
+          "word": "hog082",
+          "hint": "Relacionado con habitaciones"
         },
         {
-          "word": "nat083",
-          "hint": "Relacionado con plantas"
+          "word": "hog083",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog084",
+          "hint": "Relacionado con habitaciones"
         }
       ]
     },
     "9": {
-      "title": "Etapa 9: Muebles",
-      "category": "hogar",
+      "title": "Etapa 9: Fenómenos",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "hog090",
-          "hint": "Relacionado con muebles"
+          "word": "nat090",
+          "hint": "Relacionado con fenómenos"
         },
         {
-          "word": "hog091",
-          "hint": "Relacionado con muebles"
+          "word": "nat091",
+          "hint": "Relacionado con fenómenos"
         },
         {
-          "word": "hog092",
-          "hint": "Relacionado con muebles"
+          "word": "nat092",
+          "hint": "Relacionado con fenómenos"
         },
         {
-          "word": "hog093",
-          "hint": "Relacionado con muebles"
+          "word": "nat093",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat094",
+          "hint": "Relacionado con fenómenos"
         }
       ]
     },
     "10": {
-      "title": "Etapa 10: Natación",
+      "title": "Etapa 10: Deportes acuáticos",
       "category": "deportes",
       "words": [
         {
           "word": "dep100",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
           "word": "dep101",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
           "word": "dep102",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
           "word": "dep103",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep104",
+          "hint": "Relacionado con deportes acuáticos"
         }
       ]
     },
     "11": {
-      "title": "Etapa 11: Paisajes",
-      "category": "naturaleza",
+      "title": "Etapa 11: Decoración",
+      "category": "hogar",
       "words": [
         {
-          "word": "nat110",
-          "hint": "Relacionado con paisajes"
+          "word": "hog110",
+          "hint": "Relacionado con decoración"
         },
         {
-          "word": "nat111",
-          "hint": "Relacionado con paisajes"
+          "word": "hog111",
+          "hint": "Relacionado con decoración"
         },
         {
-          "word": "nat112",
-          "hint": "Relacionado con paisajes"
+          "word": "hog112",
+          "hint": "Relacionado con decoración"
         },
         {
-          "word": "nat113",
-          "hint": "Relacionado con paisajes"
+          "word": "hog113",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog114",
+          "hint": "Relacionado con decoración"
         }
       ]
     },
     "12": {
-      "title": "Etapa 12: Utensilios",
+      "title": "Etapa 12: Electrodomésticos",
       "category": "hogar",
       "words": [
         {
           "word": "hog120",
-          "hint": "Relacionado con utensilios"
+          "hint": "Relacionado con electrodomésticos"
         },
         {
           "word": "hog121",
-          "hint": "Relacionado con utensilios"
+          "hint": "Relacionado con electrodomésticos"
         },
         {
           "word": "hog122",
-          "hint": "Relacionado con utensilios"
+          "hint": "Relacionado con electrodomésticos"
         },
         {
           "word": "hog123",
-          "hint": "Relacionado con utensilios"
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog124",
+          "hint": "Relacionado con electrodomésticos"
         }
       ]
     },
     "13": {
-      "title": "Etapa 13: Monumentos",
-      "category": "viajes",
+      "title": "Etapa 13: Juegos",
+      "category": "deportes",
       "words": [
         {
-          "word": "via130",
-          "hint": "Relacionado con monumentos"
+          "word": "dep130",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "via131",
-          "hint": "Relacionado con monumentos"
+          "word": "dep131",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "via132",
-          "hint": "Relacionado con monumentos"
+          "word": "dep132",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "via133",
-          "hint": "Relacionado con monumentos"
+          "word": "dep133",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep134",
+          "hint": "Relacionado con juegos"
         }
       ]
     },
     "14": {
-      "title": "Etapa 14: Platos",
-      "category": "comida",
+      "title": "Etapa 14: Deportes extremos",
+      "category": "deportes",
       "words": [
         {
-          "word": "com140",
-          "hint": "Relacionado con platos"
+          "word": "dep140",
+          "hint": "Relacionado con deportes extremos"
         },
         {
-          "word": "com141",
-          "hint": "Relacionado con platos"
+          "word": "dep141",
+          "hint": "Relacionado con deportes extremos"
         },
         {
-          "word": "com142",
-          "hint": "Relacionado con platos"
+          "word": "dep142",
+          "hint": "Relacionado con deportes extremos"
         },
         {
-          "word": "com143",
-          "hint": "Relacionado con platos"
+          "word": "dep143",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep144",
+          "hint": "Relacionado con deportes extremos"
         }
       ]
     },
     "15": {
-      "title": "Etapa 15: Electrodomésticos",
+      "title": "Etapa 15: Muebles",
       "category": "hogar",
       "words": [
         {
           "word": "hog150",
-          "hint": "Relacionado con electrodomésticos"
+          "hint": "Relacionado con muebles"
         },
         {
           "word": "hog151",
-          "hint": "Relacionado con electrodomésticos"
+          "hint": "Relacionado con muebles"
         },
         {
           "word": "hog152",
-          "hint": "Relacionado con electrodomésticos"
+          "hint": "Relacionado con muebles"
         },
         {
           "word": "hog153",
-          "hint": "Relacionado con electrodomésticos"
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog154",
+          "hint": "Relacionado con muebles"
         }
       ]
     },
     "16": {
-      "title": "Etapa 16: Fenómenos",
-      "category": "naturaleza",
+      "title": "Etapa 16: Básicos",
+      "category": "colores",
       "words": [
         {
-          "word": "nat160",
-          "hint": "Relacionado con fenómenos"
+          "word": "col160",
+          "hint": "Relacionado con básicos"
         },
         {
-          "word": "nat161",
-          "hint": "Relacionado con fenómenos"
+          "word": "col161",
+          "hint": "Relacionado con básicos"
         },
         {
-          "word": "nat162",
-          "hint": "Relacionado con fenómenos"
+          "word": "col162",
+          "hint": "Relacionado con básicos"
         },
         {
-          "word": "nat163",
-          "hint": "Relacionado con fenómenos"
+          "word": "col163",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col164",
+          "hint": "Relacionado con básicos"
         }
       ]
     },
     "17": {
-      "title": "Etapa 17: Verduras",
+      "title": "Etapa 17: Postres",
       "category": "comida",
       "words": [
         {
           "word": "com170",
-          "hint": "Relacionado con verduras"
+          "hint": "Relacionado con postres"
         },
         {
           "word": "com171",
-          "hint": "Relacionado con verduras"
+          "hint": "Relacionado con postres"
         },
         {
           "word": "com172",
-          "hint": "Relacionado con verduras"
+          "hint": "Relacionado con postres"
         },
         {
           "word": "com173",
-          "hint": "Relacionado con verduras"
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com174",
+          "hint": "Relacionado con postres"
         }
       ]
     },
     "18": {
-      "title": "Etapa 18: Fútbol",
-      "category": "deportes",
+      "title": "Etapa 18: Aula",
+      "category": "escuela",
       "words": [
         {
-          "word": "dep180",
-          "hint": "Relacionado con fútbol"
+          "word": "esc180",
+          "hint": "Relacionado con aula"
         },
         {
-          "word": "dep181",
-          "hint": "Relacionado con fútbol"
+          "word": "esc181",
+          "hint": "Relacionado con aula"
         },
         {
-          "word": "dep182",
-          "hint": "Relacionado con fútbol"
+          "word": "esc182",
+          "hint": "Relacionado con aula"
         },
         {
-          "word": "dep183",
-          "hint": "Relacionado con fútbol"
+          "word": "esc183",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc184",
+          "hint": "Relacionado con aula"
         }
       ]
     },
     "19": {
-      "title": "Etapa 19: Baloncesto",
-      "category": "deportes",
+      "title": "Etapa 19: Utensilios",
+      "category": "hogar",
       "words": [
         {
-          "word": "dep190",
-          "hint": "Relacionado con baloncesto"
+          "word": "hog190",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "dep191",
-          "hint": "Relacionado con baloncesto"
+          "word": "hog191",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "dep192",
-          "hint": "Relacionado con baloncesto"
+          "word": "hog192",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "dep193",
-          "hint": "Relacionado con baloncesto"
+          "word": "hog193",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog194",
+          "hint": "Relacionado con utensilios"
         }
       ]
     },
     "20": {
-      "title": "Etapa 20: Baloncesto",
+      "title": "Etapa 20: Deportes extremos",
       "category": "deportes",
       "words": [
         {
           "word": "dep200",
-          "hint": "Relacionado con baloncesto"
+          "hint": "Relacionado con deportes extremos"
         },
         {
           "word": "dep201",
-          "hint": "Relacionado con baloncesto"
+          "hint": "Relacionado con deportes extremos"
         },
         {
           "word": "dep202",
-          "hint": "Relacionado con baloncesto"
+          "hint": "Relacionado con deportes extremos"
         },
         {
           "word": "dep203",
-          "hint": "Relacionado con baloncesto"
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep204",
+          "hint": "Relacionado con deportes extremos"
         }
       ]
     },
     "21": {
-      "title": "Etapa 21: De granja",
-      "category": "animales",
+      "title": "Etapa 21: Transporte",
+      "category": "viajes",
       "words": [
         {
-          "word": "ani210",
-          "hint": "Relacionado con de granja"
+          "word": "via210",
+          "hint": "Relacionado con transporte"
         },
         {
-          "word": "ani211",
-          "hint": "Relacionado con de granja"
+          "word": "via211",
+          "hint": "Relacionado con transporte"
         },
         {
-          "word": "ani212",
-          "hint": "Relacionado con de granja"
+          "word": "via212",
+          "hint": "Relacionado con transporte"
         },
         {
-          "word": "ani213",
-          "hint": "Relacionado con de granja"
+          "word": "via213",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via214",
+          "hint": "Relacionado con transporte"
         }
       ]
     },
     "22": {
-      "title": "Etapa 22: Plantas",
-      "category": "naturaleza",
+      "title": "Etapa 22: Acuáticos",
+      "category": "animales",
       "words": [
         {
-          "word": "nat220",
-          "hint": "Relacionado con plantas"
+          "word": "ani220",
+          "hint": "Relacionado con acuáticos"
         },
         {
-          "word": "nat221",
-          "hint": "Relacionado con plantas"
+          "word": "ani221",
+          "hint": "Relacionado con acuáticos"
         },
         {
-          "word": "nat222",
-          "hint": "Relacionado con plantas"
+          "word": "ani222",
+          "hint": "Relacionado con acuáticos"
         },
         {
-          "word": "nat223",
-          "hint": "Relacionado con plantas"
+          "word": "ani223",
+          "hint": "Relacionado con acuáticos"
+        },
+        {
+          "word": "ani224",
+          "hint": "Relacionado con acuáticos"
         }
       ]
     },
     "23": {
-      "title": "Etapa 23: Monumentos",
-      "category": "viajes",
+      "title": "Etapa 23: Atletismo",
+      "category": "deportes",
       "words": [
         {
-          "word": "via230",
-          "hint": "Relacionado con monumentos"
+          "word": "dep230",
+          "hint": "Relacionado con atletismo"
         },
         {
-          "word": "via231",
-          "hint": "Relacionado con monumentos"
+          "word": "dep231",
+          "hint": "Relacionado con atletismo"
         },
         {
-          "word": "via232",
-          "hint": "Relacionado con monumentos"
+          "word": "dep232",
+          "hint": "Relacionado con atletismo"
         },
         {
-          "word": "via233",
-          "hint": "Relacionado con monumentos"
+          "word": "dep233",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep234",
+          "hint": "Relacionado con atletismo"
         }
       ]
     },
     "24": {
-      "title": "Etapa 24: Muebles",
-      "category": "hogar",
+      "title": "Etapa 24: Tonos oscuros",
+      "category": "colores",
       "words": [
         {
-          "word": "hog240",
-          "hint": "Relacionado con muebles"
+          "word": "col240",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "hog241",
-          "hint": "Relacionado con muebles"
+          "word": "col241",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "hog242",
-          "hint": "Relacionado con muebles"
+          "word": "col242",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "hog243",
-          "hint": "Relacionado con muebles"
+          "word": "col243",
+          "hint": "Relacionado con tonos oscuros"
+        },
+        {
+          "word": "col244",
+          "hint": "Relacionado con tonos oscuros"
         }
       ]
     },
     "25": {
-      "title": "Etapa 25: Monumentos",
-      "category": "viajes",
+      "title": "Etapa 25: Tareas",
+      "category": "escuela",
       "words": [
         {
-          "word": "via250",
-          "hint": "Relacionado con monumentos"
+          "word": "esc250",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "via251",
-          "hint": "Relacionado con monumentos"
+          "word": "esc251",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "via252",
-          "hint": "Relacionado con monumentos"
+          "word": "esc252",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "via253",
-          "hint": "Relacionado con monumentos"
+          "word": "esc253",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc254",
+          "hint": "Relacionado con tareas"
         }
       ]
     },
     "26": {
-      "title": "Etapa 26: Natación",
-      "category": "deportes",
+      "title": "Etapa 26: Decoración",
+      "category": "hogar",
       "words": [
         {
-          "word": "dep260",
-          "hint": "Relacionado con natación"
+          "word": "hog260",
+          "hint": "Relacionado con decoración"
         },
         {
-          "word": "dep261",
-          "hint": "Relacionado con natación"
+          "word": "hog261",
+          "hint": "Relacionado con decoración"
         },
         {
-          "word": "dep262",
-          "hint": "Relacionado con natación"
+          "word": "hog262",
+          "hint": "Relacionado con decoración"
         },
         {
-          "word": "dep263",
-          "hint": "Relacionado con natación"
+          "word": "hog263",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog264",
+          "hint": "Relacionado con decoración"
         }
       ]
     },
     "27": {
-      "title": "Etapa 27: Plantas",
-      "category": "naturaleza",
+      "title": "Etapa 27: Asignaturas",
+      "category": "escuela",
       "words": [
         {
-          "word": "nat270",
-          "hint": "Relacionado con plantas"
+          "word": "esc270",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "nat271",
-          "hint": "Relacionado con plantas"
+          "word": "esc271",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "nat272",
-          "hint": "Relacionado con plantas"
+          "word": "esc272",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "nat273",
-          "hint": "Relacionado con plantas"
+          "word": "esc273",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc274",
+          "hint": "Relacionado con asignaturas"
         }
       ]
     },
     "28": {
-      "title": "Etapa 28: Ciclismo",
-      "category": "deportes",
+      "title": "Etapa 28: Asignaturas",
+      "category": "escuela",
       "words": [
         {
-          "word": "dep280",
-          "hint": "Relacionado con ciclismo"
+          "word": "esc280",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "dep281",
-          "hint": "Relacionado con ciclismo"
+          "word": "esc281",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "dep282",
-          "hint": "Relacionado con ciclismo"
+          "word": "esc282",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "dep283",
-          "hint": "Relacionado con ciclismo"
+          "word": "esc283",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc284",
+          "hint": "Relacionado con asignaturas"
         }
       ]
     },
     "29": {
-      "title": "Etapa 29: Atletismo",
-      "category": "deportes",
+      "title": "Etapa 29: Mascotas",
+      "category": "animales",
       "words": [
         {
-          "word": "dep290",
-          "hint": "Relacionado con atletismo"
+          "word": "ani290",
+          "hint": "Relacionado con mascotas"
         },
         {
-          "word": "dep291",
-          "hint": "Relacionado con atletismo"
+          "word": "ani291",
+          "hint": "Relacionado con mascotas"
         },
         {
-          "word": "dep292",
-          "hint": "Relacionado con atletismo"
+          "word": "ani292",
+          "hint": "Relacionado con mascotas"
         },
         {
-          "word": "dep293",
-          "hint": "Relacionado con atletismo"
+          "word": "ani293",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani294",
+          "hint": "Relacionado con mascotas"
         }
       ]
     },
     "30": {
-      "title": "Etapa 30: Baloncesto",
-      "category": "deportes",
+      "title": "Etapa 30: Mascotas",
+      "category": "animales",
       "words": [
         {
-          "word": "dep300",
-          "hint": "Relacionado con baloncesto"
+          "word": "ani300",
+          "hint": "Relacionado con mascotas"
         },
         {
-          "word": "dep301",
-          "hint": "Relacionado con baloncesto"
+          "word": "ani301",
+          "hint": "Relacionado con mascotas"
         },
         {
-          "word": "dep302",
-          "hint": "Relacionado con baloncesto"
+          "word": "ani302",
+          "hint": "Relacionado con mascotas"
         },
         {
-          "word": "dep303",
-          "hint": "Relacionado con baloncesto"
+          "word": "ani303",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani304",
+          "hint": "Relacionado con mascotas"
         }
       ]
     },
     "31": {
-      "title": "Etapa 31: Mapas",
-      "category": "viajes",
+      "title": "Etapa 31: Tonos claros",
+      "category": "colores",
       "words": [
         {
-          "word": "via310",
-          "hint": "Relacionado con mapas"
+          "word": "col310",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "via311",
-          "hint": "Relacionado con mapas"
+          "word": "col311",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "via312",
-          "hint": "Relacionado con mapas"
+          "word": "col312",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "via313",
-          "hint": "Relacionado con mapas"
+          "word": "col313",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col314",
+          "hint": "Relacionado con tonos claros"
         }
       ]
     },
     "32": {
-      "title": "Etapa 32: Equipaje",
-      "category": "viajes",
+      "title": "Etapa 32: Tonos oscuros",
+      "category": "colores",
       "words": [
         {
-          "word": "via320",
-          "hint": "Relacionado con equipaje"
+          "word": "col320",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "via321",
-          "hint": "Relacionado con equipaje"
+          "word": "col321",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "via322",
-          "hint": "Relacionado con equipaje"
+          "word": "col322",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "via323",
-          "hint": "Relacionado con equipaje"
+          "word": "col323",
+          "hint": "Relacionado con tonos oscuros"
+        },
+        {
+          "word": "col324",
+          "hint": "Relacionado con tonos oscuros"
         }
       ]
     },
     "33": {
-      "title": "Etapa 33: Hoteles",
+      "title": "Etapa 33: Transporte",
       "category": "viajes",
       "words": [
         {
           "word": "via330",
-          "hint": "Relacionado con hoteles"
+          "hint": "Relacionado con transporte"
         },
         {
           "word": "via331",
-          "hint": "Relacionado con hoteles"
+          "hint": "Relacionado con transporte"
         },
         {
           "word": "via332",
-          "hint": "Relacionado con hoteles"
+          "hint": "Relacionado con transporte"
         },
         {
           "word": "via333",
-          "hint": "Relacionado con hoteles"
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via334",
+          "hint": "Relacionado con transporte"
         }
       ]
     },
     "34": {
-      "title": "Etapa 34: Ciclismo",
-      "category": "deportes",
+      "title": "Etapa 34: Tareas",
+      "category": "escuela",
       "words": [
         {
-          "word": "dep340",
-          "hint": "Relacionado con ciclismo"
+          "word": "esc340",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "dep341",
-          "hint": "Relacionado con ciclismo"
+          "word": "esc341",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "dep342",
-          "hint": "Relacionado con ciclismo"
+          "word": "esc342",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "dep343",
-          "hint": "Relacionado con ciclismo"
+          "word": "esc343",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc344",
+          "hint": "Relacionado con tareas"
         }
       ]
     },
     "35": {
-      "title": "Etapa 35: Fenómenos",
-      "category": "naturaleza",
+      "title": "Etapa 35: Mezclas",
+      "category": "colores",
       "words": [
         {
-          "word": "nat350",
-          "hint": "Relacionado con fenómenos"
+          "word": "col350",
+          "hint": "Relacionado con mezclas"
         },
         {
-          "word": "nat351",
-          "hint": "Relacionado con fenómenos"
+          "word": "col351",
+          "hint": "Relacionado con mezclas"
         },
         {
-          "word": "nat352",
-          "hint": "Relacionado con fenómenos"
+          "word": "col352",
+          "hint": "Relacionado con mezclas"
         },
         {
-          "word": "nat353",
-          "hint": "Relacionado con fenómenos"
+          "word": "col353",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col354",
+          "hint": "Relacionado con mezclas"
         }
       ]
     },
     "36": {
-      "title": "Etapa 36: Decoración",
-      "category": "hogar",
+      "title": "Etapa 36: Mascotas",
+      "category": "animales",
       "words": [
         {
-          "word": "hog360",
-          "hint": "Relacionado con decoración"
+          "word": "ani360",
+          "hint": "Relacionado con mascotas"
         },
         {
-          "word": "hog361",
-          "hint": "Relacionado con decoración"
+          "word": "ani361",
+          "hint": "Relacionado con mascotas"
         },
         {
-          "word": "hog362",
-          "hint": "Relacionado con decoración"
+          "word": "ani362",
+          "hint": "Relacionado con mascotas"
         },
         {
-          "word": "hog363",
-          "hint": "Relacionado con decoración"
+          "word": "ani363",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani364",
+          "hint": "Relacionado con mascotas"
         }
       ]
     },
     "37": {
-      "title": "Etapa 37: Natación",
-      "category": "deportes",
+      "title": "Etapa 37: Animales silvestres",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "dep370",
-          "hint": "Relacionado con natación"
+          "word": "nat370",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "dep371",
-          "hint": "Relacionado con natación"
+          "word": "nat371",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "dep372",
-          "hint": "Relacionado con natación"
+          "word": "nat372",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "dep373",
-          "hint": "Relacionado con natación"
+          "word": "nat373",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat374",
+          "hint": "Relacionado con animales silvestres"
         }
       ]
     },
@@ -7439,1966 +981,2326 @@ const levels = {
         {
           "word": "ani383",
           "hint": "Relacionado con acuáticos"
+        },
+        {
+          "word": "ani384",
+          "hint": "Relacionado con acuáticos"
         }
       ]
     },
     "39": {
-      "title": "Etapa 39: Natación",
-      "category": "deportes",
+      "title": "Etapa 39: Animales silvestres",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "dep390",
-          "hint": "Relacionado con natación"
+          "word": "nat390",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "dep391",
-          "hint": "Relacionado con natación"
+          "word": "nat391",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "dep392",
-          "hint": "Relacionado con natación"
+          "word": "nat392",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "dep393",
-          "hint": "Relacionado con natación"
+          "word": "nat393",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat394",
+          "hint": "Relacionado con animales silvestres"
         }
       ]
     },
     "40": {
-      "title": "Etapa 40: Verduras",
-      "category": "comida",
+      "title": "Etapa 40: Tonos oscuros",
+      "category": "colores",
       "words": [
         {
-          "word": "com400",
-          "hint": "Relacionado con verduras"
+          "word": "col400",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "com401",
-          "hint": "Relacionado con verduras"
+          "word": "col401",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "com402",
-          "hint": "Relacionado con verduras"
+          "word": "col402",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "com403",
-          "hint": "Relacionado con verduras"
+          "word": "col403",
+          "hint": "Relacionado con tonos oscuros"
+        },
+        {
+          "word": "col404",
+          "hint": "Relacionado con tonos oscuros"
         }
       ]
     },
     "41": {
-      "title": "Etapa 41: Clima",
-      "category": "naturaleza",
+      "title": "Etapa 41: Acuáticos",
+      "category": "animales",
       "words": [
         {
-          "word": "nat410",
-          "hint": "Relacionado con clima"
+          "word": "ani410",
+          "hint": "Relacionado con acuáticos"
         },
         {
-          "word": "nat411",
-          "hint": "Relacionado con clima"
+          "word": "ani411",
+          "hint": "Relacionado con acuáticos"
         },
         {
-          "word": "nat412",
-          "hint": "Relacionado con clima"
+          "word": "ani412",
+          "hint": "Relacionado con acuáticos"
         },
         {
-          "word": "nat413",
-          "hint": "Relacionado con clima"
+          "word": "ani413",
+          "hint": "Relacionado con acuáticos"
+        },
+        {
+          "word": "ani414",
+          "hint": "Relacionado con acuáticos"
         }
       ]
     },
     "42": {
-      "title": "Etapa 42: Atletismo",
-      "category": "deportes",
+      "title": "Etapa 42: Mezclas",
+      "category": "colores",
       "words": [
         {
-          "word": "dep420",
-          "hint": "Relacionado con atletismo"
+          "word": "col420",
+          "hint": "Relacionado con mezclas"
         },
         {
-          "word": "dep421",
-          "hint": "Relacionado con atletismo"
+          "word": "col421",
+          "hint": "Relacionado con mezclas"
         },
         {
-          "word": "dep422",
-          "hint": "Relacionado con atletismo"
+          "word": "col422",
+          "hint": "Relacionado con mezclas"
         },
         {
-          "word": "dep423",
-          "hint": "Relacionado con atletismo"
+          "word": "col423",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col424",
+          "hint": "Relacionado con mezclas"
         }
       ]
     },
     "43": {
-      "title": "Etapa 43: Mapas",
-      "category": "viajes",
+      "title": "Etapa 43: Muebles",
+      "category": "hogar",
       "words": [
         {
-          "word": "via430",
-          "hint": "Relacionado con mapas"
+          "word": "hog430",
+          "hint": "Relacionado con muebles"
         },
         {
-          "word": "via431",
-          "hint": "Relacionado con mapas"
+          "word": "hog431",
+          "hint": "Relacionado con muebles"
         },
         {
-          "word": "via432",
-          "hint": "Relacionado con mapas"
+          "word": "hog432",
+          "hint": "Relacionado con muebles"
         },
         {
-          "word": "via433",
-          "hint": "Relacionado con mapas"
+          "word": "hog433",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog434",
+          "hint": "Relacionado con muebles"
         }
       ]
     },
     "44": {
-      "title": "Etapa 44: Acuáticos",
-      "category": "animales",
+      "title": "Etapa 44: Animales silvestres",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "ani440",
-          "hint": "Relacionado con acuáticos"
+          "word": "nat440",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "ani441",
-          "hint": "Relacionado con acuáticos"
+          "word": "nat441",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "ani442",
-          "hint": "Relacionado con acuáticos"
+          "word": "nat442",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "ani443",
-          "hint": "Relacionado con acuáticos"
+          "word": "nat443",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat444",
+          "hint": "Relacionado con animales silvestres"
         }
       ]
     },
     "45": {
-      "title": "Etapa 45: Natación",
-      "category": "deportes",
+      "title": "Etapa 45: Platos",
+      "category": "comida",
       "words": [
         {
-          "word": "dep450",
-          "hint": "Relacionado con natación"
+          "word": "com450",
+          "hint": "Relacionado con platos"
         },
         {
-          "word": "dep451",
-          "hint": "Relacionado con natación"
+          "word": "com451",
+          "hint": "Relacionado con platos"
         },
         {
-          "word": "dep452",
-          "hint": "Relacionado con natación"
+          "word": "com452",
+          "hint": "Relacionado con platos"
         },
         {
-          "word": "dep453",
-          "hint": "Relacionado con natación"
+          "word": "com453",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com454",
+          "hint": "Relacionado con platos"
         }
       ]
     },
     "46": {
-      "title": "Etapa 46: Decoración",
-      "category": "hogar",
+      "title": "Etapa 46: Tonos oscuros",
+      "category": "colores",
       "words": [
         {
-          "word": "hog460",
-          "hint": "Relacionado con decoración"
+          "word": "col460",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "hog461",
-          "hint": "Relacionado con decoración"
+          "word": "col461",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "hog462",
-          "hint": "Relacionado con decoración"
+          "word": "col462",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "hog463",
-          "hint": "Relacionado con decoración"
+          "word": "col463",
+          "hint": "Relacionado con tonos oscuros"
+        },
+        {
+          "word": "col464",
+          "hint": "Relacionado con tonos oscuros"
         }
       ]
     },
     "47": {
-      "title": "Etapa 47: Acuáticos",
-      "category": "animales",
+      "title": "Etapa 47: Deportes acuáticos",
+      "category": "deportes",
       "words": [
         {
-          "word": "ani470",
-          "hint": "Relacionado con acuáticos"
+          "word": "dep470",
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
-          "word": "ani471",
-          "hint": "Relacionado con acuáticos"
+          "word": "dep471",
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
-          "word": "ani472",
-          "hint": "Relacionado con acuáticos"
+          "word": "dep472",
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
-          "word": "ani473",
-          "hint": "Relacionado con acuáticos"
+          "word": "dep473",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep474",
+          "hint": "Relacionado con deportes acuáticos"
         }
       ]
     },
     "48": {
-      "title": "Etapa 48: Plantas",
-      "category": "naturaleza",
+      "title": "Etapa 48: Acuáticos",
+      "category": "animales",
       "words": [
         {
-          "word": "nat480",
-          "hint": "Relacionado con plantas"
+          "word": "ani480",
+          "hint": "Relacionado con acuáticos"
         },
         {
-          "word": "nat481",
-          "hint": "Relacionado con plantas"
+          "word": "ani481",
+          "hint": "Relacionado con acuáticos"
         },
         {
-          "word": "nat482",
-          "hint": "Relacionado con plantas"
+          "word": "ani482",
+          "hint": "Relacionado con acuáticos"
         },
         {
-          "word": "nat483",
-          "hint": "Relacionado con plantas"
+          "word": "ani483",
+          "hint": "Relacionado con acuáticos"
+        },
+        {
+          "word": "ani484",
+          "hint": "Relacionado con acuáticos"
         }
       ]
     },
     "49": {
-      "title": "Etapa 49: Platos",
-      "category": "comida",
+      "title": "Etapa 49: Tonos oscuros",
+      "category": "colores",
       "words": [
         {
-          "word": "com490",
-          "hint": "Relacionado con platos"
+          "word": "col490",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "com491",
-          "hint": "Relacionado con platos"
+          "word": "col491",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "com492",
-          "hint": "Relacionado con platos"
+          "word": "col492",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "com493",
-          "hint": "Relacionado con platos"
+          "word": "col493",
+          "hint": "Relacionado con tonos oscuros"
+        },
+        {
+          "word": "col494",
+          "hint": "Relacionado con tonos oscuros"
         }
       ]
     },
     "50": {
-      "title": "Etapa 50: Platos",
-      "category": "comida",
+      "title": "Etapa 50: Deportes acuáticos",
+      "category": "deportes",
       "words": [
         {
-          "word": "com500",
-          "hint": "Relacionado con platos"
+          "word": "dep500",
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
-          "word": "com501",
-          "hint": "Relacionado con platos"
+          "word": "dep501",
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
-          "word": "com502",
-          "hint": "Relacionado con platos"
+          "word": "dep502",
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
-          "word": "com503",
-          "hint": "Relacionado con platos"
+          "word": "dep503",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep504",
+          "hint": "Relacionado con deportes acuáticos"
         }
       ]
     },
     "51": {
-      "title": "Etapa 51: Utensilios",
-      "category": "hogar",
+      "title": "Etapa 51: Mapas",
+      "category": "viajes",
       "words": [
         {
-          "word": "hog510",
-          "hint": "Relacionado con utensilios"
+          "word": "via510",
+          "hint": "Relacionado con mapas"
         },
         {
-          "word": "hog511",
-          "hint": "Relacionado con utensilios"
+          "word": "via511",
+          "hint": "Relacionado con mapas"
         },
         {
-          "word": "hog512",
-          "hint": "Relacionado con utensilios"
+          "word": "via512",
+          "hint": "Relacionado con mapas"
         },
         {
-          "word": "hog513",
-          "hint": "Relacionado con utensilios"
+          "word": "via513",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via514",
+          "hint": "Relacionado con mapas"
         }
       ]
     },
     "52": {
-      "title": "Etapa 52: Fútbol",
-      "category": "deportes",
+      "title": "Etapa 52: Utensilios",
+      "category": "hogar",
       "words": [
         {
-          "word": "dep520",
-          "hint": "Relacionado con fútbol"
+          "word": "hog520",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "dep521",
-          "hint": "Relacionado con fútbol"
+          "word": "hog521",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "dep522",
-          "hint": "Relacionado con fútbol"
+          "word": "hog522",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "dep523",
-          "hint": "Relacionado con fútbol"
+          "word": "hog523",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog524",
+          "hint": "Relacionado con utensilios"
         }
       ]
     },
     "53": {
-      "title": "Etapa 53: Transporte",
-      "category": "viajes",
+      "title": "Etapa 53: Postres",
+      "category": "comida",
       "words": [
         {
-          "word": "via530",
-          "hint": "Relacionado con transporte"
+          "word": "com530",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "via531",
-          "hint": "Relacionado con transporte"
+          "word": "com531",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "via532",
-          "hint": "Relacionado con transporte"
+          "word": "com532",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "via533",
-          "hint": "Relacionado con transporte"
+          "word": "com533",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com534",
+          "hint": "Relacionado con postres"
         }
       ]
     },
     "54": {
-      "title": "Etapa 54: Paisajes",
-      "category": "naturaleza",
+      "title": "Etapa 54: Material escolar",
+      "category": "escuela",
       "words": [
         {
-          "word": "nat540",
-          "hint": "Relacionado con paisajes"
+          "word": "esc540",
+          "hint": "Relacionado con material escolar"
         },
         {
-          "word": "nat541",
-          "hint": "Relacionado con paisajes"
+          "word": "esc541",
+          "hint": "Relacionado con material escolar"
         },
         {
-          "word": "nat542",
-          "hint": "Relacionado con paisajes"
+          "word": "esc542",
+          "hint": "Relacionado con material escolar"
         },
         {
-          "word": "nat543",
-          "hint": "Relacionado con paisajes"
+          "word": "esc543",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc544",
+          "hint": "Relacionado con material escolar"
         }
       ]
     },
     "55": {
-      "title": "Etapa 55: Equipaje",
+      "title": "Etapa 55: Mapas",
       "category": "viajes",
       "words": [
         {
           "word": "via550",
-          "hint": "Relacionado con equipaje"
+          "hint": "Relacionado con mapas"
         },
         {
           "word": "via551",
-          "hint": "Relacionado con equipaje"
+          "hint": "Relacionado con mapas"
         },
         {
           "word": "via552",
-          "hint": "Relacionado con equipaje"
+          "hint": "Relacionado con mapas"
         },
         {
           "word": "via553",
-          "hint": "Relacionado con equipaje"
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via554",
+          "hint": "Relacionado con mapas"
         }
       ]
     },
     "56": {
-      "title": "Etapa 56: Hoteles",
-      "category": "viajes",
+      "title": "Etapa 56: Climas",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "via560",
-          "hint": "Relacionado con hoteles"
+          "word": "nat560",
+          "hint": "Relacionado con climas"
         },
         {
-          "word": "via561",
-          "hint": "Relacionado con hoteles"
+          "word": "nat561",
+          "hint": "Relacionado con climas"
         },
         {
-          "word": "via562",
-          "hint": "Relacionado con hoteles"
+          "word": "nat562",
+          "hint": "Relacionado con climas"
         },
         {
-          "word": "via563",
-          "hint": "Relacionado con hoteles"
+          "word": "nat563",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat564",
+          "hint": "Relacionado con climas"
         }
       ]
     },
     "57": {
-      "title": "Etapa 57: Mapas",
-      "category": "viajes",
+      "title": "Etapa 57: Bebidas",
+      "category": "comida",
       "words": [
         {
-          "word": "via570",
-          "hint": "Relacionado con mapas"
+          "word": "com570",
+          "hint": "Relacionado con bebidas"
         },
         {
-          "word": "via571",
-          "hint": "Relacionado con mapas"
+          "word": "com571",
+          "hint": "Relacionado con bebidas"
         },
         {
-          "word": "via572",
-          "hint": "Relacionado con mapas"
+          "word": "com572",
+          "hint": "Relacionado con bebidas"
         },
         {
-          "word": "via573",
-          "hint": "Relacionado con mapas"
+          "word": "com573",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com574",
+          "hint": "Relacionado con bebidas"
         }
       ]
     },
     "58": {
-      "title": "Etapa 58: Atletismo",
-      "category": "deportes",
+      "title": "Etapa 58: Tareas",
+      "category": "escuela",
       "words": [
         {
-          "word": "dep580",
-          "hint": "Relacionado con atletismo"
+          "word": "esc580",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "dep581",
-          "hint": "Relacionado con atletismo"
+          "word": "esc581",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "dep582",
-          "hint": "Relacionado con atletismo"
+          "word": "esc582",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "dep583",
-          "hint": "Relacionado con atletismo"
+          "word": "esc583",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc584",
+          "hint": "Relacionado con tareas"
         }
       ]
     },
     "59": {
-      "title": "Etapa 59: Equipaje",
-      "category": "viajes",
+      "title": "Etapa 59: Tareas",
+      "category": "escuela",
       "words": [
         {
-          "word": "via590",
-          "hint": "Relacionado con equipaje"
+          "word": "esc590",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "via591",
-          "hint": "Relacionado con equipaje"
+          "word": "esc591",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "via592",
-          "hint": "Relacionado con equipaje"
+          "word": "esc592",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "via593",
-          "hint": "Relacionado con equipaje"
+          "word": "esc593",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc594",
+          "hint": "Relacionado con tareas"
         }
       ]
     },
     "60": {
-      "title": "Etapa 60: Natación",
+      "title": "Etapa 60: Deportes acuáticos",
       "category": "deportes",
       "words": [
         {
           "word": "dep600",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
           "word": "dep601",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
           "word": "dep602",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
           "word": "dep603",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep604",
+          "hint": "Relacionado con deportes acuáticos"
         }
       ]
     },
     "61": {
-      "title": "Etapa 61: Bebidas",
-      "category": "comida",
+      "title": "Etapa 61: Atletismo",
+      "category": "deportes",
       "words": [
         {
-          "word": "com610",
-          "hint": "Relacionado con bebidas"
+          "word": "dep610",
+          "hint": "Relacionado con atletismo"
         },
         {
-          "word": "com611",
-          "hint": "Relacionado con bebidas"
+          "word": "dep611",
+          "hint": "Relacionado con atletismo"
         },
         {
-          "word": "com612",
-          "hint": "Relacionado con bebidas"
+          "word": "dep612",
+          "hint": "Relacionado con atletismo"
         },
         {
-          "word": "com613",
-          "hint": "Relacionado con bebidas"
+          "word": "dep613",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep614",
+          "hint": "Relacionado con atletismo"
         }
       ]
     },
     "62": {
-      "title": "Etapa 62: De granja",
+      "title": "Etapa 62: Acuáticos",
       "category": "animales",
       "words": [
         {
           "word": "ani620",
-          "hint": "Relacionado con de granja"
+          "hint": "Relacionado con acuáticos"
         },
         {
           "word": "ani621",
-          "hint": "Relacionado con de granja"
+          "hint": "Relacionado con acuáticos"
         },
         {
           "word": "ani622",
-          "hint": "Relacionado con de granja"
+          "hint": "Relacionado con acuáticos"
         },
         {
           "word": "ani623",
-          "hint": "Relacionado con de granja"
+          "hint": "Relacionado con acuáticos"
+        },
+        {
+          "word": "ani624",
+          "hint": "Relacionado con acuáticos"
         }
       ]
     },
     "63": {
-      "title": "Etapa 63: Natación",
-      "category": "deportes",
+      "title": "Etapa 63: Asignaturas",
+      "category": "escuela",
       "words": [
         {
-          "word": "dep630",
-          "hint": "Relacionado con natación"
+          "word": "esc630",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "dep631",
-          "hint": "Relacionado con natación"
+          "word": "esc631",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "dep632",
-          "hint": "Relacionado con natación"
+          "word": "esc632",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "dep633",
-          "hint": "Relacionado con natación"
+          "word": "esc633",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc634",
+          "hint": "Relacionado con asignaturas"
         }
       ]
     },
     "64": {
-      "title": "Etapa 64: Baloncesto",
-      "category": "deportes",
+      "title": "Etapa 64: Salvajes",
+      "category": "animales",
       "words": [
         {
-          "word": "dep640",
-          "hint": "Relacionado con baloncesto"
+          "word": "ani640",
+          "hint": "Relacionado con salvajes"
         },
         {
-          "word": "dep641",
-          "hint": "Relacionado con baloncesto"
+          "word": "ani641",
+          "hint": "Relacionado con salvajes"
         },
         {
-          "word": "dep642",
-          "hint": "Relacionado con baloncesto"
+          "word": "ani642",
+          "hint": "Relacionado con salvajes"
         },
         {
-          "word": "dep643",
-          "hint": "Relacionado con baloncesto"
+          "word": "ani643",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani644",
+          "hint": "Relacionado con salvajes"
         }
       ]
     },
     "65": {
-      "title": "Etapa 65: Monumentos",
-      "category": "viajes",
+      "title": "Etapa 65: Juegos",
+      "category": "deportes",
       "words": [
         {
-          "word": "via650",
-          "hint": "Relacionado con monumentos"
+          "word": "dep650",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "via651",
-          "hint": "Relacionado con monumentos"
+          "word": "dep651",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "via652",
-          "hint": "Relacionado con monumentos"
+          "word": "dep652",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "via653",
-          "hint": "Relacionado con monumentos"
+          "word": "dep653",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep654",
+          "hint": "Relacionado con juegos"
         }
       ]
     },
     "66": {
-      "title": "Etapa 66: Frutas",
-      "category": "comida",
+      "title": "Etapa 66: Juegos",
+      "category": "deportes",
       "words": [
         {
-          "word": "com660",
-          "hint": "Relacionado con frutas"
+          "word": "dep660",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "com661",
-          "hint": "Relacionado con frutas"
+          "word": "dep661",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "com662",
-          "hint": "Relacionado con frutas"
+          "word": "dep662",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "com663",
-          "hint": "Relacionado con frutas"
+          "word": "dep663",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep664",
+          "hint": "Relacionado con juegos"
         }
       ]
     },
     "67": {
-      "title": "Etapa 67: Fútbol",
-      "category": "deportes",
+      "title": "Etapa 67: Tonos claros",
+      "category": "colores",
       "words": [
         {
-          "word": "dep670",
-          "hint": "Relacionado con fútbol"
+          "word": "col670",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "dep671",
-          "hint": "Relacionado con fútbol"
+          "word": "col671",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "dep672",
-          "hint": "Relacionado con fútbol"
+          "word": "col672",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "dep673",
-          "hint": "Relacionado con fútbol"
+          "word": "col673",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col674",
+          "hint": "Relacionado con tonos claros"
         }
       ]
     },
     "68": {
-      "title": "Etapa 68: Ciclismo",
+      "title": "Etapa 68: Deportes extremos",
       "category": "deportes",
       "words": [
         {
           "word": "dep680",
-          "hint": "Relacionado con ciclismo"
+          "hint": "Relacionado con deportes extremos"
         },
         {
           "word": "dep681",
-          "hint": "Relacionado con ciclismo"
+          "hint": "Relacionado con deportes extremos"
         },
         {
           "word": "dep682",
-          "hint": "Relacionado con ciclismo"
+          "hint": "Relacionado con deportes extremos"
         },
         {
           "word": "dep683",
-          "hint": "Relacionado con ciclismo"
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep684",
+          "hint": "Relacionado con deportes extremos"
         }
       ]
     },
     "69": {
-      "title": "Etapa 69: Verduras",
-      "category": "comida",
+      "title": "Etapa 69: Transporte",
+      "category": "viajes",
       "words": [
         {
-          "word": "com690",
-          "hint": "Relacionado con verduras"
+          "word": "via690",
+          "hint": "Relacionado con transporte"
         },
         {
-          "word": "com691",
-          "hint": "Relacionado con verduras"
+          "word": "via691",
+          "hint": "Relacionado con transporte"
         },
         {
-          "word": "com692",
-          "hint": "Relacionado con verduras"
+          "word": "via692",
+          "hint": "Relacionado con transporte"
         },
         {
-          "word": "com693",
-          "hint": "Relacionado con verduras"
+          "word": "via693",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via694",
+          "hint": "Relacionado con transporte"
         }
       ]
     },
     "70": {
-      "title": "Etapa 70: Plantas",
-      "category": "naturaleza",
+      "title": "Etapa 70: Básicos",
+      "category": "colores",
       "words": [
         {
-          "word": "nat700",
-          "hint": "Relacionado con plantas"
+          "word": "col700",
+          "hint": "Relacionado con básicos"
         },
         {
-          "word": "nat701",
-          "hint": "Relacionado con plantas"
+          "word": "col701",
+          "hint": "Relacionado con básicos"
         },
         {
-          "word": "nat702",
-          "hint": "Relacionado con plantas"
+          "word": "col702",
+          "hint": "Relacionado con básicos"
         },
         {
-          "word": "nat703",
-          "hint": "Relacionado con plantas"
+          "word": "col703",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col704",
+          "hint": "Relacionado con básicos"
         }
       ]
     },
     "71": {
-      "title": "Etapa 71: Hoteles",
-      "category": "viajes",
+      "title": "Etapa 71: Animales silvestres",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "via710",
-          "hint": "Relacionado con hoteles"
+          "word": "nat710",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "via711",
-          "hint": "Relacionado con hoteles"
+          "word": "nat711",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "via712",
-          "hint": "Relacionado con hoteles"
+          "word": "nat712",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "via713",
-          "hint": "Relacionado con hoteles"
+          "word": "nat713",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat714",
+          "hint": "Relacionado con animales silvestres"
         }
       ]
     },
     "72": {
-      "title": "Etapa 72: Decoración",
-      "category": "hogar",
+      "title": "Etapa 72: Hoteles",
+      "category": "viajes",
       "words": [
         {
-          "word": "hog720",
-          "hint": "Relacionado con decoración"
+          "word": "via720",
+          "hint": "Relacionado con hoteles"
         },
         {
-          "word": "hog721",
-          "hint": "Relacionado con decoración"
+          "word": "via721",
+          "hint": "Relacionado con hoteles"
         },
         {
-          "word": "hog722",
-          "hint": "Relacionado con decoración"
+          "word": "via722",
+          "hint": "Relacionado con hoteles"
         },
         {
-          "word": "hog723",
-          "hint": "Relacionado con decoración"
+          "word": "via723",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via724",
+          "hint": "Relacionado con hoteles"
         }
       ]
     },
     "73": {
-      "title": "Etapa 73: Voladores",
-      "category": "animales",
+      "title": "Etapa 73: Tonos oscuros",
+      "category": "colores",
       "words": [
         {
-          "word": "ani730",
-          "hint": "Relacionado con voladores"
+          "word": "col730",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "ani731",
-          "hint": "Relacionado con voladores"
+          "word": "col731",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "ani732",
-          "hint": "Relacionado con voladores"
+          "word": "col732",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "ani733",
-          "hint": "Relacionado con voladores"
+          "word": "col733",
+          "hint": "Relacionado con tonos oscuros"
+        },
+        {
+          "word": "col734",
+          "hint": "Relacionado con tonos oscuros"
         }
       ]
     },
     "74": {
-      "title": "Etapa 74: De granja",
-      "category": "animales",
+      "title": "Etapa 74: Fenómenos",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "ani740",
-          "hint": "Relacionado con de granja"
+          "word": "nat740",
+          "hint": "Relacionado con fenómenos"
         },
         {
-          "word": "ani741",
-          "hint": "Relacionado con de granja"
+          "word": "nat741",
+          "hint": "Relacionado con fenómenos"
         },
         {
-          "word": "ani742",
-          "hint": "Relacionado con de granja"
+          "word": "nat742",
+          "hint": "Relacionado con fenómenos"
         },
         {
-          "word": "ani743",
-          "hint": "Relacionado con de granja"
+          "word": "nat743",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat744",
+          "hint": "Relacionado con fenómenos"
         }
       ]
     },
     "75": {
-      "title": "Etapa 75: Mascotas",
-      "category": "animales",
+      "title": "Etapa 75: Tareas",
+      "category": "escuela",
       "words": [
         {
-          "word": "ani750",
-          "hint": "Relacionado con mascotas"
+          "word": "esc750",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "ani751",
-          "hint": "Relacionado con mascotas"
+          "word": "esc751",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "ani752",
-          "hint": "Relacionado con mascotas"
+          "word": "esc752",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "ani753",
-          "hint": "Relacionado con mascotas"
+          "word": "esc753",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc754",
+          "hint": "Relacionado con tareas"
         }
       ]
     },
     "76": {
-      "title": "Etapa 76: Clima",
-      "category": "naturaleza",
+      "title": "Etapa 76: Juegos",
+      "category": "deportes",
       "words": [
         {
-          "word": "nat760",
-          "hint": "Relacionado con clima"
+          "word": "dep760",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "nat761",
-          "hint": "Relacionado con clima"
+          "word": "dep761",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "nat762",
-          "hint": "Relacionado con clima"
+          "word": "dep762",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "nat763",
-          "hint": "Relacionado con clima"
+          "word": "dep763",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep764",
+          "hint": "Relacionado con juegos"
         }
       ]
     },
     "77": {
-      "title": "Etapa 77: Electrodomésticos",
-      "category": "hogar",
+      "title": "Etapa 77: Mapas",
+      "category": "viajes",
       "words": [
         {
-          "word": "hog770",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "via770",
+          "hint": "Relacionado con mapas"
         },
         {
-          "word": "hog771",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "via771",
+          "hint": "Relacionado con mapas"
         },
         {
-          "word": "hog772",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "via772",
+          "hint": "Relacionado con mapas"
         },
         {
-          "word": "hog773",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "via773",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via774",
+          "hint": "Relacionado con mapas"
         }
       ]
     },
     "78": {
-      "title": "Etapa 78: Mapas",
-      "category": "viajes",
+      "title": "Etapa 78: Habitaciones",
+      "category": "hogar",
       "words": [
         {
-          "word": "via780",
-          "hint": "Relacionado con mapas"
+          "word": "hog780",
+          "hint": "Relacionado con habitaciones"
         },
         {
-          "word": "via781",
-          "hint": "Relacionado con mapas"
+          "word": "hog781",
+          "hint": "Relacionado con habitaciones"
         },
         {
-          "word": "via782",
-          "hint": "Relacionado con mapas"
+          "word": "hog782",
+          "hint": "Relacionado con habitaciones"
         },
         {
-          "word": "via783",
-          "hint": "Relacionado con mapas"
+          "word": "hog783",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog784",
+          "hint": "Relacionado con habitaciones"
         }
       ]
     },
     "79": {
-      "title": "Etapa 79: Utensilios",
-      "category": "hogar",
+      "title": "Etapa 79: Tonos oscuros",
+      "category": "colores",
       "words": [
         {
-          "word": "hog790",
-          "hint": "Relacionado con utensilios"
+          "word": "col790",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "hog791",
-          "hint": "Relacionado con utensilios"
+          "word": "col791",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "hog792",
-          "hint": "Relacionado con utensilios"
+          "word": "col792",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "hog793",
-          "hint": "Relacionado con utensilios"
+          "word": "col793",
+          "hint": "Relacionado con tonos oscuros"
+        },
+        {
+          "word": "col794",
+          "hint": "Relacionado con tonos oscuros"
         }
       ]
     },
     "80": {
-      "title": "Etapa 80: Postres",
-      "category": "comida",
+      "title": "Etapa 80: Animales silvestres",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "com800",
-          "hint": "Relacionado con postres"
+          "word": "nat800",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "com801",
-          "hint": "Relacionado con postres"
+          "word": "nat801",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "com802",
-          "hint": "Relacionado con postres"
+          "word": "nat802",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "com803",
-          "hint": "Relacionado con postres"
+          "word": "nat803",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat804",
+          "hint": "Relacionado con animales silvestres"
         }
       ]
     },
     "81": {
-      "title": "Etapa 81: Hoteles",
-      "category": "viajes",
+      "title": "Etapa 81: Asignaturas",
+      "category": "escuela",
       "words": [
         {
-          "word": "via810",
-          "hint": "Relacionado con hoteles"
+          "word": "esc810",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "via811",
-          "hint": "Relacionado con hoteles"
+          "word": "esc811",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "via812",
-          "hint": "Relacionado con hoteles"
+          "word": "esc812",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "via813",
-          "hint": "Relacionado con hoteles"
+          "word": "esc813",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc814",
+          "hint": "Relacionado con asignaturas"
         }
       ]
     },
     "82": {
-      "title": "Etapa 82: Transporte",
-      "category": "viajes",
+      "title": "Etapa 82: Exámenes",
+      "category": "escuela",
       "words": [
         {
-          "word": "via820",
-          "hint": "Relacionado con transporte"
+          "word": "esc820",
+          "hint": "Relacionado con exámenes"
         },
         {
-          "word": "via821",
-          "hint": "Relacionado con transporte"
+          "word": "esc821",
+          "hint": "Relacionado con exámenes"
         },
         {
-          "word": "via822",
-          "hint": "Relacionado con transporte"
+          "word": "esc822",
+          "hint": "Relacionado con exámenes"
         },
         {
-          "word": "via823",
-          "hint": "Relacionado con transporte"
+          "word": "esc823",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc824",
+          "hint": "Relacionado con exámenes"
         }
       ]
     },
     "83": {
-      "title": "Etapa 83: Natación",
+      "title": "Etapa 83: Juegos",
       "category": "deportes",
       "words": [
         {
           "word": "dep830",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con juegos"
         },
         {
           "word": "dep831",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con juegos"
         },
         {
           "word": "dep832",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con juegos"
         },
         {
           "word": "dep833",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep834",
+          "hint": "Relacionado con juegos"
         }
       ]
     },
     "84": {
-      "title": "Etapa 84: De granja",
-      "category": "animales",
+      "title": "Etapa 84: Postres",
+      "category": "comida",
       "words": [
         {
-          "word": "ani840",
-          "hint": "Relacionado con de granja"
+          "word": "com840",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "ani841",
-          "hint": "Relacionado con de granja"
+          "word": "com841",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "ani842",
-          "hint": "Relacionado con de granja"
+          "word": "com842",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "ani843",
-          "hint": "Relacionado con de granja"
+          "word": "com843",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com844",
+          "hint": "Relacionado con postres"
         }
       ]
     },
     "85": {
-      "title": "Etapa 85: Plantas",
-      "category": "naturaleza",
+      "title": "Etapa 85: Tonos oscuros",
+      "category": "colores",
       "words": [
         {
-          "word": "nat850",
-          "hint": "Relacionado con plantas"
+          "word": "col850",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "nat851",
-          "hint": "Relacionado con plantas"
+          "word": "col851",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "nat852",
-          "hint": "Relacionado con plantas"
+          "word": "col852",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "nat853",
-          "hint": "Relacionado con plantas"
+          "word": "col853",
+          "hint": "Relacionado con tonos oscuros"
+        },
+        {
+          "word": "col854",
+          "hint": "Relacionado con tonos oscuros"
         }
       ]
     },
     "86": {
-      "title": "Etapa 86: Animales silvestres",
-      "category": "naturaleza",
+      "title": "Etapa 86: Verduras",
+      "category": "comida",
       "words": [
         {
-          "word": "nat860",
-          "hint": "Relacionado con animales silvestres"
+          "word": "com860",
+          "hint": "Relacionado con verduras"
         },
         {
-          "word": "nat861",
-          "hint": "Relacionado con animales silvestres"
+          "word": "com861",
+          "hint": "Relacionado con verduras"
         },
         {
-          "word": "nat862",
-          "hint": "Relacionado con animales silvestres"
+          "word": "com862",
+          "hint": "Relacionado con verduras"
         },
         {
-          "word": "nat863",
-          "hint": "Relacionado con animales silvestres"
+          "word": "com863",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com864",
+          "hint": "Relacionado con verduras"
         }
       ]
     },
     "87": {
-      "title": "Etapa 87: Animales silvestres",
-      "category": "naturaleza",
+      "title": "Etapa 87: Utensilios",
+      "category": "hogar",
       "words": [
         {
-          "word": "nat870",
-          "hint": "Relacionado con animales silvestres"
+          "word": "hog870",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "nat871",
-          "hint": "Relacionado con animales silvestres"
+          "word": "hog871",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "nat872",
-          "hint": "Relacionado con animales silvestres"
+          "word": "hog872",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "nat873",
-          "hint": "Relacionado con animales silvestres"
+          "word": "hog873",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog874",
+          "hint": "Relacionado con utensilios"
         }
       ]
     },
     "88": {
-      "title": "Etapa 88: Fútbol",
-      "category": "deportes",
+      "title": "Etapa 88: Platos",
+      "category": "comida",
       "words": [
         {
-          "word": "dep880",
-          "hint": "Relacionado con fútbol"
+          "word": "com880",
+          "hint": "Relacionado con platos"
         },
         {
-          "word": "dep881",
-          "hint": "Relacionado con fútbol"
+          "word": "com881",
+          "hint": "Relacionado con platos"
         },
         {
-          "word": "dep882",
-          "hint": "Relacionado con fútbol"
+          "word": "com882",
+          "hint": "Relacionado con platos"
         },
         {
-          "word": "dep883",
-          "hint": "Relacionado con fútbol"
+          "word": "com883",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com884",
+          "hint": "Relacionado con platos"
         }
       ]
     },
     "89": {
-      "title": "Etapa 89: Clima",
+      "title": "Etapa 89: Plantas",
       "category": "naturaleza",
       "words": [
         {
           "word": "nat890",
-          "hint": "Relacionado con clima"
+          "hint": "Relacionado con plantas"
         },
         {
           "word": "nat891",
-          "hint": "Relacionado con clima"
+          "hint": "Relacionado con plantas"
         },
         {
           "word": "nat892",
-          "hint": "Relacionado con clima"
+          "hint": "Relacionado con plantas"
         },
         {
           "word": "nat893",
-          "hint": "Relacionado con clima"
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat894",
+          "hint": "Relacionado con plantas"
         }
       ]
     },
     "90": {
-      "title": "Etapa 90: Hoteles",
-      "category": "viajes",
+      "title": "Etapa 90: Paisajes",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "via900",
-          "hint": "Relacionado con hoteles"
+          "word": "nat900",
+          "hint": "Relacionado con paisajes"
         },
         {
-          "word": "via901",
-          "hint": "Relacionado con hoteles"
+          "word": "nat901",
+          "hint": "Relacionado con paisajes"
         },
         {
-          "word": "via902",
-          "hint": "Relacionado con hoteles"
+          "word": "nat902",
+          "hint": "Relacionado con paisajes"
         },
         {
-          "word": "via903",
-          "hint": "Relacionado con hoteles"
+          "word": "nat903",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat904",
+          "hint": "Relacionado con paisajes"
         }
       ]
     },
     "91": {
-      "title": "Etapa 91: Frutas",
-      "category": "comida",
+      "title": "Etapa 91: Paisajes",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "com910",
-          "hint": "Relacionado con frutas"
+          "word": "nat910",
+          "hint": "Relacionado con paisajes"
         },
         {
-          "word": "com911",
-          "hint": "Relacionado con frutas"
+          "word": "nat911",
+          "hint": "Relacionado con paisajes"
         },
         {
-          "word": "com912",
-          "hint": "Relacionado con frutas"
+          "word": "nat912",
+          "hint": "Relacionado con paisajes"
         },
         {
-          "word": "com913",
-          "hint": "Relacionado con frutas"
+          "word": "nat913",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat914",
+          "hint": "Relacionado con paisajes"
         }
       ]
     },
     "92": {
-      "title": "Etapa 92: Hoteles",
+      "title": "Etapa 92: Equipaje",
       "category": "viajes",
       "words": [
         {
           "word": "via920",
-          "hint": "Relacionado con hoteles"
+          "hint": "Relacionado con equipaje"
         },
         {
           "word": "via921",
-          "hint": "Relacionado con hoteles"
+          "hint": "Relacionado con equipaje"
         },
         {
           "word": "via922",
-          "hint": "Relacionado con hoteles"
+          "hint": "Relacionado con equipaje"
         },
         {
           "word": "via923",
-          "hint": "Relacionado con hoteles"
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via924",
+          "hint": "Relacionado con equipaje"
         }
       ]
     },
     "93": {
-      "title": "Etapa 93: Frutas",
-      "category": "comida",
+      "title": "Etapa 93: Exámenes",
+      "category": "escuela",
       "words": [
         {
-          "word": "com930",
-          "hint": "Relacionado con frutas"
+          "word": "esc930",
+          "hint": "Relacionado con exámenes"
         },
         {
-          "word": "com931",
-          "hint": "Relacionado con frutas"
+          "word": "esc931",
+          "hint": "Relacionado con exámenes"
         },
         {
-          "word": "com932",
-          "hint": "Relacionado con frutas"
+          "word": "esc932",
+          "hint": "Relacionado con exámenes"
         },
         {
-          "word": "com933",
-          "hint": "Relacionado con frutas"
+          "word": "esc933",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc934",
+          "hint": "Relacionado con exámenes"
         }
       ]
     },
     "94": {
-      "title": "Etapa 94: Clima",
-      "category": "naturaleza",
+      "title": "Etapa 94: Equipaje",
+      "category": "viajes",
       "words": [
         {
-          "word": "nat940",
-          "hint": "Relacionado con clima"
+          "word": "via940",
+          "hint": "Relacionado con equipaje"
         },
         {
-          "word": "nat941",
-          "hint": "Relacionado con clima"
+          "word": "via941",
+          "hint": "Relacionado con equipaje"
         },
         {
-          "word": "nat942",
-          "hint": "Relacionado con clima"
+          "word": "via942",
+          "hint": "Relacionado con equipaje"
         },
         {
-          "word": "nat943",
-          "hint": "Relacionado con clima"
+          "word": "via943",
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via944",
+          "hint": "Relacionado con equipaje"
         }
       ]
     },
     "95": {
-      "title": "Etapa 95: Clima",
-      "category": "naturaleza",
+      "title": "Etapa 95: Transporte",
+      "category": "viajes",
       "words": [
         {
-          "word": "nat950",
-          "hint": "Relacionado con clima"
+          "word": "via950",
+          "hint": "Relacionado con transporte"
         },
         {
-          "word": "nat951",
-          "hint": "Relacionado con clima"
+          "word": "via951",
+          "hint": "Relacionado con transporte"
         },
         {
-          "word": "nat952",
-          "hint": "Relacionado con clima"
+          "word": "via952",
+          "hint": "Relacionado con transporte"
         },
         {
-          "word": "nat953",
-          "hint": "Relacionado con clima"
+          "word": "via953",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via954",
+          "hint": "Relacionado con transporte"
         }
       ]
     },
     "96": {
-      "title": "Etapa 96: Transporte",
-      "category": "viajes",
+      "title": "Etapa 96: Climas",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "via960",
-          "hint": "Relacionado con transporte"
+          "word": "nat960",
+          "hint": "Relacionado con climas"
         },
         {
-          "word": "via961",
-          "hint": "Relacionado con transporte"
+          "word": "nat961",
+          "hint": "Relacionado con climas"
         },
         {
-          "word": "via962",
-          "hint": "Relacionado con transporte"
+          "word": "nat962",
+          "hint": "Relacionado con climas"
         },
         {
-          "word": "via963",
-          "hint": "Relacionado con transporte"
+          "word": "nat963",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat964",
+          "hint": "Relacionado con climas"
         }
       ]
     },
     "97": {
-      "title": "Etapa 97: Postres",
-      "category": "comida",
+      "title": "Etapa 97: Pasteles",
+      "category": "colores",
       "words": [
         {
-          "word": "com970",
-          "hint": "Relacionado con postres"
+          "word": "col970",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "com971",
-          "hint": "Relacionado con postres"
+          "word": "col971",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "com972",
-          "hint": "Relacionado con postres"
+          "word": "col972",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "com973",
-          "hint": "Relacionado con postres"
+          "word": "col973",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col974",
+          "hint": "Relacionado con pasteles"
         }
       ]
     },
     "98": {
-      "title": "Etapa 98: Natación",
-      "category": "deportes",
+      "title": "Etapa 98: Salvajes",
+      "category": "animales",
       "words": [
         {
-          "word": "dep980",
-          "hint": "Relacionado con natación"
+          "word": "ani980",
+          "hint": "Relacionado con salvajes"
         },
         {
-          "word": "dep981",
-          "hint": "Relacionado con natación"
+          "word": "ani981",
+          "hint": "Relacionado con salvajes"
         },
         {
-          "word": "dep982",
-          "hint": "Relacionado con natación"
+          "word": "ani982",
+          "hint": "Relacionado con salvajes"
         },
         {
-          "word": "dep983",
-          "hint": "Relacionado con natación"
+          "word": "ani983",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani984",
+          "hint": "Relacionado con salvajes"
         }
       ]
     },
     "99": {
-      "title": "Etapa 99: Atletismo",
-      "category": "deportes",
+      "title": "Etapa 99: Mezclas",
+      "category": "colores",
       "words": [
         {
-          "word": "dep990",
-          "hint": "Relacionado con atletismo"
+          "word": "col990",
+          "hint": "Relacionado con mezclas"
         },
         {
-          "word": "dep991",
-          "hint": "Relacionado con atletismo"
+          "word": "col991",
+          "hint": "Relacionado con mezclas"
         },
         {
-          "word": "dep992",
-          "hint": "Relacionado con atletismo"
+          "word": "col992",
+          "hint": "Relacionado con mezclas"
         },
         {
-          "word": "dep993",
-          "hint": "Relacionado con atletismo"
+          "word": "col993",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col994",
+          "hint": "Relacionado con mezclas"
         }
       ]
     },
     "100": {
-      "title": "Etapa 100: Platos",
-      "category": "comida",
+      "title": "Etapa 100: Utensilios",
+      "category": "hogar",
       "words": [
         {
-          "word": "com1000",
-          "hint": "Relacionado con platos"
+          "word": "hog1000",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "com1001",
-          "hint": "Relacionado con platos"
+          "word": "hog1001",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "com1002",
-          "hint": "Relacionado con platos"
+          "word": "hog1002",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "com1003",
-          "hint": "Relacionado con platos"
+          "word": "hog1003",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog1004",
+          "hint": "Relacionado con utensilios"
         }
       ]
     }
   },
-  "C1": {
+  "A2": {
     "1": {
-      "title": "Etapa 1: Acuáticos",
-      "category": "animales",
+      "title": "Etapa 1: Deportes extremos",
+      "category": "deportes",
       "words": [
         {
-          "word": "ani010",
-          "hint": "Relacionado con acuáticos"
+          "word": "dep010",
+          "hint": "Relacionado con deportes extremos"
         },
         {
-          "word": "ani011",
-          "hint": "Relacionado con acuáticos"
+          "word": "dep011",
+          "hint": "Relacionado con deportes extremos"
         },
         {
-          "word": "ani012",
-          "hint": "Relacionado con acuáticos"
+          "word": "dep012",
+          "hint": "Relacionado con deportes extremos"
         },
         {
-          "word": "ani013",
-          "hint": "Relacionado con acuáticos"
+          "word": "dep013",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep014",
+          "hint": "Relacionado con deportes extremos"
         }
       ]
     },
     "2": {
-      "title": "Etapa 2: Animales silvestres",
-      "category": "naturaleza",
+      "title": "Etapa 2: Muebles",
+      "category": "hogar",
       "words": [
         {
-          "word": "nat020",
-          "hint": "Relacionado con animales silvestres"
+          "word": "hog020",
+          "hint": "Relacionado con muebles"
         },
         {
-          "word": "nat021",
-          "hint": "Relacionado con animales silvestres"
+          "word": "hog021",
+          "hint": "Relacionado con muebles"
         },
         {
-          "word": "nat022",
-          "hint": "Relacionado con animales silvestres"
+          "word": "hog022",
+          "hint": "Relacionado con muebles"
         },
         {
-          "word": "nat023",
-          "hint": "Relacionado con animales silvestres"
+          "word": "hog023",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog024",
+          "hint": "Relacionado con muebles"
         }
       ]
     },
     "3": {
-      "title": "Etapa 3: Animales silvestres",
+      "title": "Etapa 3: Climas",
       "category": "naturaleza",
       "words": [
         {
           "word": "nat030",
-          "hint": "Relacionado con animales silvestres"
+          "hint": "Relacionado con climas"
         },
         {
           "word": "nat031",
-          "hint": "Relacionado con animales silvestres"
+          "hint": "Relacionado con climas"
         },
         {
           "word": "nat032",
-          "hint": "Relacionado con animales silvestres"
+          "hint": "Relacionado con climas"
         },
         {
           "word": "nat033",
-          "hint": "Relacionado con animales silvestres"
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat034",
+          "hint": "Relacionado con climas"
         }
       ]
     },
     "4": {
-      "title": "Etapa 4: Clima",
-      "category": "naturaleza",
+      "title": "Etapa 4: Voladores",
+      "category": "animales",
       "words": [
         {
-          "word": "nat040",
-          "hint": "Relacionado con clima"
+          "word": "ani040",
+          "hint": "Relacionado con voladores"
         },
         {
-          "word": "nat041",
-          "hint": "Relacionado con clima"
+          "word": "ani041",
+          "hint": "Relacionado con voladores"
         },
         {
-          "word": "nat042",
-          "hint": "Relacionado con clima"
+          "word": "ani042",
+          "hint": "Relacionado con voladores"
         },
         {
-          "word": "nat043",
-          "hint": "Relacionado con clima"
+          "word": "ani043",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani044",
+          "hint": "Relacionado con voladores"
         }
       ]
     },
     "5": {
-      "title": "Etapa 5: Electrodomésticos",
-      "category": "hogar",
+      "title": "Etapa 5: Paisajes",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "hog050",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "nat050",
+          "hint": "Relacionado con paisajes"
         },
         {
-          "word": "hog051",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "nat051",
+          "hint": "Relacionado con paisajes"
         },
         {
-          "word": "hog052",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "nat052",
+          "hint": "Relacionado con paisajes"
         },
         {
-          "word": "hog053",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "nat053",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat054",
+          "hint": "Relacionado con paisajes"
         }
       ]
     },
     "6": {
-      "title": "Etapa 6: Utensilios",
+      "title": "Etapa 6: Muebles",
       "category": "hogar",
       "words": [
         {
           "word": "hog060",
-          "hint": "Relacionado con utensilios"
+          "hint": "Relacionado con muebles"
         },
         {
           "word": "hog061",
-          "hint": "Relacionado con utensilios"
+          "hint": "Relacionado con muebles"
         },
         {
           "word": "hog062",
-          "hint": "Relacionado con utensilios"
+          "hint": "Relacionado con muebles"
         },
         {
           "word": "hog063",
-          "hint": "Relacionado con utensilios"
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog064",
+          "hint": "Relacionado con muebles"
         }
       ]
     },
     "7": {
-      "title": "Etapa 7: Animales silvestres",
-      "category": "naturaleza",
+      "title": "Etapa 7: Tonos claros",
+      "category": "colores",
       "words": [
         {
-          "word": "nat070",
-          "hint": "Relacionado con animales silvestres"
+          "word": "col070",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "nat071",
-          "hint": "Relacionado con animales silvestres"
+          "word": "col071",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "nat072",
-          "hint": "Relacionado con animales silvestres"
+          "word": "col072",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "nat073",
-          "hint": "Relacionado con animales silvestres"
+          "word": "col073",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col074",
+          "hint": "Relacionado con tonos claros"
         }
       ]
     },
     "8": {
-      "title": "Etapa 8: Postres",
-      "category": "comida",
+      "title": "Etapa 8: Juegos",
+      "category": "deportes",
       "words": [
         {
-          "word": "com080",
-          "hint": "Relacionado con postres"
+          "word": "dep080",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "com081",
-          "hint": "Relacionado con postres"
+          "word": "dep081",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "com082",
-          "hint": "Relacionado con postres"
+          "word": "dep082",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "com083",
-          "hint": "Relacionado con postres"
+          "word": "dep083",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep084",
+          "hint": "Relacionado con juegos"
         }
       ]
     },
     "9": {
-      "title": "Etapa 9: Animales silvestres",
-      "category": "naturaleza",
+      "title": "Etapa 9: Básicos",
+      "category": "colores",
       "words": [
         {
-          "word": "nat090",
-          "hint": "Relacionado con animales silvestres"
+          "word": "col090",
+          "hint": "Relacionado con básicos"
         },
         {
-          "word": "nat091",
-          "hint": "Relacionado con animales silvestres"
+          "word": "col091",
+          "hint": "Relacionado con básicos"
         },
         {
-          "word": "nat092",
-          "hint": "Relacionado con animales silvestres"
+          "word": "col092",
+          "hint": "Relacionado con básicos"
         },
         {
-          "word": "nat093",
-          "hint": "Relacionado con animales silvestres"
+          "word": "col093",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col094",
+          "hint": "Relacionado con básicos"
         }
       ]
     },
     "10": {
-      "title": "Etapa 10: Atletismo",
-      "category": "deportes",
+      "title": "Etapa 10: Pasteles",
+      "category": "colores",
       "words": [
         {
-          "word": "dep100",
-          "hint": "Relacionado con atletismo"
+          "word": "col100",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "dep101",
-          "hint": "Relacionado con atletismo"
+          "word": "col101",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "dep102",
-          "hint": "Relacionado con atletismo"
+          "word": "col102",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "dep103",
-          "hint": "Relacionado con atletismo"
+          "word": "col103",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col104",
+          "hint": "Relacionado con pasteles"
         }
       ]
     },
     "11": {
-      "title": "Etapa 11: Verduras",
-      "category": "comida",
+      "title": "Etapa 11: Tonos claros",
+      "category": "colores",
       "words": [
         {
-          "word": "com110",
-          "hint": "Relacionado con verduras"
+          "word": "col110",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "com111",
-          "hint": "Relacionado con verduras"
+          "word": "col111",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "com112",
-          "hint": "Relacionado con verduras"
+          "word": "col112",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "com113",
-          "hint": "Relacionado con verduras"
+          "word": "col113",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col114",
+          "hint": "Relacionado con tonos claros"
         }
       ]
     },
     "12": {
-      "title": "Etapa 12: Fenómenos",
-      "category": "naturaleza",
+      "title": "Etapa 12: Bebidas",
+      "category": "comida",
       "words": [
         {
-          "word": "nat120",
-          "hint": "Relacionado con fenómenos"
+          "word": "com120",
+          "hint": "Relacionado con bebidas"
         },
         {
-          "word": "nat121",
-          "hint": "Relacionado con fenómenos"
+          "word": "com121",
+          "hint": "Relacionado con bebidas"
         },
         {
-          "word": "nat122",
-          "hint": "Relacionado con fenómenos"
+          "word": "com122",
+          "hint": "Relacionado con bebidas"
         },
         {
-          "word": "nat123",
-          "hint": "Relacionado con fenómenos"
+          "word": "com123",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com124",
+          "hint": "Relacionado con bebidas"
         }
       ]
     },
     "13": {
-      "title": "Etapa 13: Atletismo",
-      "category": "deportes",
+      "title": "Etapa 13: Pasteles",
+      "category": "colores",
       "words": [
         {
-          "word": "dep130",
-          "hint": "Relacionado con atletismo"
+          "word": "col130",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "dep131",
-          "hint": "Relacionado con atletismo"
+          "word": "col131",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "dep132",
-          "hint": "Relacionado con atletismo"
+          "word": "col132",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "dep133",
-          "hint": "Relacionado con atletismo"
+          "word": "col133",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col134",
+          "hint": "Relacionado con pasteles"
         }
       ]
     },
     "14": {
-      "title": "Etapa 14: Natación",
-      "category": "deportes",
+      "title": "Etapa 14: Decoración",
+      "category": "hogar",
       "words": [
         {
-          "word": "dep140",
-          "hint": "Relacionado con natación"
+          "word": "hog140",
+          "hint": "Relacionado con decoración"
         },
         {
-          "word": "dep141",
-          "hint": "Relacionado con natación"
+          "word": "hog141",
+          "hint": "Relacionado con decoración"
         },
         {
-          "word": "dep142",
-          "hint": "Relacionado con natación"
+          "word": "hog142",
+          "hint": "Relacionado con decoración"
         },
         {
-          "word": "dep143",
-          "hint": "Relacionado con natación"
+          "word": "hog143",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog144",
+          "hint": "Relacionado con decoración"
         }
       ]
     },
     "15": {
-      "title": "Etapa 15: Fútbol",
-      "category": "deportes",
+      "title": "Etapa 15: Tonos claros",
+      "category": "colores",
       "words": [
         {
-          "word": "dep150",
-          "hint": "Relacionado con fútbol"
+          "word": "col150",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "dep151",
-          "hint": "Relacionado con fútbol"
+          "word": "col151",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "dep152",
-          "hint": "Relacionado con fútbol"
+          "word": "col152",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "dep153",
-          "hint": "Relacionado con fútbol"
+          "word": "col153",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col154",
+          "hint": "Relacionado con tonos claros"
         }
       ]
     },
     "16": {
-      "title": "Etapa 16: Fenómenos",
-      "category": "naturaleza",
+      "title": "Etapa 16: Aula",
+      "category": "escuela",
       "words": [
         {
-          "word": "nat160",
-          "hint": "Relacionado con fenómenos"
+          "word": "esc160",
+          "hint": "Relacionado con aula"
         },
         {
-          "word": "nat161",
-          "hint": "Relacionado con fenómenos"
+          "word": "esc161",
+          "hint": "Relacionado con aula"
         },
         {
-          "word": "nat162",
-          "hint": "Relacionado con fenómenos"
+          "word": "esc162",
+          "hint": "Relacionado con aula"
         },
         {
-          "word": "nat163",
-          "hint": "Relacionado con fenómenos"
+          "word": "esc163",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc164",
+          "hint": "Relacionado con aula"
         }
       ]
     },
     "17": {
-      "title": "Etapa 17: Equipaje",
-      "category": "viajes",
+      "title": "Etapa 17: Climas",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "via170",
-          "hint": "Relacionado con equipaje"
+          "word": "nat170",
+          "hint": "Relacionado con climas"
         },
         {
-          "word": "via171",
-          "hint": "Relacionado con equipaje"
+          "word": "nat171",
+          "hint": "Relacionado con climas"
         },
         {
-          "word": "via172",
-          "hint": "Relacionado con equipaje"
+          "word": "nat172",
+          "hint": "Relacionado con climas"
         },
         {
-          "word": "via173",
-          "hint": "Relacionado con equipaje"
+          "word": "nat173",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat174",
+          "hint": "Relacionado con climas"
         }
       ]
     },
     "18": {
-      "title": "Etapa 18: Platos",
-      "category": "comida",
+      "title": "Etapa 18: Equipaje",
+      "category": "viajes",
       "words": [
         {
-          "word": "com180",
-          "hint": "Relacionado con platos"
+          "word": "via180",
+          "hint": "Relacionado con equipaje"
         },
         {
-          "word": "com181",
-          "hint": "Relacionado con platos"
+          "word": "via181",
+          "hint": "Relacionado con equipaje"
         },
         {
-          "word": "com182",
-          "hint": "Relacionado con platos"
+          "word": "via182",
+          "hint": "Relacionado con equipaje"
         },
         {
-          "word": "com183",
-          "hint": "Relacionado con platos"
+          "word": "via183",
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via184",
+          "hint": "Relacionado con equipaje"
         }
       ]
     },
     "19": {
-      "title": "Etapa 19: Natación",
-      "category": "deportes",
+      "title": "Etapa 19: Material escolar",
+      "category": "escuela",
       "words": [
         {
-          "word": "dep190",
-          "hint": "Relacionado con natación"
+          "word": "esc190",
+          "hint": "Relacionado con material escolar"
         },
         {
-          "word": "dep191",
-          "hint": "Relacionado con natación"
+          "word": "esc191",
+          "hint": "Relacionado con material escolar"
         },
         {
-          "word": "dep192",
-          "hint": "Relacionado con natación"
+          "word": "esc192",
+          "hint": "Relacionado con material escolar"
         },
         {
-          "word": "dep193",
-          "hint": "Relacionado con natación"
+          "word": "esc193",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc194",
+          "hint": "Relacionado con material escolar"
         }
       ]
     },
     "20": {
-      "title": "Etapa 20: Equipaje",
-      "category": "viajes",
+      "title": "Etapa 20: Decoración",
+      "category": "hogar",
       "words": [
         {
-          "word": "via200",
-          "hint": "Relacionado con equipaje"
+          "word": "hog200",
+          "hint": "Relacionado con decoración"
         },
         {
-          "word": "via201",
-          "hint": "Relacionado con equipaje"
+          "word": "hog201",
+          "hint": "Relacionado con decoración"
         },
         {
-          "word": "via202",
-          "hint": "Relacionado con equipaje"
+          "word": "hog202",
+          "hint": "Relacionado con decoración"
         },
         {
-          "word": "via203",
-          "hint": "Relacionado con equipaje"
+          "word": "hog203",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog204",
+          "hint": "Relacionado con decoración"
         }
       ]
     },
     "21": {
-      "title": "Etapa 21: Utensilios",
+      "title": "Etapa 21: Muebles",
       "category": "hogar",
       "words": [
         {
           "word": "hog210",
-          "hint": "Relacionado con utensilios"
+          "hint": "Relacionado con muebles"
         },
         {
           "word": "hog211",
-          "hint": "Relacionado con utensilios"
+          "hint": "Relacionado con muebles"
         },
         {
           "word": "hog212",
-          "hint": "Relacionado con utensilios"
+          "hint": "Relacionado con muebles"
         },
         {
           "word": "hog213",
-          "hint": "Relacionado con utensilios"
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog214",
+          "hint": "Relacionado con muebles"
         }
       ]
     },
     "22": {
-      "title": "Etapa 22: Fútbol",
-      "category": "deportes",
+      "title": "Etapa 22: Platos",
+      "category": "comida",
       "words": [
         {
-          "word": "dep220",
-          "hint": "Relacionado con fútbol"
+          "word": "com220",
+          "hint": "Relacionado con platos"
         },
         {
-          "word": "dep221",
-          "hint": "Relacionado con fútbol"
+          "word": "com221",
+          "hint": "Relacionado con platos"
         },
         {
-          "word": "dep222",
-          "hint": "Relacionado con fútbol"
+          "word": "com222",
+          "hint": "Relacionado con platos"
         },
         {
-          "word": "dep223",
-          "hint": "Relacionado con fútbol"
+          "word": "com223",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com224",
+          "hint": "Relacionado con platos"
         }
       ]
     },
     "23": {
-      "title": "Etapa 23: Hoteles",
-      "category": "viajes",
+      "title": "Etapa 23: Básicos",
+      "category": "colores",
       "words": [
         {
-          "word": "via230",
-          "hint": "Relacionado con hoteles"
+          "word": "col230",
+          "hint": "Relacionado con básicos"
         },
         {
-          "word": "via231",
-          "hint": "Relacionado con hoteles"
+          "word": "col231",
+          "hint": "Relacionado con básicos"
         },
         {
-          "word": "via232",
-          "hint": "Relacionado con hoteles"
+          "word": "col232",
+          "hint": "Relacionado con básicos"
         },
         {
-          "word": "via233",
-          "hint": "Relacionado con hoteles"
+          "word": "col233",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col234",
+          "hint": "Relacionado con básicos"
         }
       ]
     },
     "24": {
-      "title": "Etapa 24: Fútbol",
+      "title": "Etapa 24: Equipo",
       "category": "deportes",
       "words": [
         {
           "word": "dep240",
-          "hint": "Relacionado con fútbol"
+          "hint": "Relacionado con equipo"
         },
         {
           "word": "dep241",
-          "hint": "Relacionado con fútbol"
+          "hint": "Relacionado con equipo"
         },
         {
           "word": "dep242",
-          "hint": "Relacionado con fútbol"
+          "hint": "Relacionado con equipo"
         },
         {
           "word": "dep243",
-          "hint": "Relacionado con fútbol"
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep244",
+          "hint": "Relacionado con equipo"
         }
       ]
     },
     "25": {
-      "title": "Etapa 25: Utensilios",
-      "category": "hogar",
+      "title": "Etapa 25: Animales silvestres",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "hog250",
-          "hint": "Relacionado con utensilios"
+          "word": "nat250",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "hog251",
-          "hint": "Relacionado con utensilios"
+          "word": "nat251",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "hog252",
-          "hint": "Relacionado con utensilios"
+          "word": "nat252",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "hog253",
-          "hint": "Relacionado con utensilios"
+          "word": "nat253",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat254",
+          "hint": "Relacionado con animales silvestres"
         }
       ]
     },
     "26": {
-      "title": "Etapa 26: Monumentos",
-      "category": "viajes",
+      "title": "Etapa 26: Asignaturas",
+      "category": "escuela",
       "words": [
         {
-          "word": "via260",
-          "hint": "Relacionado con monumentos"
+          "word": "esc260",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "via261",
-          "hint": "Relacionado con monumentos"
+          "word": "esc261",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "via262",
-          "hint": "Relacionado con monumentos"
+          "word": "esc262",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "via263",
-          "hint": "Relacionado con monumentos"
+          "word": "esc263",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc264",
+          "hint": "Relacionado con asignaturas"
         }
       ]
     },
     "27": {
-      "title": "Etapa 27: Verduras",
-      "category": "comida",
+      "title": "Etapa 27: Mascotas",
+      "category": "animales",
       "words": [
         {
-          "word": "com270",
-          "hint": "Relacionado con verduras"
+          "word": "ani270",
+          "hint": "Relacionado con mascotas"
         },
         {
-          "word": "com271",
-          "hint": "Relacionado con verduras"
+          "word": "ani271",
+          "hint": "Relacionado con mascotas"
         },
         {
-          "word": "com272",
-          "hint": "Relacionado con verduras"
+          "word": "ani272",
+          "hint": "Relacionado con mascotas"
         },
         {
-          "word": "com273",
-          "hint": "Relacionado con verduras"
+          "word": "ani273",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani274",
+          "hint": "Relacionado con mascotas"
         }
       ]
     },
@@ -9421,226 +3323,270 @@ const levels = {
         {
           "word": "com283",
           "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com284",
+          "hint": "Relacionado con postres"
         }
       ]
     },
     "29": {
-      "title": "Etapa 29: Voladores",
-      "category": "animales",
+      "title": "Etapa 29: Habitaciones",
+      "category": "hogar",
       "words": [
         {
-          "word": "ani290",
-          "hint": "Relacionado con voladores"
+          "word": "hog290",
+          "hint": "Relacionado con habitaciones"
         },
         {
-          "word": "ani291",
-          "hint": "Relacionado con voladores"
+          "word": "hog291",
+          "hint": "Relacionado con habitaciones"
         },
         {
-          "word": "ani292",
-          "hint": "Relacionado con voladores"
+          "word": "hog292",
+          "hint": "Relacionado con habitaciones"
         },
         {
-          "word": "ani293",
-          "hint": "Relacionado con voladores"
+          "word": "hog293",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog294",
+          "hint": "Relacionado con habitaciones"
         }
       ]
     },
     "30": {
-      "title": "Etapa 30: Fútbol",
-      "category": "deportes",
+      "title": "Etapa 30: Climas",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "dep300",
-          "hint": "Relacionado con fútbol"
+          "word": "nat300",
+          "hint": "Relacionado con climas"
         },
         {
-          "word": "dep301",
-          "hint": "Relacionado con fútbol"
+          "word": "nat301",
+          "hint": "Relacionado con climas"
         },
         {
-          "word": "dep302",
-          "hint": "Relacionado con fútbol"
+          "word": "nat302",
+          "hint": "Relacionado con climas"
         },
         {
-          "word": "dep303",
-          "hint": "Relacionado con fútbol"
+          "word": "nat303",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat304",
+          "hint": "Relacionado con climas"
         }
       ]
     },
     "31": {
-      "title": "Etapa 31: Fenómenos",
+      "title": "Etapa 31: Plantas",
       "category": "naturaleza",
       "words": [
         {
           "word": "nat310",
-          "hint": "Relacionado con fenómenos"
+          "hint": "Relacionado con plantas"
         },
         {
           "word": "nat311",
-          "hint": "Relacionado con fenómenos"
+          "hint": "Relacionado con plantas"
         },
         {
           "word": "nat312",
-          "hint": "Relacionado con fenómenos"
+          "hint": "Relacionado con plantas"
         },
         {
           "word": "nat313",
-          "hint": "Relacionado con fenómenos"
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat314",
+          "hint": "Relacionado con plantas"
         }
       ]
     },
     "32": {
-      "title": "Etapa 32: Platos",
-      "category": "comida",
+      "title": "Etapa 32: Tonos claros",
+      "category": "colores",
       "words": [
         {
-          "word": "com320",
-          "hint": "Relacionado con platos"
+          "word": "col320",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "com321",
-          "hint": "Relacionado con platos"
+          "word": "col321",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "com322",
-          "hint": "Relacionado con platos"
+          "word": "col322",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "com323",
-          "hint": "Relacionado con platos"
+          "word": "col323",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col324",
+          "hint": "Relacionado con tonos claros"
         }
       ]
     },
     "33": {
-      "title": "Etapa 33: Paisajes",
+      "title": "Etapa 33: Fenómenos",
       "category": "naturaleza",
       "words": [
         {
           "word": "nat330",
-          "hint": "Relacionado con paisajes"
+          "hint": "Relacionado con fenómenos"
         },
         {
           "word": "nat331",
-          "hint": "Relacionado con paisajes"
+          "hint": "Relacionado con fenómenos"
         },
         {
           "word": "nat332",
-          "hint": "Relacionado con paisajes"
+          "hint": "Relacionado con fenómenos"
         },
         {
           "word": "nat333",
-          "hint": "Relacionado con paisajes"
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat334",
+          "hint": "Relacionado con fenómenos"
         }
       ]
     },
     "34": {
-      "title": "Etapa 34: Salvajes",
-      "category": "animales",
+      "title": "Etapa 34: Platos",
+      "category": "comida",
       "words": [
         {
-          "word": "ani340",
-          "hint": "Relacionado con salvajes"
+          "word": "com340",
+          "hint": "Relacionado con platos"
         },
         {
-          "word": "ani341",
-          "hint": "Relacionado con salvajes"
+          "word": "com341",
+          "hint": "Relacionado con platos"
         },
         {
-          "word": "ani342",
-          "hint": "Relacionado con salvajes"
+          "word": "com342",
+          "hint": "Relacionado con platos"
         },
         {
-          "word": "ani343",
-          "hint": "Relacionado con salvajes"
+          "word": "com343",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com344",
+          "hint": "Relacionado con platos"
         }
       ]
     },
     "35": {
-      "title": "Etapa 35: Postres",
-      "category": "comida",
+      "title": "Etapa 35: Voladores",
+      "category": "animales",
       "words": [
         {
-          "word": "com350",
-          "hint": "Relacionado con postres"
+          "word": "ani350",
+          "hint": "Relacionado con voladores"
         },
         {
-          "word": "com351",
-          "hint": "Relacionado con postres"
+          "word": "ani351",
+          "hint": "Relacionado con voladores"
         },
         {
-          "word": "com352",
-          "hint": "Relacionado con postres"
+          "word": "ani352",
+          "hint": "Relacionado con voladores"
         },
         {
-          "word": "com353",
-          "hint": "Relacionado con postres"
+          "word": "ani353",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani354",
+          "hint": "Relacionado con voladores"
         }
       ]
     },
     "36": {
-      "title": "Etapa 36: Verduras",
-      "category": "comida",
+      "title": "Etapa 36: Tonos oscuros",
+      "category": "colores",
       "words": [
         {
-          "word": "com360",
-          "hint": "Relacionado con verduras"
+          "word": "col360",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "com361",
-          "hint": "Relacionado con verduras"
+          "word": "col361",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "com362",
-          "hint": "Relacionado con verduras"
+          "word": "col362",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "com363",
-          "hint": "Relacionado con verduras"
+          "word": "col363",
+          "hint": "Relacionado con tonos oscuros"
+        },
+        {
+          "word": "col364",
+          "hint": "Relacionado con tonos oscuros"
         }
       ]
     },
     "37": {
-      "title": "Etapa 37: De granja",
-      "category": "animales",
+      "title": "Etapa 37: Verduras",
+      "category": "comida",
       "words": [
         {
-          "word": "ani370",
-          "hint": "Relacionado con de granja"
+          "word": "com370",
+          "hint": "Relacionado con verduras"
         },
         {
-          "word": "ani371",
-          "hint": "Relacionado con de granja"
+          "word": "com371",
+          "hint": "Relacionado con verduras"
         },
         {
-          "word": "ani372",
-          "hint": "Relacionado con de granja"
+          "word": "com372",
+          "hint": "Relacionado con verduras"
         },
         {
-          "word": "ani373",
-          "hint": "Relacionado con de granja"
+          "word": "com373",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com374",
+          "hint": "Relacionado con verduras"
         }
       ]
     },
     "38": {
-      "title": "Etapa 38: Voladores",
-      "category": "animales",
+      "title": "Etapa 38: Hoteles",
+      "category": "viajes",
       "words": [
         {
-          "word": "ani380",
-          "hint": "Relacionado con voladores"
+          "word": "via380",
+          "hint": "Relacionado con hoteles"
         },
         {
-          "word": "ani381",
-          "hint": "Relacionado con voladores"
+          "word": "via381",
+          "hint": "Relacionado con hoteles"
         },
         {
-          "word": "ani382",
-          "hint": "Relacionado con voladores"
+          "word": "via382",
+          "hint": "Relacionado con hoteles"
         },
         {
-          "word": "ani383",
-          "hint": "Relacionado con voladores"
+          "word": "via383",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via384",
+          "hint": "Relacionado con hoteles"
         }
       ]
     },
@@ -9662,6 +3608,10 @@ const levels = {
         },
         {
           "word": "nat393",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat394",
           "hint": "Relacionado con paisajes"
         }
       ]
@@ -9685,644 +3635,764 @@ const levels = {
         {
           "word": "dep403",
           "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep404",
+          "hint": "Relacionado con atletismo"
         }
       ]
     },
     "41": {
-      "title": "Etapa 41: Paisajes",
-      "category": "naturaleza",
+      "title": "Etapa 41: Hoteles",
+      "category": "viajes",
       "words": [
         {
-          "word": "nat410",
-          "hint": "Relacionado con paisajes"
+          "word": "via410",
+          "hint": "Relacionado con hoteles"
         },
         {
-          "word": "nat411",
-          "hint": "Relacionado con paisajes"
+          "word": "via411",
+          "hint": "Relacionado con hoteles"
         },
         {
-          "word": "nat412",
-          "hint": "Relacionado con paisajes"
+          "word": "via412",
+          "hint": "Relacionado con hoteles"
         },
         {
-          "word": "nat413",
-          "hint": "Relacionado con paisajes"
+          "word": "via413",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via414",
+          "hint": "Relacionado con hoteles"
         }
       ]
     },
     "42": {
-      "title": "Etapa 42: Baloncesto",
+      "title": "Etapa 42: Deportes acuáticos",
       "category": "deportes",
       "words": [
         {
           "word": "dep420",
-          "hint": "Relacionado con baloncesto"
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
           "word": "dep421",
-          "hint": "Relacionado con baloncesto"
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
           "word": "dep422",
-          "hint": "Relacionado con baloncesto"
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
           "word": "dep423",
-          "hint": "Relacionado con baloncesto"
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep424",
+          "hint": "Relacionado con deportes acuáticos"
         }
       ]
     },
     "43": {
-      "title": "Etapa 43: Transporte",
+      "title": "Etapa 43: Equipaje",
       "category": "viajes",
       "words": [
         {
           "word": "via430",
-          "hint": "Relacionado con transporte"
+          "hint": "Relacionado con equipaje"
         },
         {
           "word": "via431",
-          "hint": "Relacionado con transporte"
+          "hint": "Relacionado con equipaje"
         },
         {
           "word": "via432",
-          "hint": "Relacionado con transporte"
+          "hint": "Relacionado con equipaje"
         },
         {
           "word": "via433",
-          "hint": "Relacionado con transporte"
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via434",
+          "hint": "Relacionado con equipaje"
         }
       ]
     },
     "44": {
-      "title": "Etapa 44: Frutas",
-      "category": "comida",
+      "title": "Etapa 44: Asignaturas",
+      "category": "escuela",
       "words": [
         {
-          "word": "com440",
-          "hint": "Relacionado con frutas"
+          "word": "esc440",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "com441",
-          "hint": "Relacionado con frutas"
+          "word": "esc441",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "com442",
-          "hint": "Relacionado con frutas"
+          "word": "esc442",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "com443",
-          "hint": "Relacionado con frutas"
+          "word": "esc443",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc444",
+          "hint": "Relacionado con asignaturas"
         }
       ]
     },
     "45": {
-      "title": "Etapa 45: Plantas",
-      "category": "naturaleza",
+      "title": "Etapa 45: Aula",
+      "category": "escuela",
       "words": [
         {
-          "word": "nat450",
-          "hint": "Relacionado con plantas"
+          "word": "esc450",
+          "hint": "Relacionado con aula"
         },
         {
-          "word": "nat451",
-          "hint": "Relacionado con plantas"
+          "word": "esc451",
+          "hint": "Relacionado con aula"
         },
         {
-          "word": "nat452",
-          "hint": "Relacionado con plantas"
+          "word": "esc452",
+          "hint": "Relacionado con aula"
         },
         {
-          "word": "nat453",
-          "hint": "Relacionado con plantas"
+          "word": "esc453",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc454",
+          "hint": "Relacionado con aula"
         }
       ]
     },
     "46": {
-      "title": "Etapa 46: Platos",
-      "category": "comida",
+      "title": "Etapa 46: Fenómenos",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "com460",
-          "hint": "Relacionado con platos"
+          "word": "nat460",
+          "hint": "Relacionado con fenómenos"
         },
         {
-          "word": "com461",
-          "hint": "Relacionado con platos"
+          "word": "nat461",
+          "hint": "Relacionado con fenómenos"
         },
         {
-          "word": "com462",
-          "hint": "Relacionado con platos"
+          "word": "nat462",
+          "hint": "Relacionado con fenómenos"
         },
         {
-          "word": "com463",
-          "hint": "Relacionado con platos"
+          "word": "nat463",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat464",
+          "hint": "Relacionado con fenómenos"
         }
       ]
     },
     "47": {
-      "title": "Etapa 47: Postres",
-      "category": "comida",
+      "title": "Etapa 47: Decoración",
+      "category": "hogar",
       "words": [
         {
-          "word": "com470",
-          "hint": "Relacionado con postres"
+          "word": "hog470",
+          "hint": "Relacionado con decoración"
         },
         {
-          "word": "com471",
-          "hint": "Relacionado con postres"
+          "word": "hog471",
+          "hint": "Relacionado con decoración"
         },
         {
-          "word": "com472",
-          "hint": "Relacionado con postres"
+          "word": "hog472",
+          "hint": "Relacionado con decoración"
         },
         {
-          "word": "com473",
-          "hint": "Relacionado con postres"
+          "word": "hog473",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog474",
+          "hint": "Relacionado con decoración"
         }
       ]
     },
     "48": {
-      "title": "Etapa 48: Voladores",
-      "category": "animales",
+      "title": "Etapa 48: Asignaturas",
+      "category": "escuela",
       "words": [
         {
-          "word": "ani480",
-          "hint": "Relacionado con voladores"
+          "word": "esc480",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "ani481",
-          "hint": "Relacionado con voladores"
+          "word": "esc481",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "ani482",
-          "hint": "Relacionado con voladores"
+          "word": "esc482",
+          "hint": "Relacionado con asignaturas"
         },
         {
-          "word": "ani483",
-          "hint": "Relacionado con voladores"
+          "word": "esc483",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc484",
+          "hint": "Relacionado con asignaturas"
         }
       ]
     },
     "49": {
-      "title": "Etapa 49: Electrodomésticos",
-      "category": "hogar",
+      "title": "Etapa 49: Exámenes",
+      "category": "escuela",
       "words": [
         {
-          "word": "hog490",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "esc490",
+          "hint": "Relacionado con exámenes"
         },
         {
-          "word": "hog491",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "esc491",
+          "hint": "Relacionado con exámenes"
         },
         {
-          "word": "hog492",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "esc492",
+          "hint": "Relacionado con exámenes"
         },
         {
-          "word": "hog493",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "esc493",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc494",
+          "hint": "Relacionado con exámenes"
         }
       ]
     },
     "50": {
-      "title": "Etapa 50: Mapas",
-      "category": "viajes",
+      "title": "Etapa 50: Tonos oscuros",
+      "category": "colores",
       "words": [
         {
-          "word": "via500",
-          "hint": "Relacionado con mapas"
+          "word": "col500",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "via501",
-          "hint": "Relacionado con mapas"
+          "word": "col501",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "via502",
-          "hint": "Relacionado con mapas"
+          "word": "col502",
+          "hint": "Relacionado con tonos oscuros"
         },
         {
-          "word": "via503",
-          "hint": "Relacionado con mapas"
+          "word": "col503",
+          "hint": "Relacionado con tonos oscuros"
+        },
+        {
+          "word": "col504",
+          "hint": "Relacionado con tonos oscuros"
         }
       ]
     },
     "51": {
-      "title": "Etapa 51: Atletismo",
-      "category": "deportes",
+      "title": "Etapa 51: Voladores",
+      "category": "animales",
       "words": [
         {
-          "word": "dep510",
-          "hint": "Relacionado con atletismo"
+          "word": "ani510",
+          "hint": "Relacionado con voladores"
         },
         {
-          "word": "dep511",
-          "hint": "Relacionado con atletismo"
+          "word": "ani511",
+          "hint": "Relacionado con voladores"
         },
         {
-          "word": "dep512",
-          "hint": "Relacionado con atletismo"
+          "word": "ani512",
+          "hint": "Relacionado con voladores"
         },
         {
-          "word": "dep513",
-          "hint": "Relacionado con atletismo"
+          "word": "ani513",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani514",
+          "hint": "Relacionado con voladores"
         }
       ]
     },
     "52": {
-      "title": "Etapa 52: Baloncesto",
-      "category": "deportes",
+      "title": "Etapa 52: Utensilios",
+      "category": "hogar",
       "words": [
         {
-          "word": "dep520",
-          "hint": "Relacionado con baloncesto"
+          "word": "hog520",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "dep521",
-          "hint": "Relacionado con baloncesto"
+          "word": "hog521",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "dep522",
-          "hint": "Relacionado con baloncesto"
+          "word": "hog522",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "dep523",
-          "hint": "Relacionado con baloncesto"
+          "word": "hog523",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog524",
+          "hint": "Relacionado con utensilios"
         }
       ]
     },
     "53": {
-      "title": "Etapa 53: Baloncesto",
-      "category": "deportes",
+      "title": "Etapa 53: Postres",
+      "category": "comida",
       "words": [
         {
-          "word": "dep530",
-          "hint": "Relacionado con baloncesto"
+          "word": "com530",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "dep531",
-          "hint": "Relacionado con baloncesto"
+          "word": "com531",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "dep532",
-          "hint": "Relacionado con baloncesto"
+          "word": "com532",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "dep533",
-          "hint": "Relacionado con baloncesto"
+          "word": "com533",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com534",
+          "hint": "Relacionado con postres"
         }
       ]
     },
     "54": {
-      "title": "Etapa 54: Hoteles",
-      "category": "viajes",
+      "title": "Etapa 54: Muebles",
+      "category": "hogar",
       "words": [
         {
-          "word": "via540",
-          "hint": "Relacionado con hoteles"
+          "word": "hog540",
+          "hint": "Relacionado con muebles"
         },
         {
-          "word": "via541",
-          "hint": "Relacionado con hoteles"
+          "word": "hog541",
+          "hint": "Relacionado con muebles"
         },
         {
-          "word": "via542",
-          "hint": "Relacionado con hoteles"
+          "word": "hog542",
+          "hint": "Relacionado con muebles"
         },
         {
-          "word": "via543",
-          "hint": "Relacionado con hoteles"
+          "word": "hog543",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog544",
+          "hint": "Relacionado con muebles"
         }
       ]
     },
     "55": {
-      "title": "Etapa 55: Ciclismo",
-      "category": "deportes",
+      "title": "Etapa 55: Pasteles",
+      "category": "colores",
       "words": [
         {
-          "word": "dep550",
-          "hint": "Relacionado con ciclismo"
+          "word": "col550",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "dep551",
-          "hint": "Relacionado con ciclismo"
+          "word": "col551",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "dep552",
-          "hint": "Relacionado con ciclismo"
+          "word": "col552",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "dep553",
-          "hint": "Relacionado con ciclismo"
+          "word": "col553",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col554",
+          "hint": "Relacionado con pasteles"
         }
       ]
     },
     "56": {
-      "title": "Etapa 56: Postres",
-      "category": "comida",
+      "title": "Etapa 56: Básicos",
+      "category": "colores",
       "words": [
         {
-          "word": "com560",
-          "hint": "Relacionado con postres"
+          "word": "col560",
+          "hint": "Relacionado con básicos"
         },
         {
-          "word": "com561",
-          "hint": "Relacionado con postres"
+          "word": "col561",
+          "hint": "Relacionado con básicos"
         },
         {
-          "word": "com562",
-          "hint": "Relacionado con postres"
+          "word": "col562",
+          "hint": "Relacionado con básicos"
         },
         {
-          "word": "com563",
-          "hint": "Relacionado con postres"
+          "word": "col563",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col564",
+          "hint": "Relacionado con básicos"
         }
       ]
     },
     "57": {
-      "title": "Etapa 57: Muebles",
-      "category": "hogar",
+      "title": "Etapa 57: Juegos",
+      "category": "deportes",
       "words": [
         {
-          "word": "hog570",
-          "hint": "Relacionado con muebles"
+          "word": "dep570",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "hog571",
-          "hint": "Relacionado con muebles"
+          "word": "dep571",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "hog572",
-          "hint": "Relacionado con muebles"
+          "word": "dep572",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "hog573",
-          "hint": "Relacionado con muebles"
+          "word": "dep573",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep574",
+          "hint": "Relacionado con juegos"
         }
       ]
     },
     "58": {
-      "title": "Etapa 58: Animales silvestres",
-      "category": "naturaleza",
+      "title": "Etapa 58: Postres",
+      "category": "comida",
       "words": [
         {
-          "word": "nat580",
-          "hint": "Relacionado con animales silvestres"
+          "word": "com580",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "nat581",
-          "hint": "Relacionado con animales silvestres"
+          "word": "com581",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "nat582",
-          "hint": "Relacionado con animales silvestres"
+          "word": "com582",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "nat583",
-          "hint": "Relacionado con animales silvestres"
+          "word": "com583",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com584",
+          "hint": "Relacionado con postres"
         }
       ]
     },
     "59": {
-      "title": "Etapa 59: Habitaciones",
-      "category": "hogar",
+      "title": "Etapa 59: Deportes acuáticos",
+      "category": "deportes",
       "words": [
         {
-          "word": "hog590",
-          "hint": "Relacionado con habitaciones"
+          "word": "dep590",
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
-          "word": "hog591",
-          "hint": "Relacionado con habitaciones"
+          "word": "dep591",
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
-          "word": "hog592",
-          "hint": "Relacionado con habitaciones"
+          "word": "dep592",
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
-          "word": "hog593",
-          "hint": "Relacionado con habitaciones"
+          "word": "dep593",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep594",
+          "hint": "Relacionado con deportes acuáticos"
         }
       ]
     },
     "60": {
-      "title": "Etapa 60: Frutas",
-      "category": "comida",
+      "title": "Etapa 60: Atletismo",
+      "category": "deportes",
       "words": [
         {
-          "word": "com600",
-          "hint": "Relacionado con frutas"
+          "word": "dep600",
+          "hint": "Relacionado con atletismo"
         },
         {
-          "word": "com601",
-          "hint": "Relacionado con frutas"
+          "word": "dep601",
+          "hint": "Relacionado con atletismo"
         },
         {
-          "word": "com602",
-          "hint": "Relacionado con frutas"
+          "word": "dep602",
+          "hint": "Relacionado con atletismo"
         },
         {
-          "word": "com603",
-          "hint": "Relacionado con frutas"
+          "word": "dep603",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep604",
+          "hint": "Relacionado con atletismo"
         }
       ]
     },
     "61": {
-      "title": "Etapa 61: Salvajes",
-      "category": "animales",
+      "title": "Etapa 61: Platos",
+      "category": "comida",
       "words": [
         {
-          "word": "ani610",
-          "hint": "Relacionado con salvajes"
+          "word": "com610",
+          "hint": "Relacionado con platos"
         },
         {
-          "word": "ani611",
-          "hint": "Relacionado con salvajes"
+          "word": "com611",
+          "hint": "Relacionado con platos"
         },
         {
-          "word": "ani612",
-          "hint": "Relacionado con salvajes"
+          "word": "com612",
+          "hint": "Relacionado con platos"
         },
         {
-          "word": "ani613",
-          "hint": "Relacionado con salvajes"
+          "word": "com613",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com614",
+          "hint": "Relacionado con platos"
         }
       ]
     },
     "62": {
-      "title": "Etapa 62: Voladores",
-      "category": "animales",
+      "title": "Etapa 62: Atletismo",
+      "category": "deportes",
       "words": [
         {
-          "word": "ani620",
-          "hint": "Relacionado con voladores"
+          "word": "dep620",
+          "hint": "Relacionado con atletismo"
         },
         {
-          "word": "ani621",
-          "hint": "Relacionado con voladores"
+          "word": "dep621",
+          "hint": "Relacionado con atletismo"
         },
         {
-          "word": "ani622",
-          "hint": "Relacionado con voladores"
+          "word": "dep622",
+          "hint": "Relacionado con atletismo"
         },
         {
-          "word": "ani623",
-          "hint": "Relacionado con voladores"
+          "word": "dep623",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep624",
+          "hint": "Relacionado con atletismo"
         }
       ]
     },
     "63": {
-      "title": "Etapa 63: Natación",
+      "title": "Etapa 63: Deportes extremos",
       "category": "deportes",
       "words": [
         {
           "word": "dep630",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con deportes extremos"
         },
         {
           "word": "dep631",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con deportes extremos"
         },
         {
           "word": "dep632",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con deportes extremos"
         },
         {
           "word": "dep633",
-          "hint": "Relacionado con natación"
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep634",
+          "hint": "Relacionado con deportes extremos"
         }
       ]
     },
     "64": {
-      "title": "Etapa 64: Salvajes",
-      "category": "animales",
+      "title": "Etapa 64: Frutas",
+      "category": "comida",
       "words": [
         {
-          "word": "ani640",
-          "hint": "Relacionado con salvajes"
+          "word": "com640",
+          "hint": "Relacionado con frutas"
         },
         {
-          "word": "ani641",
-          "hint": "Relacionado con salvajes"
+          "word": "com641",
+          "hint": "Relacionado con frutas"
         },
         {
-          "word": "ani642",
-          "hint": "Relacionado con salvajes"
+          "word": "com642",
+          "hint": "Relacionado con frutas"
         },
         {
-          "word": "ani643",
-          "hint": "Relacionado con salvajes"
+          "word": "com643",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com644",
+          "hint": "Relacionado con frutas"
         }
       ]
     },
     "65": {
-      "title": "Etapa 65: Animales silvestres",
-      "category": "naturaleza",
+      "title": "Etapa 65: Equipo",
+      "category": "deportes",
       "words": [
         {
-          "word": "nat650",
-          "hint": "Relacionado con animales silvestres"
+          "word": "dep650",
+          "hint": "Relacionado con equipo"
         },
         {
-          "word": "nat651",
-          "hint": "Relacionado con animales silvestres"
+          "word": "dep651",
+          "hint": "Relacionado con equipo"
         },
         {
-          "word": "nat652",
-          "hint": "Relacionado con animales silvestres"
+          "word": "dep652",
+          "hint": "Relacionado con equipo"
         },
         {
-          "word": "nat653",
-          "hint": "Relacionado con animales silvestres"
+          "word": "dep653",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep654",
+          "hint": "Relacionado con equipo"
         }
       ]
     },
     "66": {
-      "title": "Etapa 66: Monumentos",
-      "category": "viajes",
+      "title": "Etapa 66: Habitaciones",
+      "category": "hogar",
       "words": [
         {
-          "word": "via660",
-          "hint": "Relacionado con monumentos"
+          "word": "hog660",
+          "hint": "Relacionado con habitaciones"
         },
         {
-          "word": "via661",
-          "hint": "Relacionado con monumentos"
+          "word": "hog661",
+          "hint": "Relacionado con habitaciones"
         },
         {
-          "word": "via662",
-          "hint": "Relacionado con monumentos"
+          "word": "hog662",
+          "hint": "Relacionado con habitaciones"
         },
         {
-          "word": "via663",
-          "hint": "Relacionado con monumentos"
+          "word": "hog663",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog664",
+          "hint": "Relacionado con habitaciones"
         }
       ]
     },
     "67": {
-      "title": "Etapa 67: Monumentos",
-      "category": "viajes",
+      "title": "Etapa 67: Deportes acuáticos",
+      "category": "deportes",
       "words": [
         {
-          "word": "via670",
-          "hint": "Relacionado con monumentos"
+          "word": "dep670",
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
-          "word": "via671",
-          "hint": "Relacionado con monumentos"
+          "word": "dep671",
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
-          "word": "via672",
-          "hint": "Relacionado con monumentos"
+          "word": "dep672",
+          "hint": "Relacionado con deportes acuáticos"
         },
         {
-          "word": "via673",
-          "hint": "Relacionado con monumentos"
+          "word": "dep673",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep674",
+          "hint": "Relacionado con deportes acuáticos"
         }
       ]
     },
     "68": {
-      "title": "Etapa 68: Paisajes",
-      "category": "naturaleza",
+      "title": "Etapa 68: Habitaciones",
+      "category": "hogar",
       "words": [
         {
-          "word": "nat680",
-          "hint": "Relacionado con paisajes"
+          "word": "hog680",
+          "hint": "Relacionado con habitaciones"
         },
         {
-          "word": "nat681",
-          "hint": "Relacionado con paisajes"
+          "word": "hog681",
+          "hint": "Relacionado con habitaciones"
         },
         {
-          "word": "nat682",
-          "hint": "Relacionado con paisajes"
+          "word": "hog682",
+          "hint": "Relacionado con habitaciones"
         },
         {
-          "word": "nat683",
-          "hint": "Relacionado con paisajes"
+          "word": "hog683",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog684",
+          "hint": "Relacionado con habitaciones"
         }
       ]
     },
     "69": {
-      "title": "Etapa 69: Plantas",
-      "category": "naturaleza",
+      "title": "Etapa 69: Bebidas",
+      "category": "comida",
       "words": [
         {
-          "word": "nat690",
-          "hint": "Relacionado con plantas"
+          "word": "com690",
+          "hint": "Relacionado con bebidas"
         },
         {
-          "word": "nat691",
-          "hint": "Relacionado con plantas"
+          "word": "com691",
+          "hint": "Relacionado con bebidas"
         },
         {
-          "word": "nat692",
-          "hint": "Relacionado con plantas"
+          "word": "com692",
+          "hint": "Relacionado con bebidas"
         },
         {
-          "word": "nat693",
-          "hint": "Relacionado con plantas"
+          "word": "com693",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com694",
+          "hint": "Relacionado con bebidas"
         }
       ]
     },
@@ -10345,116 +4415,140 @@ const levels = {
         {
           "word": "com703",
           "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com704",
+          "hint": "Relacionado con postres"
         }
       ]
     },
     "71": {
-      "title": "Etapa 71: Mascotas",
-      "category": "animales",
+      "title": "Etapa 71: Mapas",
+      "category": "viajes",
       "words": [
         {
-          "word": "ani710",
-          "hint": "Relacionado con mascotas"
+          "word": "via710",
+          "hint": "Relacionado con mapas"
         },
         {
-          "word": "ani711",
-          "hint": "Relacionado con mascotas"
+          "word": "via711",
+          "hint": "Relacionado con mapas"
         },
         {
-          "word": "ani712",
-          "hint": "Relacionado con mascotas"
+          "word": "via712",
+          "hint": "Relacionado con mapas"
         },
         {
-          "word": "ani713",
-          "hint": "Relacionado con mascotas"
+          "word": "via713",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via714",
+          "hint": "Relacionado con mapas"
         }
       ]
     },
     "72": {
-      "title": "Etapa 72: Fútbol",
-      "category": "deportes",
+      "title": "Etapa 72: Muebles",
+      "category": "hogar",
       "words": [
         {
-          "word": "dep720",
-          "hint": "Relacionado con fútbol"
+          "word": "hog720",
+          "hint": "Relacionado con muebles"
         },
         {
-          "word": "dep721",
-          "hint": "Relacionado con fútbol"
+          "word": "hog721",
+          "hint": "Relacionado con muebles"
         },
         {
-          "word": "dep722",
-          "hint": "Relacionado con fútbol"
+          "word": "hog722",
+          "hint": "Relacionado con muebles"
         },
         {
-          "word": "dep723",
-          "hint": "Relacionado con fútbol"
+          "word": "hog723",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog724",
+          "hint": "Relacionado con muebles"
         }
       ]
     },
     "73": {
-      "title": "Etapa 73: Paisajes",
-      "category": "naturaleza",
+      "title": "Etapa 73: Transporte",
+      "category": "viajes",
       "words": [
         {
-          "word": "nat730",
-          "hint": "Relacionado con paisajes"
+          "word": "via730",
+          "hint": "Relacionado con transporte"
         },
         {
-          "word": "nat731",
-          "hint": "Relacionado con paisajes"
+          "word": "via731",
+          "hint": "Relacionado con transporte"
         },
         {
-          "word": "nat732",
-          "hint": "Relacionado con paisajes"
+          "word": "via732",
+          "hint": "Relacionado con transporte"
         },
         {
-          "word": "nat733",
-          "hint": "Relacionado con paisajes"
+          "word": "via733",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via734",
+          "hint": "Relacionado con transporte"
         }
       ]
     },
     "74": {
-      "title": "Etapa 74: Transporte",
-      "category": "viajes",
+      "title": "Etapa 74: Juegos",
+      "category": "deportes",
       "words": [
         {
-          "word": "via740",
-          "hint": "Relacionado con transporte"
+          "word": "dep740",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "via741",
-          "hint": "Relacionado con transporte"
+          "word": "dep741",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "via742",
-          "hint": "Relacionado con transporte"
+          "word": "dep742",
+          "hint": "Relacionado con juegos"
         },
         {
-          "word": "via743",
-          "hint": "Relacionado con transporte"
+          "word": "dep743",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep744",
+          "hint": "Relacionado con juegos"
         }
       ]
     },
     "75": {
-      "title": "Etapa 75: Animales silvestres",
-      "category": "naturaleza",
+      "title": "Etapa 75: Equipo",
+      "category": "deportes",
       "words": [
         {
-          "word": "nat750",
-          "hint": "Relacionado con animales silvestres"
+          "word": "dep750",
+          "hint": "Relacionado con equipo"
         },
         {
-          "word": "nat751",
-          "hint": "Relacionado con animales silvestres"
+          "word": "dep751",
+          "hint": "Relacionado con equipo"
         },
         {
-          "word": "nat752",
-          "hint": "Relacionado con animales silvestres"
+          "word": "dep752",
+          "hint": "Relacionado con equipo"
         },
         {
-          "word": "nat753",
-          "hint": "Relacionado con animales silvestres"
+          "word": "dep753",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep754",
+          "hint": "Relacionado con equipo"
         }
       ]
     },
@@ -10476,6 +4570,10 @@ const levels = {
         },
         {
           "word": "via763",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via764",
           "hint": "Relacionado con hoteles"
         }
       ]
@@ -10499,182 +4597,8024 @@ const levels = {
         {
           "word": "via773",
           "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via774",
+          "hint": "Relacionado con equipaje"
         }
       ]
     },
     "78": {
-      "title": "Etapa 78: Electrodomésticos",
-      "category": "hogar",
+      "title": "Etapa 78: Pasteles",
+      "category": "colores",
       "words": [
         {
-          "word": "hog780",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "col780",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "hog781",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "col781",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "hog782",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "col782",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "hog783",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "col783",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col784",
+          "hint": "Relacionado con pasteles"
         }
       ]
     },
     "79": {
-      "title": "Etapa 79: Animales silvestres",
-      "category": "naturaleza",
+      "title": "Etapa 79: Postres",
+      "category": "comida",
       "words": [
         {
-          "word": "nat790",
-          "hint": "Relacionado con animales silvestres"
+          "word": "com790",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "nat791",
-          "hint": "Relacionado con animales silvestres"
+          "word": "com791",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "nat792",
-          "hint": "Relacionado con animales silvestres"
+          "word": "com792",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "nat793",
-          "hint": "Relacionado con animales silvestres"
+          "word": "com793",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com794",
+          "hint": "Relacionado con postres"
         }
       ]
     },
     "80": {
-      "title": "Etapa 80: Electrodomésticos",
-      "category": "hogar",
+      "title": "Etapa 80: Frutas",
+      "category": "comida",
       "words": [
         {
-          "word": "hog800",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "com800",
+          "hint": "Relacionado con frutas"
         },
         {
-          "word": "hog801",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "com801",
+          "hint": "Relacionado con frutas"
         },
         {
-          "word": "hog802",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "com802",
+          "hint": "Relacionado con frutas"
         },
         {
-          "word": "hog803",
-          "hint": "Relacionado con electrodomésticos"
+          "word": "com803",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com804",
+          "hint": "Relacionado con frutas"
         }
       ]
     },
     "81": {
-      "title": "Etapa 81: Utensilios",
-      "category": "hogar",
+      "title": "Etapa 81: Bebidas",
+      "category": "comida",
       "words": [
         {
-          "word": "hog810",
-          "hint": "Relacionado con utensilios"
+          "word": "com810",
+          "hint": "Relacionado con bebidas"
         },
         {
-          "word": "hog811",
-          "hint": "Relacionado con utensilios"
+          "word": "com811",
+          "hint": "Relacionado con bebidas"
         },
         {
-          "word": "hog812",
-          "hint": "Relacionado con utensilios"
+          "word": "com812",
+          "hint": "Relacionado con bebidas"
         },
         {
-          "word": "hog813",
-          "hint": "Relacionado con utensilios"
+          "word": "com813",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com814",
+          "hint": "Relacionado con bebidas"
         }
       ]
     },
     "82": {
-      "title": "Etapa 82: Fenómenos",
+      "title": "Etapa 82: Paisajes",
       "category": "naturaleza",
       "words": [
         {
           "word": "nat820",
-          "hint": "Relacionado con fenómenos"
+          "hint": "Relacionado con paisajes"
         },
         {
           "word": "nat821",
-          "hint": "Relacionado con fenómenos"
+          "hint": "Relacionado con paisajes"
         },
         {
           "word": "nat822",
-          "hint": "Relacionado con fenómenos"
+          "hint": "Relacionado con paisajes"
         },
         {
           "word": "nat823",
-          "hint": "Relacionado con fenómenos"
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat824",
+          "hint": "Relacionado con paisajes"
         }
       ]
     },
     "83": {
-      "title": "Etapa 83: De granja",
-      "category": "animales",
+      "title": "Etapa 83: Pasteles",
+      "category": "colores",
       "words": [
         {
-          "word": "ani830",
-          "hint": "Relacionado con de granja"
+          "word": "col830",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "ani831",
-          "hint": "Relacionado con de granja"
+          "word": "col831",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "ani832",
-          "hint": "Relacionado con de granja"
+          "word": "col832",
+          "hint": "Relacionado con pasteles"
         },
         {
-          "word": "ani833",
-          "hint": "Relacionado con de granja"
+          "word": "col833",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col834",
+          "hint": "Relacionado con pasteles"
         }
       ]
     },
     "84": {
-      "title": "Etapa 84: De granja",
-      "category": "animales",
+      "title": "Etapa 84: Exámenes",
+      "category": "escuela",
       "words": [
         {
-          "word": "ani840",
-          "hint": "Relacionado con de granja"
+          "word": "esc840",
+          "hint": "Relacionado con exámenes"
         },
         {
-          "word": "ani841",
-          "hint": "Relacionado con de granja"
+          "word": "esc841",
+          "hint": "Relacionado con exámenes"
         },
         {
-          "word": "ani842",
-          "hint": "Relacionado con de granja"
+          "word": "esc842",
+          "hint": "Relacionado con exámenes"
         },
         {
-          "word": "ani843",
-          "hint": "Relacionado con de granja"
+          "word": "esc843",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc844",
+          "hint": "Relacionado con exámenes"
         }
       ]
     },
     "85": {
-      "title": "Etapa 85: Animales silvestres",
+      "title": "Etapa 85: Tonos claros",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col850",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col851",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col852",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col853",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col854",
+          "hint": "Relacionado con tonos claros"
+        }
+      ]
+    },
+    "86": {
+      "title": "Etapa 86: Fenómenos",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat860",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat861",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat862",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat863",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat864",
+          "hint": "Relacionado con fenómenos"
+        }
+      ]
+    },
+    "87": {
+      "title": "Etapa 87: Juegos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep870",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep871",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep872",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep873",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep874",
+          "hint": "Relacionado con juegos"
+        }
+      ]
+    },
+    "88": {
+      "title": "Etapa 88: Monumentos",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via880",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via881",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via882",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via883",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via884",
+          "hint": "Relacionado con monumentos"
+        }
+      ]
+    },
+    "89": {
+      "title": "Etapa 89: Monumentos",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via890",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via891",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via892",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via893",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via894",
+          "hint": "Relacionado con monumentos"
+        }
+      ]
+    },
+    "90": {
+      "title": "Etapa 90: Asignaturas",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc900",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc901",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc902",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc903",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc904",
+          "hint": "Relacionado con asignaturas"
+        }
+      ]
+    },
+    "91": {
+      "title": "Etapa 91: Atletismo",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep910",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep911",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep912",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep913",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep914",
+          "hint": "Relacionado con atletismo"
+        }
+      ]
+    },
+    "92": {
+      "title": "Etapa 92: Platos",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com920",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com921",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com922",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com923",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com924",
+          "hint": "Relacionado con platos"
+        }
+      ]
+    },
+    "93": {
+      "title": "Etapa 93: Electrodomésticos",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog930",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog931",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog932",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog933",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog934",
+          "hint": "Relacionado con electrodomésticos"
+        }
+      ]
+    },
+    "94": {
+      "title": "Etapa 94: Atletismo",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep940",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep941",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep942",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep943",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep944",
+          "hint": "Relacionado con atletismo"
+        }
+      ]
+    },
+    "95": {
+      "title": "Etapa 95: Voladores",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani950",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani951",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani952",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani953",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani954",
+          "hint": "Relacionado con voladores"
+        }
+      ]
+    },
+    "96": {
+      "title": "Etapa 96: Atletismo",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep960",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep961",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep962",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep963",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep964",
+          "hint": "Relacionado con atletismo"
+        }
+      ]
+    },
+    "97": {
+      "title": "Etapa 97: Deportes acuáticos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep970",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep971",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep972",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep973",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep974",
+          "hint": "Relacionado con deportes acuáticos"
+        }
+      ]
+    },
+    "98": {
+      "title": "Etapa 98: Aula",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc980",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc981",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc982",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc983",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc984",
+          "hint": "Relacionado con aula"
+        }
+      ]
+    },
+    "99": {
+      "title": "Etapa 99: Juegos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep990",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep991",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep992",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep993",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep994",
+          "hint": "Relacionado con juegos"
+        }
+      ]
+    },
+    "100": {
+      "title": "Etapa 100: Voladores",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani1000",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani1001",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani1002",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani1003",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani1004",
+          "hint": "Relacionado con voladores"
+        }
+      ]
+    }
+  },
+  "B1": {
+    "1": {
+      "title": "Etapa 1: Equipo",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep010",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep011",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep012",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep013",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep014",
+          "hint": "Relacionado con equipo"
+        }
+      ]
+    },
+    "2": {
+      "title": "Etapa 2: Mezclas",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col020",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col021",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col022",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col023",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col024",
+          "hint": "Relacionado con mezclas"
+        }
+      ]
+    },
+    "3": {
+      "title": "Etapa 3: Mapas",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via030",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via031",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via032",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via033",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via034",
+          "hint": "Relacionado con mapas"
+        }
+      ]
+    },
+    "4": {
+      "title": "Etapa 4: Animales silvestres",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat040",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat041",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat042",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat043",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat044",
+          "hint": "Relacionado con animales silvestres"
+        }
+      ]
+    },
+    "5": {
+      "title": "Etapa 5: Platos",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com050",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com051",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com052",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com053",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com054",
+          "hint": "Relacionado con platos"
+        }
+      ]
+    },
+    "6": {
+      "title": "Etapa 6: Asignaturas",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc060",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc061",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc062",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc063",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc064",
+          "hint": "Relacionado con asignaturas"
+        }
+      ]
+    },
+    "7": {
+      "title": "Etapa 7: Bebidas",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com070",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com071",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com072",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com073",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com074",
+          "hint": "Relacionado con bebidas"
+        }
+      ]
+    },
+    "8": {
+      "title": "Etapa 8: Material escolar",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc080",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc081",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc082",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc083",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc084",
+          "hint": "Relacionado con material escolar"
+        }
+      ]
+    },
+    "9": {
+      "title": "Etapa 9: Deportes acuáticos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep090",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep091",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep092",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep093",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep094",
+          "hint": "Relacionado con deportes acuáticos"
+        }
+      ]
+    },
+    "10": {
+      "title": "Etapa 10: Exámenes",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc100",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc101",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc102",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc103",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc104",
+          "hint": "Relacionado con exámenes"
+        }
+      ]
+    },
+    "11": {
+      "title": "Etapa 11: Transporte",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via110",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via111",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via112",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via113",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via114",
+          "hint": "Relacionado con transporte"
+        }
+      ]
+    },
+    "12": {
+      "title": "Etapa 12: Exámenes",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc120",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc121",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc122",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc123",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc124",
+          "hint": "Relacionado con exámenes"
+        }
+      ]
+    },
+    "13": {
+      "title": "Etapa 13: Exámenes",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc130",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc131",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc132",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc133",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc134",
+          "hint": "Relacionado con exámenes"
+        }
+      ]
+    },
+    "14": {
+      "title": "Etapa 14: Básicos",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col140",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col141",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col142",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col143",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col144",
+          "hint": "Relacionado con básicos"
+        }
+      ]
+    },
+    "15": {
+      "title": "Etapa 15: Muebles",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog150",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog151",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog152",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog153",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog154",
+          "hint": "Relacionado con muebles"
+        }
+      ]
+    },
+    "16": {
+      "title": "Etapa 16: Muebles",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog160",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog161",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog162",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog163",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog164",
+          "hint": "Relacionado con muebles"
+        }
+      ]
+    },
+    "17": {
+      "title": "Etapa 17: Postres",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com170",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com171",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com172",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com173",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com174",
+          "hint": "Relacionado con postres"
+        }
+      ]
+    },
+    "18": {
+      "title": "Etapa 18: Deportes extremos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep180",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep181",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep182",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep183",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep184",
+          "hint": "Relacionado con deportes extremos"
+        }
+      ]
+    },
+    "19": {
+      "title": "Etapa 19: Electrodomésticos",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog190",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog191",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog192",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog193",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog194",
+          "hint": "Relacionado con electrodomésticos"
+        }
+      ]
+    },
+    "20": {
+      "title": "Etapa 20: Asignaturas",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc200",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc201",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc202",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc203",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc204",
+          "hint": "Relacionado con asignaturas"
+        }
+      ]
+    },
+    "21": {
+      "title": "Etapa 21: Decoración",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog210",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog211",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog212",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog213",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog214",
+          "hint": "Relacionado con decoración"
+        }
+      ]
+    },
+    "22": {
+      "title": "Etapa 22: Mascotas",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani220",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani221",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani222",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani223",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani224",
+          "hint": "Relacionado con mascotas"
+        }
+      ]
+    },
+    "23": {
+      "title": "Etapa 23: Equipaje",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via230",
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via231",
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via232",
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via233",
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via234",
+          "hint": "Relacionado con equipaje"
+        }
+      ]
+    },
+    "24": {
+      "title": "Etapa 24: Aula",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc240",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc241",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc242",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc243",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc244",
+          "hint": "Relacionado con aula"
+        }
+      ]
+    },
+    "25": {
+      "title": "Etapa 25: Granja",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani250",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani251",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani252",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani253",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani254",
+          "hint": "Relacionado con granja"
+        }
+      ]
+    },
+    "26": {
+      "title": "Etapa 26: Plantas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat260",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat261",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat262",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat263",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat264",
+          "hint": "Relacionado con plantas"
+        }
+      ]
+    },
+    "27": {
+      "title": "Etapa 27: Hoteles",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via270",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via271",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via272",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via273",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via274",
+          "hint": "Relacionado con hoteles"
+        }
+      ]
+    },
+    "28": {
+      "title": "Etapa 28: Deportes acuáticos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep280",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep281",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep282",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep283",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep284",
+          "hint": "Relacionado con deportes acuáticos"
+        }
+      ]
+    },
+    "29": {
+      "title": "Etapa 29: Monumentos",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via290",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via291",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via292",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via293",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via294",
+          "hint": "Relacionado con monumentos"
+        }
+      ]
+    },
+    "30": {
+      "title": "Etapa 30: Tonos claros",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col300",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col301",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col302",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col303",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col304",
+          "hint": "Relacionado con tonos claros"
+        }
+      ]
+    },
+    "31": {
+      "title": "Etapa 31: Animales silvestres",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat310",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat311",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat312",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat313",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat314",
+          "hint": "Relacionado con animales silvestres"
+        }
+      ]
+    },
+    "32": {
+      "title": "Etapa 32: Voladores",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani320",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani321",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani322",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani323",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani324",
+          "hint": "Relacionado con voladores"
+        }
+      ]
+    },
+    "33": {
+      "title": "Etapa 33: Voladores",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani330",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani331",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani332",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani333",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani334",
+          "hint": "Relacionado con voladores"
+        }
+      ]
+    },
+    "34": {
+      "title": "Etapa 34: Deportes acuáticos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep340",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep341",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep342",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep343",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep344",
+          "hint": "Relacionado con deportes acuáticos"
+        }
+      ]
+    },
+    "35": {
+      "title": "Etapa 35: Voladores",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani350",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani351",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani352",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani353",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani354",
+          "hint": "Relacionado con voladores"
+        }
+      ]
+    },
+    "36": {
+      "title": "Etapa 36: Aula",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc360",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc361",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc362",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc363",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc364",
+          "hint": "Relacionado con aula"
+        }
+      ]
+    },
+    "37": {
+      "title": "Etapa 37: Decoración",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog370",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog371",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog372",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog373",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog374",
+          "hint": "Relacionado con decoración"
+        }
+      ]
+    },
+    "38": {
+      "title": "Etapa 38: Decoración",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog380",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog381",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog382",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog383",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog384",
+          "hint": "Relacionado con decoración"
+        }
+      ]
+    },
+    "39": {
+      "title": "Etapa 39: Granja",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani390",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani391",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani392",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani393",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani394",
+          "hint": "Relacionado con granja"
+        }
+      ]
+    },
+    "40": {
+      "title": "Etapa 40: Hoteles",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via400",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via401",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via402",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via403",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via404",
+          "hint": "Relacionado con hoteles"
+        }
+      ]
+    },
+    "41": {
+      "title": "Etapa 41: Paisajes",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat410",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat411",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat412",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat413",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat414",
+          "hint": "Relacionado con paisajes"
+        }
+      ]
+    },
+    "42": {
+      "title": "Etapa 42: Monumentos",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via420",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via421",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via422",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via423",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via424",
+          "hint": "Relacionado con monumentos"
+        }
+      ]
+    },
+    "43": {
+      "title": "Etapa 43: Fenómenos",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat430",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat431",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat432",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat433",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat434",
+          "hint": "Relacionado con fenómenos"
+        }
+      ]
+    },
+    "44": {
+      "title": "Etapa 44: Mezclas",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col440",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col441",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col442",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col443",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col444",
+          "hint": "Relacionado con mezclas"
+        }
+      ]
+    },
+    "45": {
+      "title": "Etapa 45: Deportes extremos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep450",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep451",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep452",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep453",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep454",
+          "hint": "Relacionado con deportes extremos"
+        }
+      ]
+    },
+    "46": {
+      "title": "Etapa 46: Platos",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com460",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com461",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com462",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com463",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com464",
+          "hint": "Relacionado con platos"
+        }
+      ]
+    },
+    "47": {
+      "title": "Etapa 47: Mapas",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via470",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via471",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via472",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via473",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via474",
+          "hint": "Relacionado con mapas"
+        }
+      ]
+    },
+    "48": {
+      "title": "Etapa 48: Muebles",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog480",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog481",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog482",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog483",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog484",
+          "hint": "Relacionado con muebles"
+        }
+      ]
+    },
+    "49": {
+      "title": "Etapa 49: Deportes extremos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep490",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep491",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep492",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep493",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep494",
+          "hint": "Relacionado con deportes extremos"
+        }
+      ]
+    },
+    "50": {
+      "title": "Etapa 50: Mapas",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via500",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via501",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via502",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via503",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via504",
+          "hint": "Relacionado con mapas"
+        }
+      ]
+    },
+    "51": {
+      "title": "Etapa 51: Básicos",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col510",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col511",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col512",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col513",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col514",
+          "hint": "Relacionado con básicos"
+        }
+      ]
+    },
+    "52": {
+      "title": "Etapa 52: Salvajes",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani520",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani521",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani522",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani523",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani524",
+          "hint": "Relacionado con salvajes"
+        }
+      ]
+    },
+    "53": {
+      "title": "Etapa 53: Electrodomésticos",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog530",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog531",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog532",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog533",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog534",
+          "hint": "Relacionado con electrodomésticos"
+        }
+      ]
+    },
+    "54": {
+      "title": "Etapa 54: Material escolar",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc540",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc541",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc542",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc543",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc544",
+          "hint": "Relacionado con material escolar"
+        }
+      ]
+    },
+    "55": {
+      "title": "Etapa 55: Fenómenos",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat550",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat551",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat552",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat553",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat554",
+          "hint": "Relacionado con fenómenos"
+        }
+      ]
+    },
+    "56": {
+      "title": "Etapa 56: Mapas",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via560",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via561",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via562",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via563",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via564",
+          "hint": "Relacionado con mapas"
+        }
+      ]
+    },
+    "57": {
+      "title": "Etapa 57: Salvajes",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani570",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani571",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani572",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani573",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani574",
+          "hint": "Relacionado con salvajes"
+        }
+      ]
+    },
+    "58": {
+      "title": "Etapa 58: Mezclas",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col580",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col581",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col582",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col583",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col584",
+          "hint": "Relacionado con mezclas"
+        }
+      ]
+    },
+    "59": {
+      "title": "Etapa 59: Plantas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat590",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat591",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat592",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat593",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat594",
+          "hint": "Relacionado con plantas"
+        }
+      ]
+    },
+    "60": {
+      "title": "Etapa 60: Juegos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep600",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep601",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep602",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep603",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep604",
+          "hint": "Relacionado con juegos"
+        }
+      ]
+    },
+    "61": {
+      "title": "Etapa 61: Bebidas",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com610",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com611",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com612",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com613",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com614",
+          "hint": "Relacionado con bebidas"
+        }
+      ]
+    },
+    "62": {
+      "title": "Etapa 62: Pasteles",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col620",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col621",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col622",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col623",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col624",
+          "hint": "Relacionado con pasteles"
+        }
+      ]
+    },
+    "63": {
+      "title": "Etapa 63: Bebidas",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com630",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com631",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com632",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com633",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com634",
+          "hint": "Relacionado con bebidas"
+        }
+      ]
+    },
+    "64": {
+      "title": "Etapa 64: Mascotas",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani640",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani641",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani642",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani643",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani644",
+          "hint": "Relacionado con mascotas"
+        }
+      ]
+    },
+    "65": {
+      "title": "Etapa 65: Postres",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com650",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com651",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com652",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com653",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com654",
+          "hint": "Relacionado con postres"
+        }
+      ]
+    },
+    "66": {
+      "title": "Etapa 66: Paisajes",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat660",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat661",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat662",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat663",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat664",
+          "hint": "Relacionado con paisajes"
+        }
+      ]
+    },
+    "67": {
+      "title": "Etapa 67: Salvajes",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani670",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani671",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani672",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani673",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani674",
+          "hint": "Relacionado con salvajes"
+        }
+      ]
+    },
+    "68": {
+      "title": "Etapa 68: Fenómenos",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat680",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat681",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat682",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat683",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat684",
+          "hint": "Relacionado con fenómenos"
+        }
+      ]
+    },
+    "69": {
+      "title": "Etapa 69: Bebidas",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com690",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com691",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com692",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com693",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com694",
+          "hint": "Relacionado con bebidas"
+        }
+      ]
+    },
+    "70": {
+      "title": "Etapa 70: Básicos",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col700",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col701",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col702",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col703",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col704",
+          "hint": "Relacionado con básicos"
+        }
+      ]
+    },
+    "71": {
+      "title": "Etapa 71: Postres",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com710",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com711",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com712",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com713",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com714",
+          "hint": "Relacionado con postres"
+        }
+      ]
+    },
+    "72": {
+      "title": "Etapa 72: Tonos oscuros",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col720",
+          "hint": "Relacionado con tonos oscuros"
+        },
+        {
+          "word": "col721",
+          "hint": "Relacionado con tonos oscuros"
+        },
+        {
+          "word": "col722",
+          "hint": "Relacionado con tonos oscuros"
+        },
+        {
+          "word": "col723",
+          "hint": "Relacionado con tonos oscuros"
+        },
+        {
+          "word": "col724",
+          "hint": "Relacionado con tonos oscuros"
+        }
+      ]
+    },
+    "73": {
+      "title": "Etapa 73: Monumentos",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via730",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via731",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via732",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via733",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via734",
+          "hint": "Relacionado con monumentos"
+        }
+      ]
+    },
+    "74": {
+      "title": "Etapa 74: Equipo",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep740",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep741",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep742",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep743",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep744",
+          "hint": "Relacionado con equipo"
+        }
+      ]
+    },
+    "75": {
+      "title": "Etapa 75: Asignaturas",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc750",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc751",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc752",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc753",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc754",
+          "hint": "Relacionado con asignaturas"
+        }
+      ]
+    },
+    "76": {
+      "title": "Etapa 76: Utensilios",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog760",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog761",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog762",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog763",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog764",
+          "hint": "Relacionado con utensilios"
+        }
+      ]
+    },
+    "77": {
+      "title": "Etapa 77: Salvajes",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani770",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani771",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani772",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani773",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani774",
+          "hint": "Relacionado con salvajes"
+        }
+      ]
+    },
+    "78": {
+      "title": "Etapa 78: Utensilios",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog780",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog781",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog782",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog783",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog784",
+          "hint": "Relacionado con utensilios"
+        }
+      ]
+    },
+    "79": {
+      "title": "Etapa 79: Granja",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani790",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani791",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani792",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani793",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani794",
+          "hint": "Relacionado con granja"
+        }
+      ]
+    },
+    "80": {
+      "title": "Etapa 80: Voladores",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani800",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani801",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani802",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani803",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani804",
+          "hint": "Relacionado con voladores"
+        }
+      ]
+    },
+    "81": {
+      "title": "Etapa 81: Hoteles",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via810",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via811",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via812",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via813",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via814",
+          "hint": "Relacionado con hoteles"
+        }
+      ]
+    },
+    "82": {
+      "title": "Etapa 82: Platos",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com820",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com821",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com822",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com823",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com824",
+          "hint": "Relacionado con platos"
+        }
+      ]
+    },
+    "83": {
+      "title": "Etapa 83: Juegos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep830",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep831",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep832",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep833",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep834",
+          "hint": "Relacionado con juegos"
+        }
+      ]
+    },
+    "84": {
+      "title": "Etapa 84: Material escolar",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc840",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc841",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc842",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc843",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc844",
+          "hint": "Relacionado con material escolar"
+        }
+      ]
+    },
+    "85": {
+      "title": "Etapa 85: Fenómenos",
       "category": "naturaleza",
       "words": [
         {
           "word": "nat850",
-          "hint": "Relacionado con animales silvestres"
+          "hint": "Relacionado con fenómenos"
         },
         {
           "word": "nat851",
-          "hint": "Relacionado con animales silvestres"
+          "hint": "Relacionado con fenómenos"
         },
         {
           "word": "nat852",
-          "hint": "Relacionado con animales silvestres"
+          "hint": "Relacionado con fenómenos"
         },
         {
           "word": "nat853",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat854",
+          "hint": "Relacionado con fenómenos"
+        }
+      ]
+    },
+    "86": {
+      "title": "Etapa 86: Platos",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com860",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com861",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com862",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com863",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com864",
+          "hint": "Relacionado con platos"
+        }
+      ]
+    },
+    "87": {
+      "title": "Etapa 87: Voladores",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani870",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani871",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani872",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani873",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani874",
+          "hint": "Relacionado con voladores"
+        }
+      ]
+    },
+    "88": {
+      "title": "Etapa 88: Juegos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep880",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep881",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep882",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep883",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep884",
+          "hint": "Relacionado con juegos"
+        }
+      ]
+    },
+    "89": {
+      "title": "Etapa 89: Climas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat890",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat891",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat892",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat893",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat894",
+          "hint": "Relacionado con climas"
+        }
+      ]
+    },
+    "90": {
+      "title": "Etapa 90: Utensilios",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog900",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog901",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog902",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog903",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog904",
+          "hint": "Relacionado con utensilios"
+        }
+      ]
+    },
+    "91": {
+      "title": "Etapa 91: Deportes extremos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep910",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep911",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep912",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep913",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep914",
+          "hint": "Relacionado con deportes extremos"
+        }
+      ]
+    },
+    "92": {
+      "title": "Etapa 92: Asignaturas",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc920",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc921",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc922",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc923",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc924",
+          "hint": "Relacionado con asignaturas"
+        }
+      ]
+    },
+    "93": {
+      "title": "Etapa 93: Muebles",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog930",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog931",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog932",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog933",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog934",
+          "hint": "Relacionado con muebles"
+        }
+      ]
+    },
+    "94": {
+      "title": "Etapa 94: Climas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat940",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat941",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat942",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat943",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat944",
+          "hint": "Relacionado con climas"
+        }
+      ]
+    },
+    "95": {
+      "title": "Etapa 95: Atletismo",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep950",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep951",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep952",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep953",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep954",
+          "hint": "Relacionado con atletismo"
+        }
+      ]
+    },
+    "96": {
+      "title": "Etapa 96: Fenómenos",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat960",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat961",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat962",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat963",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat964",
+          "hint": "Relacionado con fenómenos"
+        }
+      ]
+    },
+    "97": {
+      "title": "Etapa 97: Utensilios",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog970",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog971",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog972",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog973",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog974",
+          "hint": "Relacionado con utensilios"
+        }
+      ]
+    },
+    "98": {
+      "title": "Etapa 98: Atletismo",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep980",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep981",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep982",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep983",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep984",
+          "hint": "Relacionado con atletismo"
+        }
+      ]
+    },
+    "99": {
+      "title": "Etapa 99: Aula",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc990",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc991",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc992",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc993",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc994",
+          "hint": "Relacionado con aula"
+        }
+      ]
+    },
+    "100": {
+      "title": "Etapa 100: Hoteles",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via1000",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via1001",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via1002",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via1003",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via1004",
+          "hint": "Relacionado con hoteles"
+        }
+      ]
+    }
+  },
+  "B2": {
+    "1": {
+      "title": "Etapa 1: Mascotas",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani010",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani011",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani012",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani013",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani014",
+          "hint": "Relacionado con mascotas"
+        }
+      ]
+    },
+    "2": {
+      "title": "Etapa 2: Salvajes",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani020",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani021",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani022",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani023",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani024",
+          "hint": "Relacionado con salvajes"
+        }
+      ]
+    },
+    "3": {
+      "title": "Etapa 3: Transporte",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via030",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via031",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via032",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via033",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via034",
+          "hint": "Relacionado con transporte"
+        }
+      ]
+    },
+    "4": {
+      "title": "Etapa 4: Electrodomésticos",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog040",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog041",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog042",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog043",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog044",
+          "hint": "Relacionado con electrodomésticos"
+        }
+      ]
+    },
+    "5": {
+      "title": "Etapa 5: Climas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat050",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat051",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat052",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat053",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat054",
+          "hint": "Relacionado con climas"
+        }
+      ]
+    },
+    "6": {
+      "title": "Etapa 6: Equipo",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep060",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep061",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep062",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep063",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep064",
+          "hint": "Relacionado con equipo"
+        }
+      ]
+    },
+    "7": {
+      "title": "Etapa 7: Fenómenos",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat070",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat071",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat072",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat073",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat074",
+          "hint": "Relacionado con fenómenos"
+        }
+      ]
+    },
+    "8": {
+      "title": "Etapa 8: Mezclas",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col080",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col081",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col082",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col083",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col084",
+          "hint": "Relacionado con mezclas"
+        }
+      ]
+    },
+    "9": {
+      "title": "Etapa 9: Transporte",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via090",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via091",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via092",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via093",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via094",
+          "hint": "Relacionado con transporte"
+        }
+      ]
+    },
+    "10": {
+      "title": "Etapa 10: Tonos claros",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col100",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col101",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col102",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col103",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col104",
+          "hint": "Relacionado con tonos claros"
+        }
+      ]
+    },
+    "11": {
+      "title": "Etapa 11: Frutas",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com110",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com111",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com112",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com113",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com114",
+          "hint": "Relacionado con frutas"
+        }
+      ]
+    },
+    "12": {
+      "title": "Etapa 12: Transporte",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via120",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via121",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via122",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via123",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via124",
+          "hint": "Relacionado con transporte"
+        }
+      ]
+    },
+    "13": {
+      "title": "Etapa 13: Electrodomésticos",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog130",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog131",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog132",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog133",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog134",
+          "hint": "Relacionado con electrodomésticos"
+        }
+      ]
+    },
+    "14": {
+      "title": "Etapa 14: Hoteles",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via140",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via141",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via142",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via143",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via144",
+          "hint": "Relacionado con hoteles"
+        }
+      ]
+    },
+    "15": {
+      "title": "Etapa 15: Deportes acuáticos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep150",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep151",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep152",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep153",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep154",
+          "hint": "Relacionado con deportes acuáticos"
+        }
+      ]
+    },
+    "16": {
+      "title": "Etapa 16: Habitaciones",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog160",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog161",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog162",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog163",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog164",
+          "hint": "Relacionado con habitaciones"
+        }
+      ]
+    },
+    "17": {
+      "title": "Etapa 17: Mezclas",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col170",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col171",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col172",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col173",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col174",
+          "hint": "Relacionado con mezclas"
+        }
+      ]
+    },
+    "18": {
+      "title": "Etapa 18: Monumentos",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via180",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via181",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via182",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via183",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via184",
+          "hint": "Relacionado con monumentos"
+        }
+      ]
+    },
+    "19": {
+      "title": "Etapa 19: Pasteles",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col190",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col191",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col192",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col193",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col194",
+          "hint": "Relacionado con pasteles"
+        }
+      ]
+    },
+    "20": {
+      "title": "Etapa 20: Básicos",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col200",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col201",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col202",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col203",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col204",
+          "hint": "Relacionado con básicos"
+        }
+      ]
+    },
+    "21": {
+      "title": "Etapa 21: Muebles",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog210",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog211",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog212",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog213",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog214",
+          "hint": "Relacionado con muebles"
+        }
+      ]
+    },
+    "22": {
+      "title": "Etapa 22: Electrodomésticos",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog220",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog221",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog222",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog223",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog224",
+          "hint": "Relacionado con electrodomésticos"
+        }
+      ]
+    },
+    "23": {
+      "title": "Etapa 23: Muebles",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog230",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog231",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog232",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog233",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog234",
+          "hint": "Relacionado con muebles"
+        }
+      ]
+    },
+    "24": {
+      "title": "Etapa 24: Electrodomésticos",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog240",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog241",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog242",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog243",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog244",
+          "hint": "Relacionado con electrodomésticos"
+        }
+      ]
+    },
+    "25": {
+      "title": "Etapa 25: Equipo",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep250",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep251",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep252",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep253",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep254",
+          "hint": "Relacionado con equipo"
+        }
+      ]
+    },
+    "26": {
+      "title": "Etapa 26: Climas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat260",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat261",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat262",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat263",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat264",
+          "hint": "Relacionado con climas"
+        }
+      ]
+    },
+    "27": {
+      "title": "Etapa 27: Salvajes",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani270",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani271",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani272",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani273",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani274",
+          "hint": "Relacionado con salvajes"
+        }
+      ]
+    },
+    "28": {
+      "title": "Etapa 28: Exámenes",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc280",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc281",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc282",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc283",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc284",
+          "hint": "Relacionado con exámenes"
+        }
+      ]
+    },
+    "29": {
+      "title": "Etapa 29: Hoteles",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via290",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via291",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via292",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via293",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via294",
+          "hint": "Relacionado con hoteles"
+        }
+      ]
+    },
+    "30": {
+      "title": "Etapa 30: Hoteles",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via300",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via301",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via302",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via303",
+          "hint": "Relacionado con hoteles"
+        },
+        {
+          "word": "via304",
+          "hint": "Relacionado con hoteles"
+        }
+      ]
+    },
+    "31": {
+      "title": "Etapa 31: Climas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat310",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat311",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat312",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat313",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat314",
+          "hint": "Relacionado con climas"
+        }
+      ]
+    },
+    "32": {
+      "title": "Etapa 32: Juegos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep320",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep321",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep322",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep323",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep324",
+          "hint": "Relacionado con juegos"
+        }
+      ]
+    },
+    "33": {
+      "title": "Etapa 33: Platos",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com330",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com331",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com332",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com333",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com334",
+          "hint": "Relacionado con platos"
+        }
+      ]
+    },
+    "34": {
+      "title": "Etapa 34: Granja",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani340",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani341",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani342",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani343",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani344",
+          "hint": "Relacionado con granja"
+        }
+      ]
+    },
+    "35": {
+      "title": "Etapa 35: Electrodomésticos",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog350",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog351",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog352",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog353",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog354",
+          "hint": "Relacionado con electrodomésticos"
+        }
+      ]
+    },
+    "36": {
+      "title": "Etapa 36: Bebidas",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com360",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com361",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com362",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com363",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com364",
+          "hint": "Relacionado con bebidas"
+        }
+      ]
+    },
+    "37": {
+      "title": "Etapa 37: Equipo",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep370",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep371",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep372",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep373",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep374",
+          "hint": "Relacionado con equipo"
+        }
+      ]
+    },
+    "38": {
+      "title": "Etapa 38: Utensilios",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog380",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog381",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog382",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog383",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog384",
+          "hint": "Relacionado con utensilios"
+        }
+      ]
+    },
+    "39": {
+      "title": "Etapa 39: Mezclas",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col390",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col391",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col392",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col393",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col394",
+          "hint": "Relacionado con mezclas"
+        }
+      ]
+    },
+    "40": {
+      "title": "Etapa 40: Transporte",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via400",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via401",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via402",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via403",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via404",
+          "hint": "Relacionado con transporte"
+        }
+      ]
+    },
+    "41": {
+      "title": "Etapa 41: Muebles",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog410",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog411",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog412",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog413",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog414",
+          "hint": "Relacionado con muebles"
+        }
+      ]
+    },
+    "42": {
+      "title": "Etapa 42: Básicos",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col420",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col421",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col422",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col423",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col424",
+          "hint": "Relacionado con básicos"
+        }
+      ]
+    },
+    "43": {
+      "title": "Etapa 43: Mapas",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via430",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via431",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via432",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via433",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via434",
+          "hint": "Relacionado con mapas"
+        }
+      ]
+    },
+    "44": {
+      "title": "Etapa 44: Tareas",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc440",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc441",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc442",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc443",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc444",
+          "hint": "Relacionado con tareas"
+        }
+      ]
+    },
+    "45": {
+      "title": "Etapa 45: Transporte",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via450",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via451",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via452",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via453",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via454",
+          "hint": "Relacionado con transporte"
+        }
+      ]
+    },
+    "46": {
+      "title": "Etapa 46: Pasteles",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col460",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col461",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col462",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col463",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col464",
+          "hint": "Relacionado con pasteles"
+        }
+      ]
+    },
+    "47": {
+      "title": "Etapa 47: Aula",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc470",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc471",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc472",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc473",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc474",
+          "hint": "Relacionado con aula"
+        }
+      ]
+    },
+    "48": {
+      "title": "Etapa 48: Mapas",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via480",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via481",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via482",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via483",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via484",
+          "hint": "Relacionado con mapas"
+        }
+      ]
+    },
+    "49": {
+      "title": "Etapa 49: Paisajes",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat490",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat491",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat492",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat493",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat494",
+          "hint": "Relacionado con paisajes"
+        }
+      ]
+    },
+    "50": {
+      "title": "Etapa 50: Frutas",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com500",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com501",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com502",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com503",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com504",
+          "hint": "Relacionado con frutas"
+        }
+      ]
+    },
+    "51": {
+      "title": "Etapa 51: Paisajes",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat510",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat511",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat512",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat513",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat514",
+          "hint": "Relacionado con paisajes"
+        }
+      ]
+    },
+    "52": {
+      "title": "Etapa 52: Equipo",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep520",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep521",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep522",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep523",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep524",
+          "hint": "Relacionado con equipo"
+        }
+      ]
+    },
+    "53": {
+      "title": "Etapa 53: Fenómenos",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat530",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat531",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat532",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat533",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat534",
+          "hint": "Relacionado con fenómenos"
+        }
+      ]
+    },
+    "54": {
+      "title": "Etapa 54: Deportes acuáticos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep540",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep541",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep542",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep543",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep544",
+          "hint": "Relacionado con deportes acuáticos"
+        }
+      ]
+    },
+    "55": {
+      "title": "Etapa 55: Tonos claros",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col550",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col551",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col552",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col553",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col554",
+          "hint": "Relacionado con tonos claros"
+        }
+      ]
+    },
+    "56": {
+      "title": "Etapa 56: Decoración",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog560",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog561",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog562",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog563",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog564",
+          "hint": "Relacionado con decoración"
+        }
+      ]
+    },
+    "57": {
+      "title": "Etapa 57: Fenómenos",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat570",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat571",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat572",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat573",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat574",
+          "hint": "Relacionado con fenómenos"
+        }
+      ]
+    },
+    "58": {
+      "title": "Etapa 58: Exámenes",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc580",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc581",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc582",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc583",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc584",
+          "hint": "Relacionado con exámenes"
+        }
+      ]
+    },
+    "59": {
+      "title": "Etapa 59: Electrodomésticos",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog590",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog591",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog592",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog593",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog594",
+          "hint": "Relacionado con electrodomésticos"
+        }
+      ]
+    },
+    "60": {
+      "title": "Etapa 60: Muebles",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog600",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog601",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog602",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog603",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog604",
+          "hint": "Relacionado con muebles"
+        }
+      ]
+    },
+    "61": {
+      "title": "Etapa 61: Bebidas",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com610",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com611",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com612",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com613",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com614",
+          "hint": "Relacionado con bebidas"
+        }
+      ]
+    },
+    "62": {
+      "title": "Etapa 62: Climas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat620",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat621",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat622",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat623",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat624",
+          "hint": "Relacionado con climas"
+        }
+      ]
+    },
+    "63": {
+      "title": "Etapa 63: Granja",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani630",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani631",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani632",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani633",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani634",
+          "hint": "Relacionado con granja"
+        }
+      ]
+    },
+    "64": {
+      "title": "Etapa 64: Monumentos",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via640",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via641",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via642",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via643",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via644",
+          "hint": "Relacionado con monumentos"
+        }
+      ]
+    },
+    "65": {
+      "title": "Etapa 65: Transporte",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via650",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via651",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via652",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via653",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via654",
+          "hint": "Relacionado con transporte"
+        }
+      ]
+    },
+    "66": {
+      "title": "Etapa 66: Paisajes",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat660",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat661",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat662",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat663",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat664",
+          "hint": "Relacionado con paisajes"
+        }
+      ]
+    },
+    "67": {
+      "title": "Etapa 67: Muebles",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog670",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog671",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog672",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog673",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog674",
+          "hint": "Relacionado con muebles"
+        }
+      ]
+    },
+    "68": {
+      "title": "Etapa 68: Climas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat680",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat681",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat682",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat683",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat684",
+          "hint": "Relacionado con climas"
+        }
+      ]
+    },
+    "69": {
+      "title": "Etapa 69: Granja",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani690",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani691",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani692",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani693",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani694",
+          "hint": "Relacionado con granja"
+        }
+      ]
+    },
+    "70": {
+      "title": "Etapa 70: Plantas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat700",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat701",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat702",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat703",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat704",
+          "hint": "Relacionado con plantas"
+        }
+      ]
+    },
+    "71": {
+      "title": "Etapa 71: Pasteles",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col710",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col711",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col712",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col713",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col714",
+          "hint": "Relacionado con pasteles"
+        }
+      ]
+    },
+    "72": {
+      "title": "Etapa 72: Platos",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com720",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com721",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com722",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com723",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com724",
+          "hint": "Relacionado con platos"
+        }
+      ]
+    },
+    "73": {
+      "title": "Etapa 73: Material escolar",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc730",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc731",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc732",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc733",
+          "hint": "Relacionado con material escolar"
+        },
+        {
+          "word": "esc734",
+          "hint": "Relacionado con material escolar"
+        }
+      ]
+    },
+    "74": {
+      "title": "Etapa 74: Mezclas",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col740",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col741",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col742",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col743",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col744",
+          "hint": "Relacionado con mezclas"
+        }
+      ]
+    },
+    "75": {
+      "title": "Etapa 75: Frutas",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com750",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com751",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com752",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com753",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com754",
+          "hint": "Relacionado con frutas"
+        }
+      ]
+    },
+    "76": {
+      "title": "Etapa 76: Transporte",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via760",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via761",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via762",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via763",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via764",
+          "hint": "Relacionado con transporte"
+        }
+      ]
+    },
+    "77": {
+      "title": "Etapa 77: Aula",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc770",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc771",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc772",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc773",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc774",
+          "hint": "Relacionado con aula"
+        }
+      ]
+    },
+    "78": {
+      "title": "Etapa 78: Verduras",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com780",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com781",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com782",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com783",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com784",
+          "hint": "Relacionado con verduras"
+        }
+      ]
+    },
+    "79": {
+      "title": "Etapa 79: Decoración",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog790",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog791",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog792",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog793",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog794",
+          "hint": "Relacionado con decoración"
+        }
+      ]
+    },
+    "80": {
+      "title": "Etapa 80: Paisajes",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat800",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat801",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat802",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat803",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat804",
+          "hint": "Relacionado con paisajes"
+        }
+      ]
+    },
+    "81": {
+      "title": "Etapa 81: Frutas",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com810",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com811",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com812",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com813",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com814",
+          "hint": "Relacionado con frutas"
+        }
+      ]
+    },
+    "82": {
+      "title": "Etapa 82: Mezclas",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col820",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col821",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col822",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col823",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col824",
+          "hint": "Relacionado con mezclas"
+        }
+      ]
+    },
+    "83": {
+      "title": "Etapa 83: Plantas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat830",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat831",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat832",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat833",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat834",
+          "hint": "Relacionado con plantas"
+        }
+      ]
+    },
+    "84": {
+      "title": "Etapa 84: Fenómenos",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat840",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat841",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat842",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat843",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat844",
+          "hint": "Relacionado con fenómenos"
+        }
+      ]
+    },
+    "85": {
+      "title": "Etapa 85: Postres",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com850",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com851",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com852",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com853",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com854",
+          "hint": "Relacionado con postres"
+        }
+      ]
+    },
+    "86": {
+      "title": "Etapa 86: Mezclas",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col860",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col861",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col862",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col863",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col864",
+          "hint": "Relacionado con mezclas"
+        }
+      ]
+    },
+    "87": {
+      "title": "Etapa 87: Verduras",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com870",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com871",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com872",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com873",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com874",
+          "hint": "Relacionado con verduras"
+        }
+      ]
+    },
+    "88": {
+      "title": "Etapa 88: Mapas",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via880",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via881",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via882",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via883",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via884",
+          "hint": "Relacionado con mapas"
+        }
+      ]
+    },
+    "89": {
+      "title": "Etapa 89: Voladores",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani890",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani891",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani892",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani893",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani894",
+          "hint": "Relacionado con voladores"
+        }
+      ]
+    },
+    "90": {
+      "title": "Etapa 90: Habitaciones",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog900",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog901",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog902",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog903",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog904",
+          "hint": "Relacionado con habitaciones"
+        }
+      ]
+    },
+    "91": {
+      "title": "Etapa 91: Equipaje",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via910",
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via911",
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via912",
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via913",
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via914",
+          "hint": "Relacionado con equipaje"
+        }
+      ]
+    },
+    "92": {
+      "title": "Etapa 92: Monumentos",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via920",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via921",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via922",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via923",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via924",
+          "hint": "Relacionado con monumentos"
+        }
+      ]
+    },
+    "93": {
+      "title": "Etapa 93: Muebles",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog930",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog931",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog932",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog933",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog934",
+          "hint": "Relacionado con muebles"
+        }
+      ]
+    },
+    "94": {
+      "title": "Etapa 94: Mapas",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via940",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via941",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via942",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via943",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via944",
+          "hint": "Relacionado con mapas"
+        }
+      ]
+    },
+    "95": {
+      "title": "Etapa 95: Habitaciones",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog950",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog951",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog952",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog953",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog954",
+          "hint": "Relacionado con habitaciones"
+        }
+      ]
+    },
+    "96": {
+      "title": "Etapa 96: Postres",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com960",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com961",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com962",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com963",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com964",
+          "hint": "Relacionado con postres"
+        }
+      ]
+    },
+    "97": {
+      "title": "Etapa 97: Decoración",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog970",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog971",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog972",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog973",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog974",
+          "hint": "Relacionado con decoración"
+        }
+      ]
+    },
+    "98": {
+      "title": "Etapa 98: Tonos claros",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col980",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col981",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col982",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col983",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col984",
+          "hint": "Relacionado con tonos claros"
+        }
+      ]
+    },
+    "99": {
+      "title": "Etapa 99: Granja",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani990",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani991",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani992",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani993",
+          "hint": "Relacionado con granja"
+        },
+        {
+          "word": "ani994",
+          "hint": "Relacionado con granja"
+        }
+      ]
+    },
+    "100": {
+      "title": "Etapa 100: Animales silvestres",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat1000",
           "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat1001",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat1002",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat1003",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat1004",
+          "hint": "Relacionado con animales silvestres"
+        }
+      ]
+    }
+  },
+  "C1": {
+    "1": {
+      "title": "Etapa 1: Atletismo",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep010",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep011",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep012",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep013",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep014",
+          "hint": "Relacionado con atletismo"
+        }
+      ]
+    },
+    "2": {
+      "title": "Etapa 2: Mezclas",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col020",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col021",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col022",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col023",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col024",
+          "hint": "Relacionado con mezclas"
+        }
+      ]
+    },
+    "3": {
+      "title": "Etapa 3: Voladores",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani030",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani031",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani032",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani033",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani034",
+          "hint": "Relacionado con voladores"
+        }
+      ]
+    },
+    "4": {
+      "title": "Etapa 4: Mezclas",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col040",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col041",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col042",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col043",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col044",
+          "hint": "Relacionado con mezclas"
+        }
+      ]
+    },
+    "5": {
+      "title": "Etapa 5: Fenómenos",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat050",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat051",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat052",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat053",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat054",
+          "hint": "Relacionado con fenómenos"
+        }
+      ]
+    },
+    "6": {
+      "title": "Etapa 6: Mascotas",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani060",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani061",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani062",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani063",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani064",
+          "hint": "Relacionado con mascotas"
+        }
+      ]
+    },
+    "7": {
+      "title": "Etapa 7: Postres",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com070",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com071",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com072",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com073",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com074",
+          "hint": "Relacionado con postres"
+        }
+      ]
+    },
+    "8": {
+      "title": "Etapa 8: Platos",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com080",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com081",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com082",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com083",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com084",
+          "hint": "Relacionado con platos"
+        }
+      ]
+    },
+    "9": {
+      "title": "Etapa 9: Deportes extremos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep090",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep091",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep092",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep093",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep094",
+          "hint": "Relacionado con deportes extremos"
+        }
+      ]
+    },
+    "10": {
+      "title": "Etapa 10: Postres",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com100",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com101",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com102",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com103",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com104",
+          "hint": "Relacionado con postres"
+        }
+      ]
+    },
+    "11": {
+      "title": "Etapa 11: Postres",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com110",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com111",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com112",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com113",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com114",
+          "hint": "Relacionado con postres"
+        }
+      ]
+    },
+    "12": {
+      "title": "Etapa 12: Exámenes",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc120",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc121",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc122",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc123",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc124",
+          "hint": "Relacionado con exámenes"
+        }
+      ]
+    },
+    "13": {
+      "title": "Etapa 13: Aula",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc130",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc131",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc132",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc133",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc134",
+          "hint": "Relacionado con aula"
+        }
+      ]
+    },
+    "14": {
+      "title": "Etapa 14: Exámenes",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc140",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc141",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc142",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc143",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc144",
+          "hint": "Relacionado con exámenes"
+        }
+      ]
+    },
+    "15": {
+      "title": "Etapa 15: Tonos claros",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col150",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col151",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col152",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col153",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col154",
+          "hint": "Relacionado con tonos claros"
+        }
+      ]
+    },
+    "16": {
+      "title": "Etapa 16: Mezclas",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col160",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col161",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col162",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col163",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col164",
+          "hint": "Relacionado con mezclas"
+        }
+      ]
+    },
+    "17": {
+      "title": "Etapa 17: Verduras",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com170",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com171",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com172",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com173",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com174",
+          "hint": "Relacionado con verduras"
+        }
+      ]
+    },
+    "18": {
+      "title": "Etapa 18: Climas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat180",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat181",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat182",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat183",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat184",
+          "hint": "Relacionado con climas"
+        }
+      ]
+    },
+    "19": {
+      "title": "Etapa 19: Juegos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep190",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep191",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep192",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep193",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep194",
+          "hint": "Relacionado con juegos"
+        }
+      ]
+    },
+    "20": {
+      "title": "Etapa 20: Salvajes",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani200",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani201",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani202",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani203",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani204",
+          "hint": "Relacionado con salvajes"
+        }
+      ]
+    },
+    "21": {
+      "title": "Etapa 21: Tonos claros",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col210",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col211",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col212",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col213",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col214",
+          "hint": "Relacionado con tonos claros"
+        }
+      ]
+    },
+    "22": {
+      "title": "Etapa 22: Electrodomésticos",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog220",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog221",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog222",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog223",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog224",
+          "hint": "Relacionado con electrodomésticos"
+        }
+      ]
+    },
+    "23": {
+      "title": "Etapa 23: Paisajes",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat230",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat231",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat232",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat233",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat234",
+          "hint": "Relacionado con paisajes"
+        }
+      ]
+    },
+    "24": {
+      "title": "Etapa 24: Mezclas",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col240",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col241",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col242",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col243",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col244",
+          "hint": "Relacionado con mezclas"
+        }
+      ]
+    },
+    "25": {
+      "title": "Etapa 25: Postres",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com250",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com251",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com252",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com253",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com254",
+          "hint": "Relacionado con postres"
+        }
+      ]
+    },
+    "26": {
+      "title": "Etapa 26: Decoración",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog260",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog261",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog262",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog263",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog264",
+          "hint": "Relacionado con decoración"
+        }
+      ]
+    },
+    "27": {
+      "title": "Etapa 27: Muebles",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog270",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog271",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog272",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog273",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog274",
+          "hint": "Relacionado con muebles"
+        }
+      ]
+    },
+    "28": {
+      "title": "Etapa 28: Climas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat280",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat281",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat282",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat283",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat284",
+          "hint": "Relacionado con climas"
+        }
+      ]
+    },
+    "29": {
+      "title": "Etapa 29: Tareas",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc290",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc291",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc292",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc293",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc294",
+          "hint": "Relacionado con tareas"
+        }
+      ]
+    },
+    "30": {
+      "title": "Etapa 30: Verduras",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com300",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com301",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com302",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com303",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com304",
+          "hint": "Relacionado con verduras"
+        }
+      ]
+    },
+    "31": {
+      "title": "Etapa 31: Paisajes",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat310",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat311",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat312",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat313",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat314",
+          "hint": "Relacionado con paisajes"
+        }
+      ]
+    },
+    "32": {
+      "title": "Etapa 32: Transporte",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via320",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via321",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via322",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via323",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via324",
+          "hint": "Relacionado con transporte"
+        }
+      ]
+    },
+    "33": {
+      "title": "Etapa 33: Fenómenos",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat330",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat331",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat332",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat333",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat334",
+          "hint": "Relacionado con fenómenos"
+        }
+      ]
+    },
+    "34": {
+      "title": "Etapa 34: Verduras",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com340",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com341",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com342",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com343",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com344",
+          "hint": "Relacionado con verduras"
+        }
+      ]
+    },
+    "35": {
+      "title": "Etapa 35: Tareas",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc350",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc351",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc352",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc353",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc354",
+          "hint": "Relacionado con tareas"
+        }
+      ]
+    },
+    "36": {
+      "title": "Etapa 36: Habitaciones",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog360",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog361",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog362",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog363",
+          "hint": "Relacionado con habitaciones"
+        },
+        {
+          "word": "hog364",
+          "hint": "Relacionado con habitaciones"
+        }
+      ]
+    },
+    "37": {
+      "title": "Etapa 37: Mapas",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via370",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via371",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via372",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via373",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via374",
+          "hint": "Relacionado con mapas"
+        }
+      ]
+    },
+    "38": {
+      "title": "Etapa 38: Muebles",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog380",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog381",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog382",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog383",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog384",
+          "hint": "Relacionado con muebles"
+        }
+      ]
+    },
+    "39": {
+      "title": "Etapa 39: Monumentos",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via390",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via391",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via392",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via393",
+          "hint": "Relacionado con monumentos"
+        },
+        {
+          "word": "via394",
+          "hint": "Relacionado con monumentos"
+        }
+      ]
+    },
+    "40": {
+      "title": "Etapa 40: Frutas",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com400",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com401",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com402",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com403",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com404",
+          "hint": "Relacionado con frutas"
+        }
+      ]
+    },
+    "41": {
+      "title": "Etapa 41: Deportes acuáticos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep410",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep411",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep412",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep413",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep414",
+          "hint": "Relacionado con deportes acuáticos"
+        }
+      ]
+    },
+    "42": {
+      "title": "Etapa 42: Tareas",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc420",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc421",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc422",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc423",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc424",
+          "hint": "Relacionado con tareas"
+        }
+      ]
+    },
+    "43": {
+      "title": "Etapa 43: Salvajes",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani430",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani431",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani432",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani433",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani434",
+          "hint": "Relacionado con salvajes"
+        }
+      ]
+    },
+    "44": {
+      "title": "Etapa 44: Postres",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com440",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com441",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com442",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com443",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com444",
+          "hint": "Relacionado con postres"
+        }
+      ]
+    },
+    "45": {
+      "title": "Etapa 45: Climas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat450",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat451",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat452",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat453",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat454",
+          "hint": "Relacionado con climas"
+        }
+      ]
+    },
+    "46": {
+      "title": "Etapa 46: Muebles",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog460",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog461",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog462",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog463",
+          "hint": "Relacionado con muebles"
+        },
+        {
+          "word": "hog464",
+          "hint": "Relacionado con muebles"
+        }
+      ]
+    },
+    "47": {
+      "title": "Etapa 47: Mapas",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via470",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via471",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via472",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via473",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via474",
+          "hint": "Relacionado con mapas"
+        }
+      ]
+    },
+    "48": {
+      "title": "Etapa 48: Animales silvestres",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat480",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat481",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat482",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat483",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat484",
+          "hint": "Relacionado con animales silvestres"
+        }
+      ]
+    },
+    "49": {
+      "title": "Etapa 49: Juegos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep490",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep491",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep492",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep493",
+          "hint": "Relacionado con juegos"
+        },
+        {
+          "word": "dep494",
+          "hint": "Relacionado con juegos"
+        }
+      ]
+    },
+    "50": {
+      "title": "Etapa 50: Climas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat500",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat501",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat502",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat503",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat504",
+          "hint": "Relacionado con climas"
+        }
+      ]
+    },
+    "51": {
+      "title": "Etapa 51: Climas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat510",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat511",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat512",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat513",
+          "hint": "Relacionado con climas"
+        },
+        {
+          "word": "nat514",
+          "hint": "Relacionado con climas"
+        }
+      ]
+    },
+    "52": {
+      "title": "Etapa 52: Equipaje",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via520",
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via521",
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via522",
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via523",
+          "hint": "Relacionado con equipaje"
+        },
+        {
+          "word": "via524",
+          "hint": "Relacionado con equipaje"
+        }
+      ]
+    },
+    "53": {
+      "title": "Etapa 53: Animales silvestres",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat530",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat531",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat532",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat533",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat534",
+          "hint": "Relacionado con animales silvestres"
+        }
+      ]
+    },
+    "54": {
+      "title": "Etapa 54: Electrodomésticos",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog540",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog541",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog542",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog543",
+          "hint": "Relacionado con electrodomésticos"
+        },
+        {
+          "word": "hog544",
+          "hint": "Relacionado con electrodomésticos"
+        }
+      ]
+    },
+    "55": {
+      "title": "Etapa 55: Paisajes",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat550",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat551",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat552",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat553",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat554",
+          "hint": "Relacionado con paisajes"
+        }
+      ]
+    },
+    "56": {
+      "title": "Etapa 56: Deportes extremos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep560",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep561",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep562",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep563",
+          "hint": "Relacionado con deportes extremos"
+        },
+        {
+          "word": "dep564",
+          "hint": "Relacionado con deportes extremos"
+        }
+      ]
+    },
+    "57": {
+      "title": "Etapa 57: Platos",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com570",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com571",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com572",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com573",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com574",
+          "hint": "Relacionado con platos"
+        }
+      ]
+    },
+    "58": {
+      "title": "Etapa 58: Verduras",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com580",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com581",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com582",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com583",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com584",
+          "hint": "Relacionado con verduras"
+        }
+      ]
+    },
+    "59": {
+      "title": "Etapa 59: Aula",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc590",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc591",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc592",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc593",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc594",
+          "hint": "Relacionado con aula"
+        }
+      ]
+    },
+    "60": {
+      "title": "Etapa 60: Asignaturas",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc600",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc601",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc602",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc603",
+          "hint": "Relacionado con asignaturas"
+        },
+        {
+          "word": "esc604",
+          "hint": "Relacionado con asignaturas"
+        }
+      ]
+    },
+    "61": {
+      "title": "Etapa 61: Acuáticos",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani610",
+          "hint": "Relacionado con acuáticos"
+        },
+        {
+          "word": "ani611",
+          "hint": "Relacionado con acuáticos"
+        },
+        {
+          "word": "ani612",
+          "hint": "Relacionado con acuáticos"
+        },
+        {
+          "word": "ani613",
+          "hint": "Relacionado con acuáticos"
+        },
+        {
+          "word": "ani614",
+          "hint": "Relacionado con acuáticos"
+        }
+      ]
+    },
+    "62": {
+      "title": "Etapa 62: Exámenes",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc620",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc621",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc622",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc623",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc624",
+          "hint": "Relacionado con exámenes"
+        }
+      ]
+    },
+    "63": {
+      "title": "Etapa 63: Pasteles",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col630",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col631",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col632",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col633",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col634",
+          "hint": "Relacionado con pasteles"
+        }
+      ]
+    },
+    "64": {
+      "title": "Etapa 64: Bebidas",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com640",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com641",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com642",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com643",
+          "hint": "Relacionado con bebidas"
+        },
+        {
+          "word": "com644",
+          "hint": "Relacionado con bebidas"
+        }
+      ]
+    },
+    "65": {
+      "title": "Etapa 65: Mapas",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via650",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via651",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via652",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via653",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via654",
+          "hint": "Relacionado con mapas"
+        }
+      ]
+    },
+    "66": {
+      "title": "Etapa 66: Deportes acuáticos",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep660",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep661",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep662",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep663",
+          "hint": "Relacionado con deportes acuáticos"
+        },
+        {
+          "word": "dep664",
+          "hint": "Relacionado con deportes acuáticos"
+        }
+      ]
+    },
+    "67": {
+      "title": "Etapa 67: Platos",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com670",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com671",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com672",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com673",
+          "hint": "Relacionado con platos"
+        },
+        {
+          "word": "com674",
+          "hint": "Relacionado con platos"
+        }
+      ]
+    },
+    "68": {
+      "title": "Etapa 68: Mapas",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via680",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via681",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via682",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via683",
+          "hint": "Relacionado con mapas"
+        },
+        {
+          "word": "via684",
+          "hint": "Relacionado con mapas"
+        }
+      ]
+    },
+    "69": {
+      "title": "Etapa 69: Frutas",
+      "category": "comida",
+      "words": [
+        {
+          "word": "com690",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com691",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com692",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com693",
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com694",
+          "hint": "Relacionado con frutas"
+        }
+      ]
+    },
+    "70": {
+      "title": "Etapa 70: Plantas",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat700",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat701",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat702",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat703",
+          "hint": "Relacionado con plantas"
+        },
+        {
+          "word": "nat704",
+          "hint": "Relacionado con plantas"
+        }
+      ]
+    },
+    "71": {
+      "title": "Etapa 71: Pasteles",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col710",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col711",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col712",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col713",
+          "hint": "Relacionado con pasteles"
+        },
+        {
+          "word": "col714",
+          "hint": "Relacionado con pasteles"
+        }
+      ]
+    },
+    "72": {
+      "title": "Etapa 72: Paisajes",
+      "category": "naturaleza",
+      "words": [
+        {
+          "word": "nat720",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat721",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat722",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat723",
+          "hint": "Relacionado con paisajes"
+        },
+        {
+          "word": "nat724",
+          "hint": "Relacionado con paisajes"
+        }
+      ]
+    },
+    "73": {
+      "title": "Etapa 73: Equipo",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep730",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep731",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep732",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep733",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep734",
+          "hint": "Relacionado con equipo"
+        }
+      ]
+    },
+    "74": {
+      "title": "Etapa 74: Exámenes",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc740",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc741",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc742",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc743",
+          "hint": "Relacionado con exámenes"
+        },
+        {
+          "word": "esc744",
+          "hint": "Relacionado con exámenes"
+        }
+      ]
+    },
+    "75": {
+      "title": "Etapa 75: Mascotas",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani750",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani751",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani752",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani753",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani754",
+          "hint": "Relacionado con mascotas"
+        }
+      ]
+    },
+    "76": {
+      "title": "Etapa 76: Decoración",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog760",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog761",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog762",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog763",
+          "hint": "Relacionado con decoración"
+        },
+        {
+          "word": "hog764",
+          "hint": "Relacionado con decoración"
+        }
+      ]
+    },
+    "77": {
+      "title": "Etapa 77: Voladores",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani770",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani771",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani772",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani773",
+          "hint": "Relacionado con voladores"
+        },
+        {
+          "word": "ani774",
+          "hint": "Relacionado con voladores"
+        }
+      ]
+    },
+    "78": {
+      "title": "Etapa 78: Salvajes",
+      "category": "animales",
+      "words": [
+        {
+          "word": "ani780",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani781",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani782",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani783",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani784",
+          "hint": "Relacionado con salvajes"
+        }
+      ]
+    },
+    "79": {
+      "title": "Etapa 79: Aula",
+      "category": "escuela",
+      "words": [
+        {
+          "word": "esc790",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc791",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc792",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc793",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc794",
+          "hint": "Relacionado con aula"
+        }
+      ]
+    },
+    "80": {
+      "title": "Etapa 80: Básicos",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col800",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col801",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col802",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col803",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col804",
+          "hint": "Relacionado con básicos"
+        }
+      ]
+    },
+    "81": {
+      "title": "Etapa 81: Transporte",
+      "category": "viajes",
+      "words": [
+        {
+          "word": "via810",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via811",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via812",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via813",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via814",
+          "hint": "Relacionado con transporte"
+        }
+      ]
+    },
+    "82": {
+      "title": "Etapa 82: Utensilios",
+      "category": "hogar",
+      "words": [
+        {
+          "word": "hog820",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog821",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog822",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog823",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog824",
+          "hint": "Relacionado con utensilios"
+        }
+      ]
+    },
+    "83": {
+      "title": "Etapa 83: Mezclas",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col830",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col831",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col832",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col833",
+          "hint": "Relacionado con mezclas"
+        },
+        {
+          "word": "col834",
+          "hint": "Relacionado con mezclas"
+        }
+      ]
+    },
+    "84": {
+      "title": "Etapa 84: Atletismo",
+      "category": "deportes",
+      "words": [
+        {
+          "word": "dep840",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep841",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep842",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep843",
+          "hint": "Relacionado con atletismo"
+        },
+        {
+          "word": "dep844",
+          "hint": "Relacionado con atletismo"
+        }
+      ]
+    },
+    "85": {
+      "title": "Etapa 85: Básicos",
+      "category": "colores",
+      "words": [
+        {
+          "word": "col850",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col851",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col852",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col853",
+          "hint": "Relacionado con básicos"
+        },
+        {
+          "word": "col854",
+          "hint": "Relacionado con básicos"
         }
       ]
     },
@@ -10697,314 +12637,374 @@ const levels = {
         {
           "word": "ani863",
           "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani864",
+          "hint": "Relacionado con salvajes"
         }
       ]
     },
     "87": {
-      "title": "Etapa 87: Transporte",
-      "category": "viajes",
+      "title": "Etapa 87: Acuáticos",
+      "category": "animales",
       "words": [
         {
-          "word": "via870",
-          "hint": "Relacionado con transporte"
+          "word": "ani870",
+          "hint": "Relacionado con acuáticos"
         },
         {
-          "word": "via871",
-          "hint": "Relacionado con transporte"
+          "word": "ani871",
+          "hint": "Relacionado con acuáticos"
         },
         {
-          "word": "via872",
-          "hint": "Relacionado con transporte"
+          "word": "ani872",
+          "hint": "Relacionado con acuáticos"
         },
         {
-          "word": "via873",
-          "hint": "Relacionado con transporte"
+          "word": "ani873",
+          "hint": "Relacionado con acuáticos"
+        },
+        {
+          "word": "ani874",
+          "hint": "Relacionado con acuáticos"
         }
       ]
     },
     "88": {
-      "title": "Etapa 88: Equipaje",
-      "category": "viajes",
+      "title": "Etapa 88: Equipo",
+      "category": "deportes",
       "words": [
         {
-          "word": "via880",
-          "hint": "Relacionado con equipaje"
+          "word": "dep880",
+          "hint": "Relacionado con equipo"
         },
         {
-          "word": "via881",
-          "hint": "Relacionado con equipaje"
+          "word": "dep881",
+          "hint": "Relacionado con equipo"
         },
         {
-          "word": "via882",
-          "hint": "Relacionado con equipaje"
+          "word": "dep882",
+          "hint": "Relacionado con equipo"
         },
         {
-          "word": "via883",
-          "hint": "Relacionado con equipaje"
+          "word": "dep883",
+          "hint": "Relacionado con equipo"
+        },
+        {
+          "word": "dep884",
+          "hint": "Relacionado con equipo"
         }
       ]
     },
     "89": {
-      "title": "Etapa 89: Bebidas",
-      "category": "comida",
+      "title": "Etapa 89: Tareas",
+      "category": "escuela",
       "words": [
         {
-          "word": "com890",
-          "hint": "Relacionado con bebidas"
+          "word": "esc890",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "com891",
-          "hint": "Relacionado con bebidas"
+          "word": "esc891",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "com892",
-          "hint": "Relacionado con bebidas"
+          "word": "esc892",
+          "hint": "Relacionado con tareas"
         },
         {
-          "word": "com893",
-          "hint": "Relacionado con bebidas"
+          "word": "esc893",
+          "hint": "Relacionado con tareas"
+        },
+        {
+          "word": "esc894",
+          "hint": "Relacionado con tareas"
         }
       ]
     },
     "90": {
-      "title": "Etapa 90: Animales silvestres",
-      "category": "naturaleza",
+      "title": "Etapa 90: Transporte",
+      "category": "viajes",
       "words": [
         {
-          "word": "nat900",
-          "hint": "Relacionado con animales silvestres"
+          "word": "via900",
+          "hint": "Relacionado con transporte"
         },
         {
-          "word": "nat901",
-          "hint": "Relacionado con animales silvestres"
+          "word": "via901",
+          "hint": "Relacionado con transporte"
         },
         {
-          "word": "nat902",
-          "hint": "Relacionado con animales silvestres"
+          "word": "via902",
+          "hint": "Relacionado con transporte"
         },
         {
-          "word": "nat903",
-          "hint": "Relacionado con animales silvestres"
+          "word": "via903",
+          "hint": "Relacionado con transporte"
+        },
+        {
+          "word": "via904",
+          "hint": "Relacionado con transporte"
         }
       ]
     },
     "91": {
-      "title": "Etapa 91: Voladores",
-      "category": "animales",
+      "title": "Etapa 91: Tonos claros",
+      "category": "colores",
       "words": [
         {
-          "word": "ani910",
-          "hint": "Relacionado con voladores"
+          "word": "col910",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "ani911",
-          "hint": "Relacionado con voladores"
+          "word": "col911",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "ani912",
-          "hint": "Relacionado con voladores"
+          "word": "col912",
+          "hint": "Relacionado con tonos claros"
         },
         {
-          "word": "ani913",
-          "hint": "Relacionado con voladores"
+          "word": "col913",
+          "hint": "Relacionado con tonos claros"
+        },
+        {
+          "word": "col914",
+          "hint": "Relacionado con tonos claros"
         }
       ]
     },
     "92": {
-      "title": "Etapa 92: Fútbol",
-      "category": "deportes",
+      "title": "Etapa 92: Verduras",
+      "category": "comida",
       "words": [
         {
-          "word": "dep920",
-          "hint": "Relacionado con fútbol"
+          "word": "com920",
+          "hint": "Relacionado con verduras"
         },
         {
-          "word": "dep921",
-          "hint": "Relacionado con fútbol"
+          "word": "com921",
+          "hint": "Relacionado con verduras"
         },
         {
-          "word": "dep922",
-          "hint": "Relacionado con fútbol"
+          "word": "com922",
+          "hint": "Relacionado con verduras"
         },
         {
-          "word": "dep923",
-          "hint": "Relacionado con fútbol"
+          "word": "com923",
+          "hint": "Relacionado con verduras"
+        },
+        {
+          "word": "com924",
+          "hint": "Relacionado con verduras"
         }
       ]
     },
     "93": {
-      "title": "Etapa 93: Transporte",
-      "category": "viajes",
+      "title": "Etapa 93: Utensilios",
+      "category": "hogar",
       "words": [
         {
-          "word": "via930",
-          "hint": "Relacionado con transporte"
+          "word": "hog930",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "via931",
-          "hint": "Relacionado con transporte"
+          "word": "hog931",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "via932",
-          "hint": "Relacionado con transporte"
+          "word": "hog932",
+          "hint": "Relacionado con utensilios"
         },
         {
-          "word": "via933",
-          "hint": "Relacionado con transporte"
+          "word": "hog933",
+          "hint": "Relacionado con utensilios"
+        },
+        {
+          "word": "hog934",
+          "hint": "Relacionado con utensilios"
         }
       ]
     },
     "94": {
-      "title": "Etapa 94: Bebidas",
+      "title": "Etapa 94: Frutas",
       "category": "comida",
       "words": [
         {
           "word": "com940",
-          "hint": "Relacionado con bebidas"
+          "hint": "Relacionado con frutas"
         },
         {
           "word": "com941",
-          "hint": "Relacionado con bebidas"
+          "hint": "Relacionado con frutas"
         },
         {
           "word": "com942",
-          "hint": "Relacionado con bebidas"
+          "hint": "Relacionado con frutas"
         },
         {
           "word": "com943",
-          "hint": "Relacionado con bebidas"
+          "hint": "Relacionado con frutas"
+        },
+        {
+          "word": "com944",
+          "hint": "Relacionado con frutas"
         }
       ]
     },
     "95": {
-      "title": "Etapa 95: De granja",
-      "category": "animales",
+      "title": "Etapa 95: Aula",
+      "category": "escuela",
       "words": [
         {
-          "word": "ani950",
-          "hint": "Relacionado con de granja"
+          "word": "esc950",
+          "hint": "Relacionado con aula"
         },
         {
-          "word": "ani951",
-          "hint": "Relacionado con de granja"
+          "word": "esc951",
+          "hint": "Relacionado con aula"
         },
         {
-          "word": "ani952",
-          "hint": "Relacionado con de granja"
+          "word": "esc952",
+          "hint": "Relacionado con aula"
         },
         {
-          "word": "ani953",
-          "hint": "Relacionado con de granja"
+          "word": "esc953",
+          "hint": "Relacionado con aula"
+        },
+        {
+          "word": "esc954",
+          "hint": "Relacionado con aula"
         }
       ]
     },
     "96": {
-      "title": "Etapa 96: Mapas",
-      "category": "viajes",
+      "title": "Etapa 96: Postres",
+      "category": "comida",
       "words": [
         {
-          "word": "via960",
-          "hint": "Relacionado con mapas"
+          "word": "com960",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "via961",
-          "hint": "Relacionado con mapas"
+          "word": "com961",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "via962",
-          "hint": "Relacionado con mapas"
+          "word": "com962",
+          "hint": "Relacionado con postres"
         },
         {
-          "word": "via963",
-          "hint": "Relacionado con mapas"
+          "word": "com963",
+          "hint": "Relacionado con postres"
+        },
+        {
+          "word": "com964",
+          "hint": "Relacionado con postres"
         }
       ]
     },
     "97": {
-      "title": "Etapa 97: Fútbol",
-      "category": "deportes",
+      "title": "Etapa 97: Animales silvestres",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "dep970",
-          "hint": "Relacionado con fútbol"
+          "word": "nat970",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "dep971",
-          "hint": "Relacionado con fútbol"
+          "word": "nat971",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "dep972",
-          "hint": "Relacionado con fútbol"
+          "word": "nat972",
+          "hint": "Relacionado con animales silvestres"
         },
         {
-          "word": "dep973",
-          "hint": "Relacionado con fútbol"
+          "word": "nat973",
+          "hint": "Relacionado con animales silvestres"
+        },
+        {
+          "word": "nat974",
+          "hint": "Relacionado con animales silvestres"
         }
       ]
     },
     "98": {
-      "title": "Etapa 98: Utensilios",
-      "category": "hogar",
+      "title": "Etapa 98: Salvajes",
+      "category": "animales",
       "words": [
         {
-          "word": "hog980",
-          "hint": "Relacionado con utensilios"
+          "word": "ani980",
+          "hint": "Relacionado con salvajes"
         },
         {
-          "word": "hog981",
-          "hint": "Relacionado con utensilios"
+          "word": "ani981",
+          "hint": "Relacionado con salvajes"
         },
         {
-          "word": "hog982",
-          "hint": "Relacionado con utensilios"
+          "word": "ani982",
+          "hint": "Relacionado con salvajes"
         },
         {
-          "word": "hog983",
-          "hint": "Relacionado con utensilios"
+          "word": "ani983",
+          "hint": "Relacionado con salvajes"
+        },
+        {
+          "word": "ani984",
+          "hint": "Relacionado con salvajes"
         }
       ]
     },
     "99": {
-      "title": "Etapa 99: Baloncesto",
-      "category": "deportes",
+      "title": "Etapa 99: Mascotas",
+      "category": "animales",
       "words": [
         {
-          "word": "dep990",
-          "hint": "Relacionado con baloncesto"
+          "word": "ani990",
+          "hint": "Relacionado con mascotas"
         },
         {
-          "word": "dep991",
-          "hint": "Relacionado con baloncesto"
+          "word": "ani991",
+          "hint": "Relacionado con mascotas"
         },
         {
-          "word": "dep992",
-          "hint": "Relacionado con baloncesto"
+          "word": "ani992",
+          "hint": "Relacionado con mascotas"
         },
         {
-          "word": "dep993",
-          "hint": "Relacionado con baloncesto"
+          "word": "ani993",
+          "hint": "Relacionado con mascotas"
+        },
+        {
+          "word": "ani994",
+          "hint": "Relacionado con mascotas"
         }
       ]
     },
     "100": {
-      "title": "Etapa 100: Mapas",
-      "category": "viajes",
+      "title": "Etapa 100: Fenómenos",
+      "category": "naturaleza",
       "words": [
         {
-          "word": "via1000",
-          "hint": "Relacionado con mapas"
+          "word": "nat1000",
+          "hint": "Relacionado con fenómenos"
         },
         {
-          "word": "via1001",
-          "hint": "Relacionado con mapas"
+          "word": "nat1001",
+          "hint": "Relacionado con fenómenos"
         },
         {
-          "word": "via1002",
-          "hint": "Relacionado con mapas"
+          "word": "nat1002",
+          "hint": "Relacionado con fenómenos"
         },
         {
-          "word": "via1003",
-          "hint": "Relacionado con mapas"
+          "word": "nat1003",
+          "hint": "Relacionado con fenómenos"
+        },
+        {
+          "word": "nat1004",
+          "hint": "Relacionado con fenómenos"
         }
       ]
     }
