@@ -1,0 +1,62 @@
+{
+  "animales": {
+    "icon": "\ud83d\udc3e",
+    "image": "https://cdn.pixabay.com/photo/2017/01/06/19/15/cat-1951931_1280.jpg"
+  },
+  "comida": {
+    "icon": "\ud83c\udf4e",
+    "image": "https://cdn.pixabay.com/photo/2014/12/21/23/28/apple-575485_1280.png"
+  },
+  "colores": {
+    "icon": "\ud83c\udfa8",
+    "image": "https://cdn.pixabay.com/photo/2017/01/20/15/06/watercolor-1998301_1280.jpg"
+  },
+  "hogar": {
+    "icon": "\ud83c\udfe0",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/03/53/interior-1866468_1280.jpg"
+  },
+  "acciones": {
+    "icon": "\ud83c\udfc3",
+    "image": "https://cdn.pixabay.com/photo/2016/11/19/14/00/running-1839020_1280.jpg"
+  },
+  "viajes": {
+    "icon": "\u2708\ufe0f",
+    "image": "https://cdn.pixabay.com/photo/2016/02/19/11/53/airplane-1209752_1280.jpg"
+  },
+  "deportes": {
+    "icon": "\u26bd",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/06/17/football-1868726_1280.jpg"
+  },
+  "escuela": {
+    "icon": "\ud83d\udcda",
+    "image": "https://cdn.pixabay.com/photo/2016/03/27/22/22/book-1283865_1280.jpg"
+  },
+  "verbos \u00fatiles": {
+    "icon": "\ud83d\udde3\ufe0f",
+    "image": "https://cdn.pixabay.com/photo/2017/03/23/12/34/microphone-2160905_1280.jpg"
+  },
+  "trabajos": {
+    "icon": "\ud83d\udcbc",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/12/54/adult-1868750_1280.jpg"
+  },
+  "tecnolog\u00eda": {
+    "icon": "\ud83d\udcbb",
+    "image": "https://cdn.pixabay.com/photo/2015/01/08/18/25/laptop-593673_1280.jpg"
+  },
+  "naturaleza": {
+    "icon": "\ud83c\udf3f",
+    "image": "https://cdn.pixabay.com/photo/2015/03/26/09/54/forest-690033_1280.jpg"
+  },
+  "abstractos": {
+    "icon": "\ud83e\udde0",
+    "image": "https://cdn.pixabay.com/photo/2015/05/31/10/55/brain-791050_1280.jpg"
+  },
+  "pol\u00edtica": {
+    "icon": "\ud83c\udfdb\ufe0f",
+    "image": "https://cdn.pixabay.com/photo/2016/04/28/00/09/supreme-court-1358575_1280.jpg"
+  },
+  "avanzado": {
+    "icon": "\ud83d\ude80",
+    "image": "https://cdn.pixabay.com/photo/2013/07/18/20/26/rocket-launch-164957_1280.jpg"
+  }
+}
