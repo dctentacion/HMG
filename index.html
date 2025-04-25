@@ -13,19 +13,28 @@
     <input type="text" id="nickname" placeholder="Tu nombre">
     <label for="level-select">Selecciona tu nivel:</label>
     <select id="level-select"></select>
-    <button onclick="goToStageSelection()">Continuar</button>
+    <button onclick="goToCategorySelection()">Continuar</button>
   </div>
 
-  <!-- Pantalla de selección de etapa -->
-  <div id="stage-screen" class="screen">
-    <h2>Selecciona una etapa</h2>
-    <div id="stages-container" class="stage-grid"></div>
+  <!-- Pantalla de categoría -->
+  <div id="category-screen" class="screen">
+    <h2>Elige una categoría</h2>
+    <select id="category-select"></select>
+    <button onclick="goToStageSelection()">Ver etapas</button>
     <button onclick="backToWelcome()">Volver</button>
   </div>
 
-  <!-- Pantalla del juego -->
+  <!-- Pantalla de etapas -->
+  <div id="stage-screen" class="screen">
+    <h2>Selecciona una etapa</h2>
+    <div id="stages-container" class="stage-grid"></div>
+    <button onclick="backToCategory()">Volver</button>
+  </div>
+
+  <!-- Juego -->
   <div id="game-screen" class="screen">
     <h2 id="etapa-title"></h2>
+    <p id="categoria-juego"></p>
     <p id="info-jugador"></p>
     <div id="word-display">_ _ _ _</div>
     <p id="hint-display">???</p>
@@ -45,6 +54,7 @@
   </div>
 
   <script src="levels.js"></script>
+  <script src="category_visuals.json" type="application/json"></script>
   <script src="script.js"></script>
 </body>
 </html>

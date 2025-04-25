@@ -1,58 +1,82 @@
-// Juego por niveles y etapas - versión corregida
-let currentLevel = "A1";
-let currentSublevel = "1";
+
+let currentLevel = "";
+let currentCategory = "";
+let currentSublevel = "";
+let nickname = "";
 let currentWord = "";
 let guessedLetters = [];
 let attemptsLeft = 6;
 let correctWords = 0;
+let currentWordIndex = 0;
 let totalRequired = 3;
 let wordsThisStage = [];
-let currentWordIndex = 0;
-let nickname = "";
 
 window.onload = () => {
-  if (typeof levels === "undefined") return;
+  // Cargar niveles
   const levelSelect = document.getElementById("level-select");
-  const sublevelSelect = document.getElementById("sublevel-select");
   Object.keys(levels).forEach(level => {
-    const option = document.createElement("option");
-    option.value = level;
-    option.textContent = level;
-    levelSelect.appendChild(option);
+    const opt = document.createElement("option");
+    opt.value = level;
+    opt.textContent = level;
+    levelSelect.appendChild(opt);
   });
-  for (let i = 1; i <= 100; i++) {
-    const option = document.createElement("option");
-    option.value = i.toString();
-    option.textContent = "Etapa " + i;
-    sublevelSelect.appendChild(option);
-  }
+
+  // Cargar categorías cuando sea necesario
 };
 
-function startGame() {
+function goToCategorySelection() {
   nickname = document.getElementById("nickname").value.trim();
-  if (!nickname) {
-    alert("Por favor ingresa tu nombre antes de comenzar.");
+  currentLevel = document.getElementById("level-select").value;
+  if (!nickname || !currentLevel) {
+    alert("Por favor ingresa tu nombre y selecciona un nivel.");
     return;
   }
+  const catSel = document.getElementById("category-select");
+  catSel.innerHTML = "";
+  const categorias = new Set();
+  for (const etapa of Object.values(levels[currentLevel])) {
+    categorias.add(etapa.category);
+  }
+  categorias.forEach(cat => {
+    const opt = document.createElement("option");
+    opt.value = cat;
+    opt.textContent = cat;
+    catSel.appendChild(opt);
+  });
+  showScreen("category-screen");
+}
 
-  currentLevel = document.getElementById("level-select").value;
-  currentSublevel = document.getElementById("sublevel-select").value;
+function goToStageSelection() {
+  currentCategory = document.getElementById("category-select").value;
+  const container = document.getElementById("stages-container");
+  container.innerHTML = "";
+  Object.entries(levels[currentLevel]).forEach(([key, etapa]) => {
+    if (etapa.category === currentCategory) {
+      const btn = document.createElement("button");
+      btn.textContent = etapa.title;
+      btn.onclick = () => startStage(key);
+      container.appendChild(btn);
+    }
+  });
+  showScreen("stage-screen");
+}
+
+function startStage(sublevel) {
+  currentSublevel = sublevel;
   correctWords = 0;
   currentWordIndex = 0;
-
-  const etapa = levels[currentLevel][currentSublevel];
+  const etapa = levels[currentLevel][sublevel];
   wordsThisStage = etapa.words;
-
   document.getElementById("etapa-title").textContent = etapa.title;
-  document.getElementById("info-jugador").textContent = `Jugador: ${nickname} | Nivel: ${currentLevel} | ${etapa.title}`;
-  document.getElementById("menu").style.display = "none";
-  document.getElementById("game").style.display = "block";
+  document.getElementById("categoria-juego").textContent = "📘 Categoría: " + etapa.category;
+  document.getElementById("info-jugador").textContent = `Jugador: ${nickname} | Nivel: ${currentLevel}`;
+  showScreen("game-screen");
   loadNextWord();
 }
 
 function loadNextWord() {
   if (currentWordIndex >= wordsThisStage.length) {
-    endSublevel();
+    endStage();
     return;
   }
   currentWord = wordsThisStage[currentWordIndex].word.toLowerCase();
@@ -68,25 +92,22 @@ function loadNextWord() {
 function updateWordDisplay() {
   const display = currentWord
     .split("")
-    .map(letter => guessedLetters.includes(letter) ? letter : "_")
+    .map(l => guessedLetters.includes(l) ? l : "_")
     .join(" ");
   document.getElementById("word-display").textContent = display;
 }
 
 function guessLetter() {
-  const input = document.getElementById("letter-input").value.toLowerCase();
-  document.getElementById("letter-input").value = "";
-  if (!input.match(/^[a-z]$/)) {
-    alert("Ingresa solo una letra válida");
+  const input = document.getElementById("letter-input");
+  const letra = input.value.toLowerCase();
+  input.value = "";
+  if (!letra.match(/^[a-z]$/) || guessedLetters.includes(letra)) {
+    alert("Letra inválida o repetida.");
     return;
   }
-  if (guessedLetters.includes(input)) {
-    alert("Ya intentaste esa letra");
-    return;
-  }
-  guessedLetters.push(input);
+  guessedLetters.push(letra);
   document.getElementById("guessed-letters").textContent = guessedLetters.join(", ");
-  if (!currentWord.includes(input)) {
+  if (!currentWord.includes(letra)) {
     attemptsLeft--;
     document.getElementById("attempts").textContent = attemptsLeft;
     if (attemptsLeft === 0) {
@@ -95,47 +116,56 @@ function guessLetter() {
     }
   } else {
     updateWordDisplay();
-    if (currentWord.split("").every(letter => guessedLetters.includes(letter))) {
+    if (currentWord.split("").every(l => guessedLetters.includes(l))) {
       correctWords++;
       document.getElementById("aciertos").textContent = correctWords;
       currentWordIndex++;
-      setTimeout(loadNextWord, 800);
+      setTimeout(loadNextWord, 600);
     }
   }
 }
 
 function showHint() {
-  if (wordsThisStage[currentWordIndex]?.hint) {
-    document.getElementById("hint-display").textContent = wordsThisStage[currentWordIndex].hint;
-  } else {
-    document.getElementById("hint-display").textContent = "No hay pista disponible.";
-  }
+  const hint = wordsThisStage[currentWordIndex]?.hint;
+  document.getElementById("hint-display").textContent = hint || "No hay pista.";
 }
 
-function endSublevel() {
-  document.getElementById("game").style.display = "none";
-  document.getElementById("result").style.display = "block";
-  const message = correctWords >= totalRequired ?
-    "¡Completaste la etapa!" :
-    "No alcanzaste los aciertos requeridos.";
-  document.getElementById("message").textContent = message;
-}
-
-function nextSublevel() {
-  const next = parseInt(currentSublevel) + 1;
-  if (next > 100) {
-    alert("¡Completaste todos los subniveles de este nivel!");
-    location.reload();
-  } else {
-    currentSublevel = next.toString();
-    document.getElementById("sublevel-select").value = currentSublevel;
-    document.getElementById("result").style.display = "none";
-    startGame();
-  }
+function endStage() {
+  showScreen("result");
+  const msg = correctWords >= totalRequired ? "¡Etapa completada!" : "No fue suficiente. Intenta otra vez.";
+  document.getElementById("message").textContent = msg;
 }
 
 function restartGame() {
-  document.getElementById("result").style.display = "none";
-  document.getElementById("game").style.display = "block";
-  startGame();
+  showScreen("game-screen");
+  startStage(currentSublevel);
 }
+
+function nextSublevel() {
+  const next = String(Number(currentSublevel) + 1);
+  if (levels[currentLevel][next]?.category === currentCategory) {
+    startStage(next);
+    showScreen("game-screen");
+  } else {
+    alert("No hay más etapas en esta categoría.");
+    showScreen("stage-screen");
+  }
+}
+
+function showScreen(id) {
+  document.querySelectorAll(".screen").forEach(div => div.classList.remove("visible"));
+  document.getElementById(id).classList.add("visible");
+}
+
+function backToWelcome() { showScreen("welcome-screen"); }
+function backToCategory() { showScreen("category-screen"); }
+function backToStage() { showScreen("stage-screen"); }
+
+// Enter para adivinar letra
+document.addEventListener("keydown", e => {
+  if (document.getElementById("game-screen").classList.contains("visible") && e.key === "Enter") {
+    guessLetter();
+  } else if (document.getElementById("result").classList.contains("visible") && e.key === "Enter") {
+    nextSublevel();
+  }
+});
